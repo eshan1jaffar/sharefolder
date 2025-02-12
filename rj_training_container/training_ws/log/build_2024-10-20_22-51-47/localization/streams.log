@@ -1,0 +1,29 @@
+[0.393s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/localization': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/localization -- -j16 -l16
+[1.635s] [ 28%] Built target localization_node
+[1.936s] [100%] Built target localization_component
+[2.133s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/localization' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/localization -- -j16 -l16
+[2.272s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/localization': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/localization
+[2.345s] -- Install configuration: ""
+[2.468s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/lib/localization/localization_node
+[2.713s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/lib/liblocalization_component.so
+[2.883s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/localization/launch
+[2.983s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/localization/launch/particle_filter_localizer.launch.py
+[3.035s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/localization/config
+[3.138s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/localization/config/localizer_params.yaml
+[3.250s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+[3.367s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+[3.421s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/localization/environment/ament_prefix_path.sh
+[3.489s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/localization/environment/ament_prefix_path.dsv
+[3.539s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/localization/environment/path.sh
+[3.608s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/localization/environment/path.dsv
+[3.669s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/localization/local_setup.bash
+[3.737s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/localization/local_setup.sh
+[3.795s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/localization/local_setup.zsh
+[3.855s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/localization/local_setup.dsv
+[3.920s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/localization/share/localization/package.dsv
+[4.085s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/ament_index/resource_index/packages/localization
+[4.150s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/ament_index/resource_index/rclcpp_components/localization
+[4.189s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/localization/cmake/localizationConfig.cmake
+[4.214s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/localization/cmake/localizationConfig-version.cmake
+[4.250s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/localization/share/localization/package.xml
+[6.541s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/localization' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/localization

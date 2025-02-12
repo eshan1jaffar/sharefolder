@@ -1,0 +1,7 @@
+[0.997s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/obstacle_detector': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/obstacle_detector -- -j16 -l16
+[1.630s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle_detector_node.dir/rclcpp_components/node_main_obstacle_detector_node.cpp.o[0m
+[1.670s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o[0m
+[8.617s] [ 75%] [32m[1mLinking CXX executable obstacle_detector_node[0m
+[9.672s] [ 75%] Built target obstacle_detector_node
+[13.994s] [100%] [32m[1mLinking CXX shared library libobstacle_detector.so[0m
+[14.815s] [100%] Built target obstacle_detector

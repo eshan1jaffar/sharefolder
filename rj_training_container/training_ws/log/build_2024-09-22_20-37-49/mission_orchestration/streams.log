@@ -1,0 +1,93 @@
+[0.323s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/mission_orchestration': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/stsl/mission_orchestration -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration
+[2.017s] -- The C compiler identification is GNU 11.4.0
+[2.979s] -- The CXX compiler identification is GNU 11.4.0
+[3.175s] -- Detecting C compiler ABI info
+[5.469s] -- Detecting C compiler ABI info - done
+[5.507s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.509s] -- Detecting C compile features
+[5.510s] -- Detecting C compile features - done
+[5.597s] -- Detecting CXX compiler ABI info
+[7.182s] -- Detecting CXX compiler ABI info - done
+[7.219s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.221s] -- Detecting CXX compile features
+[7.229s] -- Detecting CXX compile features - done
+[7.382s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.846s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[11.104s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[12.545s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.797s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[13.046s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[13.301s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.713s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.925s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[15.035s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[17.309s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[17.584s] -- Found FastRTPS: /opt/ros/humble/include  
+[18.024s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[18.386s] -- Looking for pthread.h
+[20.293s] -- Looking for pthread.h - found
+[20.307s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[22.398s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[22.405s] -- Found Threads: TRUE  
+[23.211s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[23.868s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[24.562s] -- Found nav2_behavior_tree: 1.1.16 (/opt/ros/humble/share/nav2_behavior_tree/cmake)
+[27.437s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[27.440s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[27.441s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[28.526s] -- Found stsl_interfaces: 0.1.0 (/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/share/stsl_interfaces/cmake)
+[29.502s] -- Found stsl_bt_nodes: 0.1.0 (/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/cmake)
+[29.981s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[31.841s] -- Added test 'copyright' to check source files copyright and LICENSE
+[32.573s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[32.574s] -- Configured cppcheck include dirs: 
+[32.576s] -- Configured cppcheck exclude dirs and/or files: 
+[34.721s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[34.724s] -- Configured cpplint exclude dirs and/or files: 
+[35.002s] -- Added test 'flake8' to check Python code syntax and style conventions
+[35.493s] -- Added test 'lint_cmake' to check CMake code style
+[35.853s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[37.903s] -- Added test 'uncrustify' to check C / C++ code style
+[37.906s] -- Configured uncrustify additional arguments: 
+[38.192s] -- Added test 'xmllint' to check XML markup files
+[38.670s] -- Configuring done
+[41.178s] -- Generating done
+[41.295s] -- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/mission_orchestration
+[41.316s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/mission_orchestration' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/stsl/mission_orchestration -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration
+[41.328s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/mission_orchestration': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/mission_orchestration -- -j16 -l16
+[42.953s] [ 20%] [32mBuilding CXX object CMakeFiles/mission_orchestration_components.dir/src/mission_orchestrator.cpp.o[0m
+[42.971s] [ 40%] [32mBuilding CXX object CMakeFiles/mission_orchestration_components.dir/src/yaml_helpers.cpp.o[0m
+[43.006s] [ 60%] [32mBuilding CXX object CMakeFiles/mission_orchestrator_node.dir/rclcpp_components/node_main_mission_orchestrator_node.cpp.o[0m
+[48.219s] [ 80%] [32m[1mLinking CXX executable mission_orchestrator_node[0m
+[49.510s] [ 80%] Built target mission_orchestrator_node
+[58.052s] [100%] [32m[1mLinking CXX shared library libmission_orchestration_components.so[0m
+[61.332s] [100%] Built target mission_orchestration_components
+[61.604s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/mission_orchestration' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/mission_orchestration -- -j16 -l16
+[61.689s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/mission_orchestration': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/mission_orchestration
+[61.941s] -- Install configuration: ""
+[61.960s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib/mission_orchestration/mission_orchestrator_node
+[62.131s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib/mission_orchestration/mission_orchestrator_node" to ""
+[62.149s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib/libmission_orchestration_components.so
+[62.421s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib/libmission_orchestration_components.so" to ""
+[62.435s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/behavior_trees
+[62.494s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/behavior_trees/default_mission_tree.xml
+[62.601s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/behavior_trees/mineral_tracking_test_tree.xml
+[62.702s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/launch
+[62.743s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/launch/mission_orchestrator.launch.py
+[62.874s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/ament_index/resource_index/package_run_dependencies/mission_orchestration
+[63.019s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/ament_index/resource_index/parent_prefix_path/mission_orchestration
+[63.152s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/environment/ament_prefix_path.sh
+[63.225s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/environment/ament_prefix_path.dsv
+[63.309s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/environment/path.sh
+[63.386s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/environment/path.dsv
+[63.467s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/local_setup.bash
+[63.542s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/local_setup.sh
+[63.615s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/local_setup.zsh
+[63.691s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/local_setup.dsv
+[63.769s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/package.dsv
+[63.874s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/ament_index/resource_index/packages/mission_orchestration
+[64.041s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/ament_index/resource_index/rclcpp_components/mission_orchestration
+[64.194s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/cmake/mission_orchestrationConfig.cmake
+[64.283s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/cmake/mission_orchestrationConfig-version.cmake
+[64.379s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/package.xml
+[64.464s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/mission_orchestration' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/mission_orchestration

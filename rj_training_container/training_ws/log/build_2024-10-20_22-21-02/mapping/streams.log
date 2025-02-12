@@ -1,0 +1,4 @@
+[6.840s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/mapping -- -j16 -l16
+[39.183s] [100%] Built target mapping_node
+[39.191s] [100%] Built target mapping
+[44.612s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/mapping -- -j16 -l16

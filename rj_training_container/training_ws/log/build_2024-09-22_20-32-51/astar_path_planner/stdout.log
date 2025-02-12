@@ -1,0 +1,5 @@
+[ 75%] [32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/astar_path_planner_plugin.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/astar_path_planner.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/astar_path_planner.dir/src/utils.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libastar_path_planner.so[0m
+[100%] Built target astar_path_planner

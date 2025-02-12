@@ -1,0 +1,871 @@
+[0.000000] (-) TimerEvent: {}
+[0.000524] (astar_path_planner) JobQueued: {'identifier': 'astar_path_planner', 'dependencies': OrderedDict()}
+[0.000809] (controllers) JobQueued: {'identifier': 'controllers', 'dependencies': OrderedDict()}
+[0.001087] (coordinate_transform) JobQueued: {'identifier': 'coordinate_transform', 'dependencies': OrderedDict()}
+[0.001358] (joystick_msgs) JobQueued: {'identifier': 'joystick_msgs', 'dependencies': OrderedDict()}
+[0.001682] (keyboard) JobQueued: {'identifier': 'keyboard', 'dependencies': OrderedDict()}
+[0.002115] (localization) JobQueued: {'identifier': 'localization', 'dependencies': OrderedDict()}
+[0.007328] (mapping) JobQueued: {'identifier': 'mapping', 'dependencies': OrderedDict()}
+[0.007690] (mineral_deposit_tracking) JobQueued: {'identifier': 'mineral_deposit_tracking', 'dependencies': OrderedDict()}
+[0.008855] (obstacle_detector) JobQueued: {'identifier': 'obstacle_detector', 'dependencies': OrderedDict()}
+[0.009844] (peak_finder) JobQueued: {'identifier': 'peak_finder', 'dependencies': OrderedDict()}
+[0.010340] (rj_training_bringup) JobQueued: {'identifier': 'rj_training_bringup', 'dependencies': OrderedDict()}
+[0.010713] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.011426] (joystick_package) JobQueued: {'identifier': 'joystick_package', 'dependencies': OrderedDict([('joystick_msgs', '/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs')])}
+[0.012163] (joystick_msgs) JobStarted: {'identifier': 'joystick_msgs'}
+[0.034278] (astar_path_planner) JobStarted: {'identifier': 'astar_path_planner'}
+[0.049596] (controllers) JobStarted: {'identifier': 'controllers'}
+[0.067273] (coordinate_transform) JobStarted: {'identifier': 'coordinate_transform'}
+[0.083729] (keyboard) JobStarted: {'identifier': 'keyboard'}
+[0.097357] (-) TimerEvent: {}
+[0.179581] (localization) JobStarted: {'identifier': 'localization'}
+[0.195438] (mapping) JobStarted: {'identifier': 'mapping'}
+[0.197648] (-) TimerEvent: {}
+[0.210461] (mineral_deposit_tracking) JobStarted: {'identifier': 'mineral_deposit_tracking'}
+[0.230452] (obstacle_detector) JobStarted: {'identifier': 'obstacle_detector'}
+[0.246183] (peak_finder) JobStarted: {'identifier': 'peak_finder'}
+[0.262888] (rj_training_bringup) JobStarted: {'identifier': 'rj_training_bringup'}
+[0.278777] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.297784] (-) TimerEvent: {}
+[0.308439] (joystick_msgs) JobProgress: {'identifier': 'joystick_msgs', 'progress': 'cmake'}
+[0.318520] (joystick_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/rj_training_container/training_ws/src/trainingv2/controller_project/joystick_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/joystick_msgs', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-iamNqSSwz4,guid=e413d32e8a3589656f707b9d66f07b03'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '615'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-5F2UU2'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-5F2UU2/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:a965e59c-ade8-40e6-8cd7-71fdef742a7a'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/joystick_msgs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.338346] (astar_path_planner) JobProgress: {'identifier': 'astar_path_planner', 'progress': 'cmake'}
+[0.338825] (astar_path_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/rj_training_container/training_ws/src/software-training-old/astar_path_planner', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/astar_path_planner', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-iamNqSSwz4,guid=e413d32e8a3589656f707b9d66f07b03'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '615'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-5F2UU2'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-5F2UU2/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:a965e59c-ade8-40e6-8cd7-71fdef742a7a'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/astar_path_planner'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.355412] (controllers) JobProgress: {'identifier': 'controllers', 'progress': 'cmake'}
+[0.355804] (controllers) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/rj_training_container/training_ws/src/software-training-old/controllers', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/controllers'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/controllers', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-iamNqSSwz4,guid=e413d32e8a3589656f707b9d66f07b03'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '615'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-5F2UU2'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-5F2UU2/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:a965e59c-ade8-40e6-8cd7-71fdef742a7a'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/controllers'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.381571] (coordinate_transform) JobProgress: {'identifier': 'coordinate_transform', 'progress': 'cmake'}
+[0.382771] (coordinate_transform) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/rj_training_container/training_ws/src/software-training-old/coordinate_transform', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/coordinate_transform', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-iamNqSSwz4,guid=e413d32e8a3589656f707b9d66f07b03'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '615'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-5F2UU2'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-5F2UU2/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:a965e59c-ade8-40e6-8cd7-71fdef742a7a'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/coordinate_transform'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.405212] (-) TimerEvent: {}
+[0.505988] (-) TimerEvent: {}
+[0.607162] (-) TimerEvent: {}
+[0.708100] (-) TimerEvent: {}
+[0.808841] (-) TimerEvent: {}
+[0.909669] (-) TimerEvent: {}
+[0.929582] (localization) JobProgress: {'identifier': 'localization', 'progress': 'cmake'}
+[0.939923] (localization) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/rj_training_container/training_ws/src/software-training-old/localization', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/localization'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/localization', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-iamNqSSwz4,guid=e413d32e8a3589656f707b9d66f07b03'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '615'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-5F2UU2'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-5F2UU2/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:a965e59c-ade8-40e6-8cd7-71fdef742a7a'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/localization'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.964402] (mapping) JobProgress: {'identifier': 'mapping', 'progress': 'cmake'}
+[0.965112] (mapping) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/rj_training_container/training_ws/src/software-training-old/mapping', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/mapping'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/mapping', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-iamNqSSwz4,guid=e413d32e8a3589656f707b9d66f07b03'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '615'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-5F2UU2'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-5F2UU2/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:a965e59c-ade8-40e6-8cd7-71fdef742a7a'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/mapping'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.988561] (mineral_deposit_tracking) JobProgress: {'identifier': 'mineral_deposit_tracking', 'progress': 'cmake'}
+[0.989092] (mineral_deposit_tracking) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/rj_training_container/training_ws/src/software-training-old/mineral_deposit_tracking', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-iamNqSSwz4,guid=e413d32e8a3589656f707b9d66f07b03'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '615'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-5F2UU2'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-5F2UU2/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:a965e59c-ade8-40e6-8cd7-71fdef742a7a'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.021265] (-) TimerEvent: {}
+[1.022178] (obstacle_detector) JobProgress: {'identifier': 'obstacle_detector', 'progress': 'cmake'}
+[1.022806] (obstacle_detector) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/rj_training_container/training_ws/src/software-training-old/obstacle_detector', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/obstacle_detector', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-iamNqSSwz4,guid=e413d32e8a3589656f707b9d66f07b03'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '615'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-5F2UU2'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-5F2UU2/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:a965e59c-ade8-40e6-8cd7-71fdef742a7a'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/obstacle_detector'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.056910] (peak_finder) JobProgress: {'identifier': 'peak_finder', 'progress': 'cmake'}
+[1.057561] (peak_finder) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/rj_training_container/training_ws/src/software-training-old/peak_finder', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/peak_finder'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/peak_finder', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-iamNqSSwz4,guid=e413d32e8a3589656f707b9d66f07b03'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '615'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-5F2UU2'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-5F2UU2/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:a965e59c-ade8-40e6-8cd7-71fdef742a7a'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/peak_finder'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.092995] (rj_training_bringup) JobProgress: {'identifier': 'rj_training_bringup', 'progress': 'cmake'}
+[1.093893] (rj_training_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/rj_training_container/training_ws/src/software-training-old/rj_training_bringup', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/rj_training_bringup', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-iamNqSSwz4,guid=e413d32e8a3589656f707b9d66f07b03'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '615'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-5F2UU2'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-5F2UU2/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:a965e59c-ade8-40e6-8cd7-71fdef742a7a'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/rj_training_bringup'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.126635] (-) TimerEvent: {}
+[1.127425] (joystick_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.130406] (astar_path_planner) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.134158] (controllers) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.136587] (coordinate_transform) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.139747] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'cmake'}
+[1.140352] (teleop) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/rj_training_container/training_ws/src/trainingv2/turtlesim_project/src/teleop', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/teleop'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/teleop', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-iamNqSSwz4,guid=e413d32e8a3589656f707b9d66f07b03'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '615'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-5F2UU2'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-5F2UU2/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:a965e59c-ade8-40e6-8cd7-71fdef742a7a'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/teleop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.226848] (-) TimerEvent: {}
+[1.328647] (-) TimerEvent: {}
+[1.431074] (-) TimerEvent: {}
+[1.493502] (controllers) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.497099] (astar_path_planner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.500899] (coordinate_transform) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.504378] (joystick_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.531264] (-) TimerEvent: {}
+[1.632554] (-) TimerEvent: {}
+[1.681285] (localization) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.696348] (mapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.706059] (coordinate_transform) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.709365] (controllers) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.713253] (astar_path_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.716860] (joystick_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.732735] (-) TimerEvent: {}
+[1.748684] (mineral_deposit_tracking) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.777658] (obstacle_detector) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.826104] (peak_finder) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.832867] (-) TimerEvent: {}
+[1.865041] (rj_training_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.933045] (-) TimerEvent: {}
+[2.034693] (-) TimerEvent: {}
+[2.136345] (-) TimerEvent: {}
+[2.237810] (-) TimerEvent: {}
+[2.339107] (-) TimerEvent: {}
+[2.414561] (localization) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.434484] (mapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.439239] (-) TimerEvent: {}
+[2.486843] (mineral_deposit_tracking) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.505742] (obstacle_detector) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.539434] (-) TimerEvent: {}
+[2.545715] (peak_finder) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.593837] (rj_training_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.630148] (localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.639580] (-) TimerEvent: {}
+[2.649749] (mapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.691907] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.709482] (obstacle_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.739734] (-) TimerEvent: {}
+[2.751161] (peak_finder) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.791231] (rj_training_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.839895] (-) TimerEvent: {}
+[2.941380] (-) TimerEvent: {}
+[3.042869] (-) TimerEvent: {}
+[3.144564] (-) TimerEvent: {}
+[3.246200] (-) TimerEvent: {}
+[3.347811] (-) TimerEvent: {}
+[3.449030] (-) TimerEvent: {}
+[3.550142] (-) TimerEvent: {}
+[3.651603] (-) TimerEvent: {}
+[3.685660] (controllers) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.692497] (coordinate_transform) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.696127] (joystick_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.699205] (astar_path_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.751775] (-) TimerEvent: {}
+[3.775285] (controllers) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.779076] (controllers) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.783807] (controllers) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.787466] (coordinate_transform) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.792065] (coordinate_transform) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.795631] (coordinate_transform) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.798638] (joystick_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.802151] (joystick_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.806871] (joystick_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.811443] (astar_path_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.816361] (astar_path_planner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.820840] (astar_path_planner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.851956] (-) TimerEvent: {}
+[3.953384] (-) TimerEvent: {}
+[4.018184] (controllers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.021803] (coordinate_transform) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.031497] (astar_path_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.035172] (joystick_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.053547] (-) TimerEvent: {}
+[4.154889] (-) TimerEvent: {}
+[4.256215] (-) TimerEvent: {}
+[4.357804] (-) TimerEvent: {}
+[4.459462] (-) TimerEvent: {}
+[4.560696] (-) TimerEvent: {}
+[4.595888] (localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.610716] (mapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.661003] (-) TimerEvent: {}
+[4.668913] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.695424] (keyboard) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../../build/keyboard', 'build', '--build-base', '/home/ubuntu/rj_training_container/training_ws/build/keyboard/build', 'install', '--record', '/home/ubuntu/rj_training_container/training_ws/build/keyboard/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/src/trainingv2/turtlesim_project/src/keyboard', 'env': {'VNCDESKTOP': 'fff49067b779:1 (ubuntu)', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': 'fff49067b779', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/rj_training_container', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-iamNqSSwz4,guid=e413d32e8a3589656f707b9d66f07b03', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '615', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-5F2UU2', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-5F2UU2/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'TERMINATOR_UUID': 'urn:uuid:a965e59c-ade8-40e6-8cd7-71fdef742a7a', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/rj_training_container/training_ws/build/keyboard', 'PYTHONPATH': '/home/ubuntu/rj_training_container/training_ws/build/keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[4.739484] (localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.743046] (localization) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.746989] (localization) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.750486] (obstacle_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.754329] (mapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.757802] (mapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.762846] (-) TimerEvent: {}
+[4.764017] (mapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.767319] (peak_finder) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.770747] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.774546] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.778360] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.784085] (rj_training_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.794593] (obstacle_detector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.798799] (obstacle_detector) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.802435] (obstacle_detector) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.829424] (peak_finder) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.833578] (peak_finder) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.837430] (peak_finder) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.863294] (-) TimerEvent: {}
+[4.873532] (rj_training_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.877339] (rj_training_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.880999] (rj_training_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.931007] (localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.944615] (mapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.963440] (-) TimerEvent: {}
+[4.993197] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.011715] (obstacle_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.050184] (peak_finder) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.063593] (-) TimerEvent: {}
+[5.092353] (rj_training_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.163760] (-) TimerEvent: {}
+[5.265094] (-) TimerEvent: {}
+[5.366468] (-) TimerEvent: {}
+[5.468220] (-) TimerEvent: {}
+[5.569659] (-) TimerEvent: {}
+[5.671206] (-) TimerEvent: {}
+[5.772715] (-) TimerEvent: {}
+[5.874259] (-) TimerEvent: {}
+[5.975343] (-) TimerEvent: {}
+[5.992549] (controllers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.995328] (coordinate_transform) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.013102] (astar_path_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.017068] (joystick_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.075554] (-) TimerEvent: {}
+[6.083008] (coordinate_transform) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.086585] (coordinate_transform) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.089659] (coordinate_transform) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.100711] (controllers) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.105491] (controllers) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.109221] (controllers) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.113367] (astar_path_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.117561] (joystick_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.121115] (astar_path_planner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.125994] (joystick_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.130358] (astar_path_planner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.135971] (joystick_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.175711] (-) TimerEvent: {}
+[6.277223] (-) TimerEvent: {}
+[6.332066] (controllers) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.335612] (coordinate_transform) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.338331] (astar_path_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.363829] (joystick_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.377397] (-) TimerEvent: {}
+[6.478637] (-) TimerEvent: {}
+[6.579926] (-) TimerEvent: {}
+[6.627984] (astar_path_planner) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.631441] (coordinate_transform) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.635427] (controllers) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.648268] (joystick_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.680104] (-) TimerEvent: {}
+[6.781319] (-) TimerEvent: {}
+[6.799837] (localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.817899] (mapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.849679] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.878822] (localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.882292] (-) TimerEvent: {}
+[6.883342] (localization) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.887097] (localization) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.890983] (obstacle_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.898080] (mapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.902592] (mapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.906045] (mapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.909885] (peak_finder) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.935997] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.939968] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.943226] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.951996] (rj_training_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.975207] (obstacle_detector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.980221] (obstacle_detector) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.984634] (-) TimerEvent: {}
+[6.985908] (obstacle_detector) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.999695] (peak_finder) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.002771] (peak_finder) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.006131] (peak_finder) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.034991] (rj_training_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.037213] (rj_training_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.040574] (rj_training_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.073310] (localization) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.084818] (-) TimerEvent: {}
+[7.093137] (mapping) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.125275] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.153349] (obstacle_detector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.155827] (joystick_msgs) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.158204] (controllers) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.160493] (astar_path_planner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.162543] (coordinate_transform) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.165124] (peak_finder) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.184959] (rj_training_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.186531] (-) TimerEvent: {}
+[7.287357] (-) TimerEvent: {}
+[7.316858] (controllers) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.318269] (astar_path_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.319403] (coordinate_transform) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.320473] (joystick_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.331283] (coordinate_transform) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.332580] (controllers) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.333875] (astar_path_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.335406] (joystick_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.346799] (localization) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.356578] (astar_path_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.358834] (joystick_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.360511] (controllers) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.362268] (coordinate_transform) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.363772] (mapping) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.387509] (-) TimerEvent: {}
+[7.397505] (coordinate_transform) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.399281] (astar_path_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.400980] (joystick_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.402317] (controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.403824] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.443013] (obstacle_detector) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.445283] (controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.446793] (coordinate_transform) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.448381] (joystick_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.450248] (astar_path_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.452704] (peak_finder) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.465339] (rj_training_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.487667] (-) TimerEvent: {}
+[7.576012] (controllers) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.577986] (astar_path_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.579818] (joystick_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.582122] (coordinate_transform) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.586099] (joystick_msgs) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.587539] (coordinate_transform) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.588758] (-) TimerEvent: {}
+[7.589396] (astar_path_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.590755] (controllers) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.672243] (localization) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.688920] (-) TimerEvent: {}
+[7.689927] (mapping) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.730247] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.756060] (localization) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.770584] (localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.779076] (mapping) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.789104] (-) TimerEvent: {}
+[7.789947] (localization) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.791455] (mapping) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.793658] (peak_finder) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.795075] (obstacle_detector) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.809013] (mapping) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.815491] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.820840] (coordinate_transform) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.823183] (joystick_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.825104] (controllers) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.830363] (astar_path_planner) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.832413] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.835637] (mapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.841146] (rj_training_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.842822] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.849150] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.859331] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.868433] (mapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.882884] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.886715] (peak_finder) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.888257] (obstacle_detector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.889658] (-) TimerEvent: {}
+[7.897207] (peak_finder) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.898832] (obstacle_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.905600] (astar_path_planner) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.906987] (joystick_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.908437] (coordinate_transform) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.909877] (controllers) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.913683] (peak_finder) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.915235] (obstacle_detector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.916659] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.934720] (peak_finder) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.936338] (localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.938020] (obstacle_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.941530] (localization) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.958357] (mapping) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.967081] (peak_finder) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.969090] (obstacle_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.970484] (mapping) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.989827] (-) TimerEvent: {}
+[7.998265] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[8.004458] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.017268] (astar_path_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.019295] (coordinate_transform) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.022051] (joystick_msgs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.023429] (controllers) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.050249] (peak_finder) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[8.053234] (obstacle_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[8.058366] (peak_finder) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.061994] (obstacle_detector) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.090001] (-) TimerEvent: {}
+[8.115191] (localization) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.125384] (astar_path_planner) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.127128] (controllers) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.129072] (joystick_msgs) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.131532] (coordinate_transform) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.136891] (mapping) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.174091] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.190176] (-) TimerEvent: {}
+[8.203569] (localization) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.221961] (peak_finder) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.225859] (obstacle_detector) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.228842] (mapping) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.251947] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.290352] (-) TimerEvent: {}
+[8.306500] (peak_finder) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.315086] (obstacle_detector) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.324982] (localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.349584] (mapping) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.384747] (mineral_deposit_tracking) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.390481] (-) TimerEvent: {}
+[8.436647] (obstacle_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.440365] (peak_finder) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.483965] (localization) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.490603] (-) TimerEvent: {}
+[8.504882] (mapping) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.544397] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.590767] (-) TimerEvent: {}
+[8.608071] (obstacle_detector) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.611895] (peak_finder) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.690911] (-) TimerEvent: {}
+[8.792366] (-) TimerEvent: {}
+[8.893529] (-) TimerEvent: {}
+[8.900367] (rj_training_bringup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.993700] (-) TimerEvent: {}
+[9.095241] (-) TimerEvent: {}
+[9.196959] (-) TimerEvent: {}
+[9.298475] (-) TimerEvent: {}
+[9.399893] (-) TimerEvent: {}
+[9.501204] (-) TimerEvent: {}
+[9.602632] (-) TimerEvent: {}
+[9.704979] (-) TimerEvent: {}
+[9.781251] (controllers) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.784433] (joystick_msgs) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.787561] (astar_path_planner) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.790852] (coordinate_transform) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.805378] (-) TimerEvent: {}
+[9.826225] (joystick_msgs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.829901] (controllers) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.833338] (astar_path_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.836912] (coordinate_transform) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.905634] (-) TimerEvent: {}
+[10.007031] (-) TimerEvent: {}
+[10.108181] (-) TimerEvent: {}
+[10.209798] (-) TimerEvent: {}
+[10.242578] (localization) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.267725] (mapping) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.289304] (localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.309971] (-) TimerEvent: {}
+[10.315973] (mapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.319723] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.361028] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.368540] (obstacle_detector) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.381077] (peak_finder) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.410137] (-) TimerEvent: {}
+[10.416314] (obstacle_detector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.427563] (peak_finder) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.510303] (-) TimerEvent: {}
+[10.611822] (-) TimerEvent: {}
+[10.713049] (-) TimerEvent: {}
+[10.814551] (-) TimerEvent: {}
+[10.915953] (-) TimerEvent: {}
+[11.017304] (-) TimerEvent: {}
+[11.118641] (-) TimerEvent: {}
+[11.219693] (-) TimerEvent: {}
+[11.321088] (-) TimerEvent: {}
+[11.422384] (-) TimerEvent: {}
+[11.523836] (-) TimerEvent: {}
+[11.583708] (astar_path_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.587560] (coordinate_transform) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.590988] (joystick_msgs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.593798] (controllers) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.603093] (astar_path_planner) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.609428] (coordinate_transform) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.613707] (joystick_msgs) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.616147] (controllers) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.623970] (-) TimerEvent: {}
+[11.725244] (-) TimerEvent: {}
+[11.735872] (coordinate_transform) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[11.738333] (astar_path_planner) StdoutLine: {'line': b'-- Found nav2_core: 1.1.16 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[11.741294] (controllers) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[11.744260] (joystick_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[11.769246] (joystick_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[11.817230] (coordinate_transform) StdoutLine: {'line': b'-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[11.824593] (controllers) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[11.827294] (-) TimerEvent: {}
+[11.878674] (controllers) StdoutLine: {'line': b'-- Found nav2_core: 1.1.16 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[11.927477] (-) TimerEvent: {}
+[11.932884] (localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.946081] (mapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.949096] (coordinate_transform) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[11.951673] (localization) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.961781] (mapping) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.976774] (coordinate_transform) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[11.979507] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.992155] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.013739] (obstacle_detector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[12.018112] (coordinate_transform) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[12.020475] (peak_finder) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[12.028056] (-) TimerEvent: {}
+[12.030292] (obstacle_detector) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.043656] (peak_finder) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.069738] (localization) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[12.082492] (mapping) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[12.110678] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[12.128263] (-) TimerEvent: {}
+[12.139433] (obstacle_detector) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[12.147359] (mapping) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[12.151188] (peak_finder) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[12.171829] (localization) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:7 (find_package):\n'}
+[12.173428] (localization) StderrLine: {'line': b'  By not providing "Findstsl_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[12.174821] (localization) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[12.176392] (localization) StderrLine: {'line': b'  "stsl_interfaces", but CMake did not find one.\n'}
+[12.178158] (localization) StderrLine: {'line': b'\n'}
+[12.179882] (localization) StderrLine: {'line': b'  Could not find a package configuration file provided by "stsl_interfaces"\n'}
+[12.181473] (localization) StderrLine: {'line': b'  with any of the following names:\n'}
+[12.182797] (localization) StderrLine: {'line': b'\n'}
+[12.184378] (localization) StderrLine: {'line': b'    stsl_interfacesConfig.cmake\n'}
+[12.185819] (localization) StderrLine: {'line': b'    stsl_interfaces-config.cmake\n'}
+[12.187726] (localization) StderrLine: {'line': b'\n'}
+[12.189258] (localization) StderrLine: {'line': b'  Add the installation prefix of "stsl_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[12.190852] (localization) StderrLine: {'line': b'  set "stsl_interfaces_DIR" to a directory containing one of the above files.\n'}
+[12.192553] (localization) StderrLine: {'line': b'  If "stsl_interfaces" provides a separate development package or SDK, be\n'}
+[12.194313] (localization) StderrLine: {'line': b'  sure it has been installed.\n'}
+[12.195763] (localization) StderrLine: {'line': b'\n'}
+[12.197326] (localization) StderrLine: {'line': b'\x1b[0m\n'}
+[12.198978] (mapping) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[12.200494] (localization) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[12.202114] (localization) StdoutLine: {'line': b'See also "/home/ubuntu/rj_training_container/training_ws/build/localization/CMakeFiles/CMakeOutput.log".\n'}
+[12.203544] (coordinate_transform) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[12.205339] (obstacle_detector) StdoutLine: {'line': b'-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[12.206779] (mineral_deposit_tracking) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:7 (find_package):\n'}
+[12.208414] (mineral_deposit_tracking) StderrLine: {'line': b'  By not providing "Findstsl_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[12.210115] (mineral_deposit_tracking) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[12.212980] (mineral_deposit_tracking) StderrLine: {'line': b'  "stsl_interfaces", but CMake did not find one.\n'}
+[12.214832] (mineral_deposit_tracking) StderrLine: {'line': b'\n'}
+[12.216522] (mineral_deposit_tracking) StderrLine: {'line': b'  Could not find a package configuration file provided by "stsl_interfaces"\n'}
+[12.218026] (mineral_deposit_tracking) StderrLine: {'line': b'  with any of the following names:\n'}
+[12.220139] (mineral_deposit_tracking) StderrLine: {'line': b'\n'}
+[12.221903] (mineral_deposit_tracking) StderrLine: {'line': b'    stsl_interfacesConfig.cmake\n'}
+[12.223401] (mineral_deposit_tracking) StderrLine: {'line': b'    stsl_interfaces-config.cmake\n'}
+[12.225257] (mineral_deposit_tracking) StderrLine: {'line': b'\n'}
+[12.227150] (mineral_deposit_tracking) StderrLine: {'line': b'  Add the installation prefix of "stsl_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[12.228973] (-) TimerEvent: {}
+[12.231672] (mineral_deposit_tracking) StderrLine: {'line': b'  set "stsl_interfaces_DIR" to a directory containing one of the above files.\n'}
+[12.233845] (mineral_deposit_tracking) StderrLine: {'line': b'  If "stsl_interfaces" provides a separate development package or SDK, be\n'}
+[12.235354] (mineral_deposit_tracking) StderrLine: {'line': b'  sure it has been installed.\n'}
+[12.236826] (mineral_deposit_tracking) StderrLine: {'line': b'\n'}
+[12.238110] (mineral_deposit_tracking) StderrLine: {'line': b'\x1b[0m\n'}
+[12.239377] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[12.240770] (mineral_deposit_tracking) StdoutLine: {'line': b'See also "/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking/CMakeFiles/CMakeOutput.log".\n'}
+[12.243334] (mapping) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[12.245064] (teleop) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[12.247451] (teleop) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[12.249999] (teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[12.251606] (teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[12.253375] (teleop) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[12.255268] (teleop) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[12.258363] (teleop) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[12.261434] (teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[12.264092] (teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[12.266018] (teleop) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[12.269073] (teleop) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[12.271371] (teleop) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[12.273463] (teleop) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[12.275183] (teleop) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[12.277691] (teleop) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[12.280456] (teleop) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[12.282480] (teleop) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[12.285389] (teleop) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[12.287547] (teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.289848] (teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.291788] (teleop) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[12.294332] (teleop) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[12.296615] (teleop) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[12.298421] (teleop) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.301024] (teleop) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.303078] (teleop) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.304649] (teleop) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[12.306138] (teleop) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[12.307660] (teleop) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[12.308908] (teleop) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.310293] (teleop) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[12.311781] (localization) CommandEnded: {'returncode': 1}
+[12.314176] (peak_finder) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[12.316309] (teleop) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[12.318067] (coordinate_transform) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[12.320285] (coordinate_transform) StderrLine: {'line': b'  By not providing "Findstsl_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[12.322215] (coordinate_transform) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[12.323711] (coordinate_transform) StderrLine: {'line': b'  "stsl_interfaces", but CMake did not find one.\n'}
+[12.327061] (coordinate_transform) StderrLine: {'line': b'\n'}
+[12.328702] (coordinate_transform) StderrLine: {'line': b'  Could not find a package configuration file provided by "stsl_interfaces"\n'}
+[12.330618] (-) TimerEvent: {}
+[12.331269] (coordinate_transform) StderrLine: {'line': b'  with any of the following names:\n'}
+[12.332976] (coordinate_transform) StderrLine: {'line': b'\n'}
+[12.334555] (coordinate_transform) StderrLine: {'line': b'    stsl_interfacesConfig.cmake\n'}
+[12.336494] (coordinate_transform) StderrLine: {'line': b'    stsl_interfaces-config.cmake\n'}
+[12.338564] (coordinate_transform) StderrLine: {'line': b'\n'}
+[12.340480] (coordinate_transform) StderrLine: {'line': b'  Add the installation prefix of "stsl_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[12.342376] (coordinate_transform) StderrLine: {'line': b'  set "stsl_interfaces_DIR" to a directory containing one of the above files.\n'}
+[12.344169] (coordinate_transform) StderrLine: {'line': b'  If "stsl_interfaces" provides a separate development package or SDK, be\n'}
+[12.347114] (coordinate_transform) StderrLine: {'line': b'  sure it has been installed.\n'}
+[12.349491] (coordinate_transform) StderrLine: {'line': b'\n'}
+[12.351048] (coordinate_transform) StderrLine: {'line': b'\x1b[0m\n'}
+[12.352856] (coordinate_transform) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[12.354281] (coordinate_transform) StdoutLine: {'line': b'See also "/home/ubuntu/rj_training_container/training_ws/build/coordinate_transform/CMakeFiles/CMakeOutput.log".\n'}
+[12.356459] (mineral_deposit_tracking) CommandEnded: {'returncode': 1}
+[12.358942] (keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[12.360813] (keyboard) StdoutLine: {'line': b'creating ../../../../../build/keyboard/keyboard.egg-info\n'}
+[12.362220] (keyboard) StdoutLine: {'line': b'writing ../../../../../build/keyboard/keyboard.egg-info/PKG-INFO\n'}
+[12.363708] (keyboard) StdoutLine: {'line': b'writing dependency_links to ../../../../../build/keyboard/keyboard.egg-info/dependency_links.txt\n'}
+[12.365609] (keyboard) StdoutLine: {'line': b'writing entry points to ../../../../../build/keyboard/keyboard.egg-info/entry_points.txt\n'}
+[12.367265] (keyboard) StdoutLine: {'line': b'writing requirements to ../../../../../build/keyboard/keyboard.egg-info/requires.txt\n'}
+[12.368705] (keyboard) StdoutLine: {'line': b'writing top-level names to ../../../../../build/keyboard/keyboard.egg-info/top_level.txt\n'}
+[12.370530] (keyboard) StdoutLine: {'line': b"writing manifest file '../../../../../build/keyboard/keyboard.egg-info/SOURCES.txt'\n"}
+[12.372325] (keyboard) StdoutLine: {'line': b"reading manifest file '../../../../../build/keyboard/keyboard.egg-info/SOURCES.txt'\n"}
+[12.374072] (keyboard) StdoutLine: {'line': b"writing manifest file '../../../../../build/keyboard/keyboard.egg-info/SOURCES.txt'\n"}
+[12.375787] (keyboard) StdoutLine: {'line': b'running build\n'}
+[12.377814] (keyboard) StdoutLine: {'line': b'running build_py\n'}
+[12.379466] (keyboard) StdoutLine: {'line': b'creating /home/ubuntu/rj_training_container/training_ws/build/keyboard/build\n'}
+[12.380988] (keyboard) StdoutLine: {'line': b'creating /home/ubuntu/rj_training_container/training_ws/build/keyboard/build/lib\n'}
+[12.382431] (keyboard) StdoutLine: {'line': b'creating /home/ubuntu/rj_training_container/training_ws/build/keyboard/build/lib/keyboard\n'}
+[12.384538] (keyboard) StdoutLine: {'line': b'copying keyboard/listen.py -> /home/ubuntu/rj_training_container/training_ws/build/keyboard/build/lib/keyboard\n'}
+[12.386558] (keyboard) StdoutLine: {'line': b'copying keyboard/__init__.py -> /home/ubuntu/rj_training_container/training_ws/build/keyboard/build/lib/keyboard\n'}
+[12.388459] (keyboard) StdoutLine: {'line': b'running install\n'}
+[12.390851] (keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[12.392853] (keyboard) StdoutLine: {'line': b'creating /home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages/keyboard\n'}
+[12.395160] (keyboard) StdoutLine: {'line': b'copying /home/ubuntu/rj_training_container/training_ws/build/keyboard/build/lib/keyboard/listen.py -> /home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages/keyboard\n'}
+[12.397496] (keyboard) StdoutLine: {'line': b'copying /home/ubuntu/rj_training_container/training_ws/build/keyboard/build/lib/keyboard/__init__.py -> /home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages/keyboard\n'}
+[12.399809] (keyboard) StdoutLine: {'line': b'byte-compiling /home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages/keyboard/listen.py to listen.cpython-310.pyc\n'}
+[12.401655] (keyboard) StdoutLine: {'line': b'byte-compiling /home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages/keyboard/__init__.py to __init__.cpython-310.pyc\n'}
+[12.403487] (keyboard) StdoutLine: {'line': b'running install_data\n'}
+[12.405515] (keyboard) StdoutLine: {'line': b'creating /home/ubuntu/rj_training_container/training_ws/install/keyboard/share/ament_index\n'}
+[12.407422] (keyboard) StdoutLine: {'line': b'creating /home/ubuntu/rj_training_container/training_ws/install/keyboard/share/ament_index/resource_index\n'}
+[12.409946] (keyboard) StdoutLine: {'line': b'creating /home/ubuntu/rj_training_container/training_ws/install/keyboard/share/ament_index/resource_index/packages\n'}
+[12.412045] (keyboard) StdoutLine: {'line': b'copying resource/keyboard -> /home/ubuntu/rj_training_container/training_ws/install/keyboard/share/ament_index/resource_index/packages\n'}
+[12.414293] (keyboard) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/rj_training_container/training_ws/install/keyboard/share/keyboard\n'}
+[12.416424] (keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.418765] (keyboard) StdoutLine: {'line': b'Copying ../../../../../build/keyboard/keyboard.egg-info to /home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages/keyboard-0.0.0-py3.10.egg-info\n'}
+[12.420852] (keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[12.422481] (keyboard) StdoutLine: {'line': b'Installing keystroke_listen script to /home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/keyboard\n'}
+[12.424396] (keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/rj_training_container/training_ws/build/keyboard/install.log'\n"}
+[12.427675] (keyboard) CommandEnded: {'returncode': 0}
+[12.430668] (-) TimerEvent: {}
+[12.431399] (controllers) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[12.433304] (controllers) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[12.435258] (astar_path_planner) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[12.437402] (astar_path_planner) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[12.439611] (teleop) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.441510] (peak_finder) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:8 (find_package):\n'}
+[12.443813] (peak_finder) StderrLine: {'line': b'  By not providing "Findstsl_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[12.445722] (peak_finder) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[12.447858] (peak_finder) StderrLine: {'line': b'  "stsl_interfaces", but CMake did not find one.\n'}
+[12.449724] (peak_finder) StderrLine: {'line': b'\n'}
+[12.451667] (peak_finder) StderrLine: {'line': b'  Could not find a package configuration file provided by "stsl_interfaces"\n'}
+[12.453443] (peak_finder) StderrLine: {'line': b'  with any of the following names:\n'}
+[12.455271] (peak_finder) StderrLine: {'line': b'\n'}
+[12.457090] (peak_finder) StderrLine: {'line': b'    stsl_interfacesConfig.cmake\n'}
+[12.459294] (peak_finder) StderrLine: {'line': b'    stsl_interfaces-config.cmake\n'}
+[12.461880] (peak_finder) StderrLine: {'line': b'\n'}
+[12.463646] (peak_finder) StderrLine: {'line': b'  Add the installation prefix of "stsl_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[12.465799] (peak_finder) StderrLine: {'line': b'  set "stsl_interfaces_DIR" to a directory containing one of the above files.\n'}
+[12.467517] (peak_finder) StderrLine: {'line': b'  If "stsl_interfaces" provides a separate development package or SDK, be\n'}
+[12.469362] (peak_finder) StderrLine: {'line': b'  sure it has been installed.\n'}
+[12.471568] (peak_finder) StderrLine: {'line': b'\n'}
+[12.473534] (peak_finder) StderrLine: {'line': b'\x1b[0m\n'}
+[12.475906] (peak_finder) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[12.477708] (peak_finder) StdoutLine: {'line': b'See also "/home/ubuntu/rj_training_container/training_ws/build/peak_finder/CMakeFiles/CMakeOutput.log".\n'}
+[12.479722] (obstacle_detector) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[12.481299] (mapping) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[12.482946] (obstacle_detector) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[12.484560] (obstacle_detector) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[12.486313] (mapping) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[12.487804] (mapping) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[12.490059] (mapping) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[12.491535] (mapping) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.493450] (obstacle_detector) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[12.519912] (obstacle_detector) StdoutLine: {'line': b'-- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") \n'}
+[12.530826] (-) TimerEvent: {}
+[12.536391] (astar_path_planner) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[12.538406] (controllers) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[12.573744] (astar_path_planner) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.580197] (controllers) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.590613] (obstacle_detector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.631019] (-) TimerEvent: {}
+[12.732167] (-) TimerEvent: {}
+[12.833121] (-) TimerEvent: {}
+[12.876968] (keyboard) JobEnded: {'identifier': 'keyboard', 'rc': 0}
+[12.933281] (-) TimerEvent: {}
+[13.035364] (-) TimerEvent: {}
+[13.136695] (-) TimerEvent: {}
+[13.175204] (localization) JobEnded: {'identifier': 'localization', 'rc': 1}
+[13.194613] (coordinate_transform) JobEnded: {'identifier': 'coordinate_transform', 'rc': 'SIGINT'}
+[13.214581] (mineral_deposit_tracking) JobEnded: {'identifier': 'mineral_deposit_tracking', 'rc': 'SIGINT'}
+[13.233835] (peak_finder) JobEnded: {'identifier': 'peak_finder', 'rc': 'SIGINT'}
+[13.254173] (-) TimerEvent: {}
+[13.289116] (mapping) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.354347] (-) TimerEvent: {}
+[13.455364] (-) TimerEvent: {}
+[13.485611] (astar_path_planner) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.487837] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.490319] (controllers) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.555707] (-) TimerEvent: {}
+[13.656804] (-) TimerEvent: {}
+[13.757798] (-) TimerEvent: {}
+[13.781696] (mapping) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.783840] (mapping) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[13.786111] (mapping) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.857940] (-) TimerEvent: {}
+[13.958857] (-) TimerEvent: {}
+[13.970707] (mapping) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.030717] (joystick_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[14.059023] (-) TimerEvent: {}
+[14.115352] (controllers) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.118588] (controllers) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[14.121273] (astar_path_planner) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.123664] (astar_path_planner) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[14.126450] (astar_path_planner) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.128808] (controllers) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.131372] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.133679] (obstacle_detector) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[14.136466] (obstacle_detector) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.159208] (-) TimerEvent: {}
+[14.232125] (teleop) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.236339] (teleop) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ubuntu/rj_training_container/training_ws/src/trainingv2/turtlesim_project/src/teleop/include\n'}
+[14.240249] (teleop) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.259397] (-) TimerEvent: {}
+[14.360773] (-) TimerEvent: {}
+[14.462070] (-) TimerEvent: {}
+[14.518595] (mapping) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.520883] (mapping) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.562248] (-) TimerEvent: {}
+[14.584469] (mapping) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.613641] (teleop) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.662434] (-) TimerEvent: {}
+[14.763568] (-) TimerEvent: {}
+[14.782506] (astar_path_planner) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[14.784857] (astar_path_planner) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[14.788564] (controllers) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[14.790794] (controllers) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[14.792748] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[14.795194] (obstacle_detector) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[14.863804] (-) TimerEvent: {}
+[14.878044] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.890869] (mapping) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.964267] (-) TimerEvent: {}
+[15.031332] (astar_path_planner) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.038595] (controllers) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.044241] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.064647] (-) TimerEvent: {}
+[15.116420] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[15.164999] (-) TimerEvent: {}
+[15.266499] (-) TimerEvent: {}
+[15.367454] (-) TimerEvent: {}
+[15.468349] (-) TimerEvent: {}
+[15.569535] (-) TimerEvent: {}
+[15.670893] (-) TimerEvent: {}
+[15.713049] (teleop) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.716308] (teleop) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.740755] (astar_path_planner) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.743188] (astar_path_planner) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.749778] (controllers) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.752002] (controllers) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.764145] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.766704] (obstacle_detector) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.771019] (-) TimerEvent: {}
+[15.823485] (astar_path_planner) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.831191] (controllers) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.839794] (teleop) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.848732] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.871196] (-) TimerEvent: {}
+[15.972334] (-) TimerEvent: {}
+[15.999678] (mapping) StdoutLine: {'line': b'-- Generating done\n'}
+[16.072519] (-) TimerEvent: {}
+[16.114547] (controllers) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.132591] (obstacle_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.172676] (-) TimerEvent: {}
+[16.200715] (mapping) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/mapping\n'}
+[16.219153] (mapping) JobEnded: {'identifier': 'mapping', 'rc': 'SIGINT'}
+[16.272861] (-) TimerEvent: {}
+[16.373889] (-) TimerEvent: {}
+[16.403484] (astar_path_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.474071] (-) TimerEvent: {}
+[16.559318] (teleop) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.574249] (-) TimerEvent: {}
+[16.675608] (-) TimerEvent: {}
+[16.776493] (-) TimerEvent: {}
+[16.877371] (-) TimerEvent: {}
+[16.978410] (-) TimerEvent: {}
+[17.079398] (-) TimerEvent: {}
+[17.093701] (obstacle_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[17.151158] (controllers) StdoutLine: {'line': b'-- Generating done\n'}
+[17.179572] (-) TimerEvent: {}
+[17.270443] (obstacle_detector) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/obstacle_detector\n'}
+[17.279714] (-) TimerEvent: {}
+[17.292605] (astar_path_planner) StdoutLine: {'line': b'-- Generating done\n'}
+[17.294594] (obstacle_detector) JobEnded: {'identifier': 'obstacle_detector', 'rc': 'SIGINT'}
+[17.311594] (controllers) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/controllers\n'}
+[17.334336] (controllers) JobEnded: {'identifier': 'controllers', 'rc': 'SIGINT'}
+[17.379914] (-) TimerEvent: {}
+[17.450079] (astar_path_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/astar_path_planner\n'}
+[17.476883] (astar_path_planner) JobEnded: {'identifier': 'astar_path_planner', 'rc': 'SIGINT'}
+[17.491779] (-) TimerEvent: {}
+[17.521012] (teleop) StdoutLine: {'line': b'-- Generating done\n'}
+[17.591949] (-) TimerEvent: {}
+[17.655781] (teleop) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/teleop\n'}
+[17.673738] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 'SIGINT'}
+[17.692178] (-) TimerEvent: {}
+[17.792942] (-) TimerEvent: {}
+[17.893734] (-) TimerEvent: {}
+[17.994487] (-) TimerEvent: {}
+[18.061545] (rj_training_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[18.094651] (-) TimerEvent: {}
+[18.195288] (-) TimerEvent: {}
+[18.296081] (-) TimerEvent: {}
+[18.396866] (-) TimerEvent: {}
+[18.497687] (-) TimerEvent: {}
+[18.598573] (-) TimerEvent: {}
+[18.699279] (-) TimerEvent: {}
+[18.709736] (rj_training_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[18.724552] (joystick_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[18.799449] (-) TimerEvent: {}
+[18.900182] (-) TimerEvent: {}
+[19.000857] (-) TimerEvent: {}
+[19.029449] (rj_training_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[19.101035] (-) TimerEvent: {}
+[19.201899] (-) TimerEvent: {}
+[19.302703] (-) TimerEvent: {}
+[19.403384] (-) TimerEvent: {}
+[19.504134] (-) TimerEvent: {}
+[19.604974] (-) TimerEvent: {}
+[19.705831] (-) TimerEvent: {}
+[19.806689] (-) TimerEvent: {}
+[19.902792] (joystick_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[19.906806] (-) TimerEvent: {}
+[19.945976] (joystick_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[19.949970] (joystick_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[19.989431] (joystick_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[19.991408] (joystick_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[19.992784] (joystick_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[19.994091] (joystick_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[20.006971] (-) TimerEvent: {}
+[20.034393] (joystick_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[20.107170] (-) TimerEvent: {}
+[20.207912] (-) TimerEvent: {}
+[20.308654] (-) TimerEvent: {}
+[20.409349] (-) TimerEvent: {}
+[20.510122] (-) TimerEvent: {}
+[20.610884] (-) TimerEvent: {}
+[20.711592] (-) TimerEvent: {}
+[20.777540] (joystick_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[20.811754] (-) TimerEvent: {}
+[20.912541] (-) TimerEvent: {}
+[21.013284] (-) TimerEvent: {}
+[21.113975] (-) TimerEvent: {}
+[21.214715] (-) TimerEvent: {}
+[21.315437] (-) TimerEvent: {}
+[21.416159] (-) TimerEvent: {}
+[21.516888] (-) TimerEvent: {}
+[21.617581] (-) TimerEvent: {}
+[21.650735] (joystick_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[21.717748] (-) TimerEvent: {}
+[21.776263] (rj_training_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[21.817911] (-) TimerEvent: {}
+[21.918735] (-) TimerEvent: {}
+[21.958926] (rj_training_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[22.018899] (-) TimerEvent: {}
+[22.060432] (joystick_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[22.119071] (-) TimerEvent: {}
+[22.219924] (-) TimerEvent: {}
+[22.320765] (-) TimerEvent: {}
+[22.342153] (rj_training_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[22.420925] (-) TimerEvent: {}
+[22.427315] (rj_training_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/rj_training_bringup\n'}
+[22.434626] (rj_training_bringup) JobEnded: {'identifier': 'rj_training_bringup', 'rc': 'SIGINT'}
+[22.521106] (-) TimerEvent: {}
+[22.595702] (joystick_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[22.621280] (-) TimerEvent: {}
+[22.722040] (-) TimerEvent: {}
+[22.822736] (-) TimerEvent: {}
+[22.923445] (-) TimerEvent: {}
+[23.024095] (-) TimerEvent: {}
+[23.124803] (-) TimerEvent: {}
+[23.225443] (-) TimerEvent: {}
+[23.326163] (-) TimerEvent: {}
+[23.426895] (-) TimerEvent: {}
+[23.527661] (-) TimerEvent: {}
+[23.628491] (-) TimerEvent: {}
+[23.729284] (-) TimerEvent: {}
+[23.830207] (-) TimerEvent: {}
+[23.932076] (-) TimerEvent: {}
+[24.032976] (-) TimerEvent: {}
+[24.133861] (-) TimerEvent: {}
+[24.234641] (-) TimerEvent: {}
+[24.335384] (-) TimerEvent: {}
+[24.436151] (-) TimerEvent: {}
+[24.536867] (-) TimerEvent: {}
+[24.637617] (-) TimerEvent: {}
+[24.738399] (-) TimerEvent: {}
+[24.839180] (-) TimerEvent: {}
+[24.869687] (joystick_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[24.939329] (-) TimerEvent: {}
+[25.040055] (-) TimerEvent: {}
+[25.140728] (-) TimerEvent: {}
+[25.177972] (joystick_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/joystick_msgs\n'}
+[25.198146] (joystick_msgs) JobEnded: {'identifier': 'joystick_msgs', 'rc': 'SIGINT'}
+[25.217482] (joystick_package) JobSkipped: {'identifier': 'joystick_package'}
+[25.217838] (-) EventReactorShutdown: {}

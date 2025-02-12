@@ -1,0 +1,38 @@
+[5.245s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/controllers -- -j16 -l16
+[15.387s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[28.384s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[29.384s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[29.388s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[29.398s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[29.754s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[30.124s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[30.844s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[31.122s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[60.772s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[60.870s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[60.952s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[67.896s] -- Found nav2_core: 1.1.17 (/opt/ros/humble/share/nav2_core/cmake)
+[68.200s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[73.631s] -- Found tf2_eigen: 0.25.9 (/opt/ros/humble/share/tf2_eigen/cmake)
+[73.705s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[78.409s] -- Added test 'copyright' to check source files copyright and LICENSE
+[79.834s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[79.838s] -- Configured cppcheck include dirs: 
+[79.842s] -- Configured cppcheck exclude dirs and/or files: 
+[81.169s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[81.174s] -- Configured cpplint exclude dirs and/or files: 
+[81.666s] -- Added test 'lint_cmake' to check CMake code style
+[83.054s] -- Added test 'uncrustify' to check C / C++ code style
+[83.058s] -- Configured uncrustify additional arguments: 
+[83.211s] -- Added test 'xmllint' to check XML markup files
+[83.599s] -- Configuring done
+[85.979s] -- Generating done
+[86.352s] -- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/controllers
+[101.994s] [35m[1mConsolidate compiler generated dependencies of target controllers[0m
+[109.544s] gmake[2]: Warning: File 'CMakeFiles/controllers.dir/compiler_depend.make' has modification time 1.3 s in the future
+[116.270s] [ 25%] [32mBuilding CXX object CMakeFiles/controllers.dir/src/lqr_controller.cpp.o[0m
+[153.185s] [ 50%] [32mBuilding CXX object CMakeFiles/controllers.dir/src/test_path_generator.cpp.o[0m
+[153.816s] [ 75%] [32mBuilding CXX object CMakeFiles/controllers.dir/src/pid_controller.cpp.o[0m
+[182.940s] [100%] [32m[1mLinking CXX shared library libcontrollers.so[0m
+[198.480s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[202.038s] [100%] Built target controllers

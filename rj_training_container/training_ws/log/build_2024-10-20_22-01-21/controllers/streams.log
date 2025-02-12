@@ -1,0 +1,24 @@
+[0.543s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/controllers -- -j16 -l16
+[1.605s] [100%] Built target controllers
+[1.768s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/controllers -- -j16 -l16
+[1.925s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/controllers
+[2.381s] -- Install configuration: ""
+[2.386s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/lib/libcontrollers.so
+[2.471s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/plugin_descriptions.xml
+[2.650s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/ament_index/resource_index/package_run_dependencies/controllers
+[2.822s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/ament_index/resource_index/parent_prefix_path/controllers
+[2.902s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/environment/ament_prefix_path.sh
+[3.021s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/environment/ament_prefix_path.dsv
+[3.111s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/environment/path.sh
+[3.238s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/environment/path.dsv
+[3.336s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/local_setup.bash
+[3.429s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/local_setup.sh
+[3.507s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/local_setup.zsh
+[3.585s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/local_setup.dsv
+[3.675s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/package.dsv
+[4.029s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/ament_index/resource_index/packages/controllers
+[4.203s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/ament_index/resource_index/nav2_core__pluginlib__plugin/controllers
+[4.301s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/cmake/controllersConfig.cmake
+[4.384s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/cmake/controllersConfig-version.cmake
+[4.464s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/package.xml
+[4.543s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/controllers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/controllers

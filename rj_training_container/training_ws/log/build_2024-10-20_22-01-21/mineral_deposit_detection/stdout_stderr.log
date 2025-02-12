@@ -1,0 +1,21 @@
+[ 50%] Built target mineral_deposit_detector
+[100%] Built target mineral_deposit_detection
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/lib/mineral_deposit_detection/mineral_deposit_detector
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/lib/libmineral_deposit_detection.so
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/share/ament_index/resource_index/package_run_dependencies/mineral_deposit_detection
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/share/ament_index/resource_index/parent_prefix_path/mineral_deposit_detection
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/share/mineral_deposit_detection/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/share/mineral_deposit_detection/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/share/mineral_deposit_detection/environment/path.sh
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/share/mineral_deposit_detection/environment/path.dsv
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/share/mineral_deposit_detection/local_setup.bash
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/share/mineral_deposit_detection/local_setup.sh
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/share/mineral_deposit_detection/local_setup.zsh
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/share/mineral_deposit_detection/local_setup.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/share/mineral_deposit_detection/package.dsv
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/share/ament_index/resource_index/packages/mineral_deposit_detection
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/share/ament_index/resource_index/rclcpp_components/mineral_deposit_detection
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/share/mineral_deposit_detection/cmake/mineral_deposit_detectionConfig.cmake
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/share/mineral_deposit_detection/cmake/mineral_deposit_detectionConfig-version.cmake
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/share/mineral_deposit_detection/package.xml

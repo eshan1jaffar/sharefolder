@@ -1,0 +1,15 @@
+[  9%] Built target joystick_msgs__rosidl_generator_c
+[ 12%] Built target joystick_msgs__cpp
+[ 12%] Built target ament_cmake_python_copy_joystick_msgs
+[ 22%] Built target joystick_msgs__rosidl_typesupport_fastrtps_c
+[ 32%] Built target joystick_msgs__rosidl_typesupport_cpp
+[ 41%] Built target joystick_msgs__rosidl_typesupport_c
+[ 51%] Built target joystick_msgs__rosidl_typesupport_introspection_c
+[ 64%] Built target joystick_msgs__rosidl_typesupport_introspection_cpp
+[ 70%] Built target joystick_msgs__rosidl_typesupport_fastrtps_cpp
+running egg_info
+writing joystick_msgs.egg-info/PKG-INFO
+writing dependency_links to joystick_msgs.egg-info/dependency_links.txt
+writing top-level names to joystick_msgs.egg-info/top_level.txt
+reading manifest file 'joystick_msgs.egg-info/SOURCES.txt'
+writing manifest file 'joystick_msgs.egg-info/SOURCES.txt'

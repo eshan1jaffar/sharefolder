@@ -1,0 +1,167 @@
+[0.433s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/joystick_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/joystick_msgs -- -j16 -l16
+[1.651s] [  3%] Built target joystick_msgs__cpp
+[1.658s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_generator_c[0m
+[1.664s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_cpp[0m
+[1.668s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.674s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.700s] [ 12%] Built target joystick_msgs__rosidl_generator_c
+[1.853s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_c[0m
+[1.915s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.920s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_introspection_c[0m
+[2.259s] [ 22%] Built target joystick_msgs__rosidl_typesupport_cpp
+[2.403s] [ 38%] Built target joystick_msgs__rosidl_typesupport_introspection_cpp
+[2.425s] [ 41%] Built target joystick_msgs__rosidl_typesupport_c
+[2.528s] [ 51%] Built target joystick_msgs__rosidl_typesupport_fastrtps_cpp
+[2.648s] [ 61%] Built target joystick_msgs__rosidl_typesupport_introspection_c
+[3.169s] [ 70%] Built target joystick_msgs__rosidl_typesupport_fastrtps_c
+[3.294s] [ 70%] Built target ament_cmake_python_copy_joystick_msgs
+[3.391s] [ 70%] Built target joystick_msgs
+[3.856s] [ 74%] Built target joystick_msgs__py
+[4.056s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_generator_py[0m
+[4.257s] running egg_info
+[4.269s] writing joystick_msgs.egg-info/PKG-INFO
+[4.291s] writing dependency_links to joystick_msgs.egg-info/dependency_links.txt
+[4.324s] writing top-level names to joystick_msgs.egg-info/top_level.txt
+[4.472s] reading manifest file 'joystick_msgs.egg-info/SOURCES.txt'
+[4.629s] writing manifest file 'joystick_msgs.egg-info/SOURCES.txt'
+[4.723s] [ 74%] Built target ament_cmake_python_build_joystick_msgs_egg
+[5.149s] [ 80%] Built target joystick_msgs__rosidl_generator_py
+[5.328s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.332s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_c__pyext[0m
+[5.336s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[6.387s] [100%] Built target joystick_msgs__rosidl_typesupport_c__pyext
+[6.391s] [100%] Built target joystick_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.394s] [100%] Built target joystick_msgs__rosidl_typesupport_introspection_c__pyext
+[6.912s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/joystick_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/joystick_msgs -- -j16 -l16
+[7.208s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/joystick_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/joystick_msgs
+[12.630s] -- Install configuration: ""
+[12.633s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/ament_index/resource_index/rosidl_interfaces/joystick_msgs
+[12.636s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs
+[12.640s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg
+[12.643s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail
+[12.646s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail/velocity_pair__functions.c
+[12.650s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail/velocity_pair__functions.h
+[12.653s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail/velocity_pair__struct.h
+[12.657s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail/velocity_pair__type_support.h
+[12.662s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.666s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/velocity_pair.h
+[12.670s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/environment/library_path.sh
+[12.674s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/environment/library_path.dsv
+[12.677s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib/libjoystick_msgs__rosidl_generator_c.so
+[12.680s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib/libjoystick_msgs__rosidl_generator_c.so" to ""
+[12.684s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs
+[12.688s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg
+[12.693s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail
+[12.696s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail/velocity_pair__rosidl_typesupport_fastrtps_c.h
+[12.700s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.704s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib/libjoystick_msgs__rosidl_typesupport_fastrtps_c.so
+[12.975s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib/libjoystick_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[13.017s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs
+[13.111s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg
+[13.210s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail
+[13.337s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail/velocity_pair__builder.hpp
+[13.614s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail/velocity_pair__struct.hpp
+[13.855s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail/velocity_pair__traits.hpp
+[14.089s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/velocity_pair.hpp
+[14.242s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs
+[14.295s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg
+[14.365s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail
+[14.443s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail/dds_fastrtps
+[14.541s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail/velocity_pair__rosidl_typesupport_fastrtps_cpp.hpp
+[14.756s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.961s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib/libjoystick_msgs__rosidl_typesupport_fastrtps_cpp.so
+[15.222s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib/libjoystick_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.247s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs
+[15.296s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg
+[15.353s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail
+[15.434s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail/velocity_pair__rosidl_typesupport_introspection_c.h
+[15.651s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail/velocity_pair__type_support.c
+[15.855s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.030s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib/libjoystick_msgs__rosidl_typesupport_introspection_c.so
+[16.264s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib/libjoystick_msgs__rosidl_typesupport_introspection_c.so" to ""
+[16.296s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib/libjoystick_msgs__rosidl_typesupport_c.so
+[16.493s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib/libjoystick_msgs__rosidl_typesupport_c.so" to ""
+[16.518s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs
+[16.577s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg
+[16.651s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail
+[16.751s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail/velocity_pair__rosidl_typesupport_introspection_cpp.hpp
+[16.957s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/include/joystick_msgs/joystick_msgs/msg/detail/velocity_pair__type_support.cpp
+[17.137s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib/libjoystick_msgs__rosidl_typesupport_introspection_cpp.so
+[17.320s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib/libjoystick_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[17.346s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib/libjoystick_msgs__rosidl_typesupport_cpp.so
+[17.534s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib/libjoystick_msgs__rosidl_typesupport_cpp.so" to ""
+[17.569s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/environment/pythonpath.sh
+[17.717s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/environment/pythonpath.dsv
+[17.854s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs-0.0.0-py3.10.egg-info
+[17.944s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[18.144s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[18.337s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[18.551s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[18.736s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs
+[18.822s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/joystick_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.012s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/joystick_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.209s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/joystick_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.398s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/libjoystick_msgs__rosidl_generator_py.so
+[19.584s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/msg
+[19.691s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/msg/_velocity_pair.py
+[19.945s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/msg/_velocity_pair_s.c
+[20.214s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/msg/__init__.py
+[20.435s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/_joystick_msgs_s.ep.rosidl_typesupport_c.c
+[20.594s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/_joystick_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[20.783s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/_joystick_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[20.977s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/__init__.py
+[21.890s] Listing '/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs'...
+[21.892s] Compiling '/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/__init__.py'...
+[21.894s] Listing '/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/msg'...
+[21.896s] Compiling '/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/msg/__init__.py'...
+[21.898s] Compiling '/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/msg/_velocity_pair.py'...
+[22.072s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/joystick_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[22.432s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/joystick_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[22.582s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/joystick_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[22.972s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/joystick_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.123s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/joystick_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[23.421s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages/joystick_msgs/joystick_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[23.467s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib/libjoystick_msgs__rosidl_generator_py.so
+[23.701s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib/libjoystick_msgs__rosidl_generator_py.so" to ""
+[23.770s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/msg/VelocityPair.idl
+[23.954s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/msg/VelocityPair.msg
+[24.167s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/ament_index/resource_index/package_run_dependencies/joystick_msgs
+[24.380s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/ament_index/resource_index/parent_prefix_path/joystick_msgs
+[24.521s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/environment/ament_prefix_path.sh
+[24.626s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/environment/ament_prefix_path.dsv
+[24.734s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/environment/path.sh
+[24.854s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/environment/path.dsv
+[24.971s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/local_setup.bash
+[25.076s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/local_setup.sh
+[25.183s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/local_setup.zsh
+[25.293s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/local_setup.dsv
+[25.414s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/package.dsv
+[25.582s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/ament_index/resource_index/packages/joystick_msgs
+[25.784s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/export_joystick_msgs__rosidl_generator_cExport.cmake
+[25.948s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/export_joystick_msgs__rosidl_generator_cExport-noconfig.cmake
+[26.125s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/export_joystick_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[26.282s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/export_joystick_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[26.444s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/export_joystick_msgs__rosidl_generator_cppExport.cmake
+[26.613s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/export_joystick_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[26.775s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/export_joystick_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[26.928s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/joystick_msgs__rosidl_typesupport_introspection_cExport.cmake
+[27.086s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/joystick_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.256s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/joystick_msgs__rosidl_typesupport_cExport.cmake
+[27.411s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/joystick_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[27.581s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/joystick_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[27.737s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/joystick_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.907s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/joystick_msgs__rosidl_typesupport_cppExport.cmake
+[28.060s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/joystick_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[28.222s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/export_joystick_msgs__rosidl_generator_pyExport.cmake
+[28.392s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/export_joystick_msgs__rosidl_generator_pyExport-noconfig.cmake
+[28.528s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/rosidl_cmake-extras.cmake
+[28.670s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.788s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.941s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[29.116s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[29.256s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[29.389s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[29.538s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/joystick_msgsConfig.cmake
+[29.682s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake/joystick_msgsConfig-version.cmake
+[29.847s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/package.xml
+[29.977s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/joystick_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/joystick_msgs

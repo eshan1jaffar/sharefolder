@@ -1,0 +1,110 @@
+[7.654s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins -- -j16 -l16
+[17.277s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[30.010s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[31.099s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[31.105s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[31.125s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[31.600s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[32.005s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[32.768s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[33.055s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[63.376s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[63.510s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[73.238s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[77.357s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[77.361s] -- Looking for ignition-math6 -- found version 6.15.1
+[77.365s] -- Searching for dependencies of ignition-math6
+[77.369s] -- Looking for OGRE...
+[79.153s] -- Found Ogre Ghadamon (1.9.0)
+[79.156s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[79.176s] -- Looking for OGRE_Paging...
+[79.180s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[79.184s] -- Looking for OGRE_Terrain...
+[79.188s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[79.192s] -- Looking for OGRE_Property...
+[79.196s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[79.200s] -- Looking for OGRE_RTShaderSystem...
+[79.204s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[79.208s] -- Looking for OGRE_Volume...
+[79.211s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[79.215s] -- Looking for OGRE_Overlay...
+[79.220s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[200.623s] -- Looking for ignition-math6 -- found version 6.15.1
+[200.631s] -- Looking for ignition-transport8 -- found version 8.2.1
+[200.634s] -- Searching for dependencies of ignition-transport8
+[203.959s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[205.998s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[207.264s] -- Checking for module 'libzmq >= 4'
+[213.024s] --   Found libzmq , version 4.3.4
+[242.717s] -- Checking for module 'uuid'
+[256.731s] --   Found uuid, version 2.37.2
+[284.306s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[284.310s] -- Searching for dependencies of ignition-msgs5
+[291.073s] -- Looking for ignition-math6 -- found version 6.15.1
+[292.894s] -- Checking for module 'tinyxml2'
+[304.536s] --   Found tinyxml2, version 9.0.0
+[328.603s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[328.606s] -- Looking for ignition-common3 -- found version 3.14.0
+[328.609s] -- Searching for dependencies of ignition-common3
+[328.612s] -- Looking for dlfcn.h - found
+[328.616s] -- Looking for libdl - found
+[331.277s] -- Searching for <ignition-common3> component [graphics]
+[331.282s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[331.285s] -- Searching for dependencies of ignition-common3-graphics
+[331.289s] -- Looking for ignition-math6 -- found version 6.15.1
+[331.293s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[331.297s] -- Searching for dependencies of ignition-fuel_tools4
+[346.905s] -- Checking for module 'jsoncpp'
+[354.863s] --   Found jsoncpp, version 1.9.5
+[372.986s] -- Checking for module 'libzip'
+[379.024s] --   Found libzip, version 1.7.3
+[395.107s] -- Looking for ignition-common3 -- found version 3.14.0
+[395.109s] -- Looking for ignition-math6 -- found version 6.15.1
+[395.111s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[395.115s] -- Gazebo version: 11.10
+[395.118s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[395.126s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[395.151s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[395.182s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[395.465s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[398.140s] -- Added test 'copyright' to check source files copyright and LICENSE
+[399.155s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[399.158s] -- Configured cppcheck include dirs: 
+[399.160s] -- Configured cppcheck exclude dirs and/or files: 
+[400.173s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[400.175s] -- Configured cpplint exclude dirs and/or files: 
+[400.304s] -- Added test 'flake8' to check Python code syntax and style conventions
+[401.018s] -- Added test 'lint_cmake' to check CMake code style
+[401.478s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[403.641s] -- Added test 'uncrustify' to check C / C++ code style
+[403.651s] -- Configured uncrustify additional arguments: 
+[403.839s] -- Added test 'xmllint' to check XML markup files
+[404.082s] -- Configuring done
+[405.950s] -- Generating done
+[406.395s] -- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins
+[409.960s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 3 s in the future
+[410.432s] gmake[2]: Warning: File 'CMakeFiles/RosLightControlPlugin.dir/progress.make' has modification time 2.4 s in the future
+[410.607s] gmake[2]: Warning: File 'CMakeFiles/HideLightVisualsPlugin.dir/progress.make' has modification time 2.2 s in the future
+[411.039s] gmake[2]: Warning: File 'CMakeFiles/RosNoisyPlanarOdomPlugin.dir/progress.make' has modification time 1.8 s in the future
+[414.198s] [35m[1mConsolidate compiler generated dependencies of target RosLightControlPlugin[0m
+[414.341s] [35m[1mConsolidate compiler generated dependencies of target HideLightVisualsPlugin[0m
+[414.896s] [35m[1mConsolidate compiler generated dependencies of target RosNoisyPlanarOdomPlugin[0m
+[417.544s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[417.645s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[418.292s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[418.651s] gmake[2]: Warning: File 'CMakeFiles/RosLightControlPlugin.dir/compiler_depend.make' has modification time 4.1 s in the future
+[418.745s] gmake[2]: Warning: File 'CMakeFiles/HideLightVisualsPlugin.dir/compiler_depend.make' has modification time 4.1 s in the future
+[419.322s] gmake[2]: Warning: File 'CMakeFiles/RosNoisyPlanarOdomPlugin.dir/compiler_depend.make' has modification time 4.1 s in the future
+[422.810s] [ 16%] [32mBuilding CXX object CMakeFiles/RosLightControlPlugin.dir/src/RosLightControlPlugin.cpp.o[0m
+[423.381s] [ 33%] [32mBuilding CXX object CMakeFiles/HideLightVisualsPlugin.dir/src/HideLightVisualsPlugin.cpp.o[0m
+[423.540s] [ 50%] [32mBuilding CXX object CMakeFiles/RosNoisyPlanarOdomPlugin.dir/src/RosNoisyPlanarOdomPlugin.cpp.o[0m
+[462.242s] [ 66%] [32m[1mLinking CXX shared library libHideLightVisualsPlugin.so[0m
+[462.845s] [ 83%] [32m[1mLinking CXX shared library libRosNoisyPlanarOdomPlugin.so[0m
+[471.000s] [100%] [32m[1mLinking CXX shared library libRosLightControlPlugin.so[0m
+[472.585s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[476.194s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[477.356s] [100%] Built target HideLightVisualsPlugin
+[479.045s] [100%] Built target RosNoisyPlanarOdomPlugin
+[484.513s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[488.881s] [100%] Built target RosLightControlPlugin
+[488.884s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.

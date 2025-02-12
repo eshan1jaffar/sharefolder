@@ -1,0 +1,15 @@
+[  1%] Built target stsl_interfaces__cpp
+[ 12%] Built target stsl_interfaces__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_stsl_interfaces
+[ 24%] Built target stsl_interfaces__rosidl_typesupport_cpp
+[ 35%] Built target stsl_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 47%] Built target stsl_interfaces__rosidl_typesupport_introspection_cpp
+[ 58%] Built target stsl_interfaces__rosidl_typesupport_c
+[ 70%] Built target stsl_interfaces__rosidl_typesupport_introspection_c
+[ 82%] Built target stsl_interfaces__rosidl_typesupport_fastrtps_c
+running egg_info
+writing stsl_interfaces.egg-info/PKG-INFO
+writing dependency_links to stsl_interfaces.egg-info/dependency_links.txt
+writing top-level names to stsl_interfaces.egg-info/top_level.txt
+reading manifest file 'stsl_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'stsl_interfaces.egg-info/SOURCES.txt'

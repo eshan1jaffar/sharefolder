@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/rj_training_container/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/trainingv2/turtlesim_project/src/teleop -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/install/teleop

@@ -1,0 +1,31 @@
+[1.167s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/mapping -- -j16 -l16
+[1.929s] [35m[1mConsolidate compiler generated dependencies of target mapping_node[0m
+[1.935s] [35m[1mConsolidate compiler generated dependencies of target mapping[0m
+[4.274s] [ 50%] Built target mapping_node
+[4.353s] [100%] Built target mapping
+[4.502s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/mapping -- -j16 -l16
+[4.689s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/mapping
+[5.774s] -- Install configuration: ""
+[5.777s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/lib/mapping/mapping_node
+[5.781s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/mapping/lib/mapping/mapping_node" to ""
+[5.789s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/lib/libmapping.so
+[6.307s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/mapping/lib/libmapping.so" to ""
+[6.336s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/mapping/launch
+[6.471s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/mapping/launch/mapping.launch.xml
+[6.891s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/ament_index/resource_index/package_run_dependencies/mapping
+[7.396s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/ament_index/resource_index/parent_prefix_path/mapping
+[7.748s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/mapping/environment/ament_prefix_path.sh
+[7.991s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/mapping/environment/ament_prefix_path.dsv
+[8.236s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/mapping/environment/path.sh
+[8.441s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/mapping/environment/path.dsv
+[8.674s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/mapping/local_setup.bash
+[8.874s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/mapping/local_setup.sh
+[9.134s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/mapping/local_setup.zsh
+[9.407s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/mapping/local_setup.dsv
+[9.672s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/mapping/package.dsv
+[10.048s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/ament_index/resource_index/packages/mapping
+[10.557s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/ament_index/resource_index/rclcpp_components/mapping
+[10.984s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/mapping/cmake/mappingConfig.cmake
+[11.275s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/mapping/cmake/mappingConfig-version.cmake
+[11.577s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mapping/share/mapping/package.xml
+[13.299s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/mapping

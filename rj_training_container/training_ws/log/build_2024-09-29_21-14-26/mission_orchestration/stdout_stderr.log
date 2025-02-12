@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target mission_orchestrator_node[0m
+[35m[1mConsolidate compiler generated dependencies of target mission_orchestration_components[0m
+[ 40%] Built target mission_orchestrator_node
+[100%] Built target mission_orchestration_components
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib/mission_orchestration/mission_orchestrator_node
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib/libmission_orchestration_components.so
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/behavior_trees
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/behavior_trees/default_mission_tree.xml
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/behavior_trees/mineral_tracking_test_tree.xml
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/launch
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/launch/mission_orchestrator.launch.py
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/ament_index/resource_index/package_run_dependencies/mission_orchestration
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/ament_index/resource_index/parent_prefix_path/mission_orchestration
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/environment/path.sh
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/environment/path.dsv
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/local_setup.bash
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/local_setup.sh
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/local_setup.zsh
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/local_setup.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/package.dsv
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/ament_index/resource_index/packages/mission_orchestration
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/ament_index/resource_index/rclcpp_components/mission_orchestration
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/cmake/mission_orchestrationConfig.cmake
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/cmake/mission_orchestrationConfig-version.cmake
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/share/mission_orchestration/package.xml

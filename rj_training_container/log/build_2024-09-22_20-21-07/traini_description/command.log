@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/rj_training_container/build/traini_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rj_training_container/stsl/traini_description -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/install/traini_description

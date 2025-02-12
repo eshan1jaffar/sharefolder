@@ -1,0 +1,3 @@
+[4.238s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins -- -j16 -l16
+[33.038s] [100%] Built target stsl_nav_plugins
+[38.476s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins -- -j16 -l16

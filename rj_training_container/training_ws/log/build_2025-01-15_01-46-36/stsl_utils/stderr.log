@@ -1,0 +1,10 @@
+gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libncurses.so', needed by 'libstsl_utils.so'.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/ubuntu/rj_training_container/training_ws/src/stsl/stsl_utils/src/keyboard_teleop.cpp:21:10:[m[K [01;31m[Kfatal error: [m[Kncurses.h: No such file or directory
+   21 | #include [01;31m[K<ncurses.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/stsl_utils.dir/build.make:76: CMakeFiles/stsl_utils.dir/src/keyboard_teleop.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/stsl_utils.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

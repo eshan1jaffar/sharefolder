@@ -1,0 +1,4 @@
+[5.825s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/teleop -- -j16 -l16
+[40.397s] [ 50%] Built target teleop
+[40.509s] [100%] Built target key_to_twist
+[45.413s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/teleop -- -j16 -l16

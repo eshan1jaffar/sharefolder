@@ -1,0 +1,58 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_eigen: 0.25.9 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/obstacle_detector
+[35m[1mConsolidate compiler generated dependencies of target obstacle_detector[0m
+[35m[1mConsolidate compiler generated dependencies of target obstacle_detector_node[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/obstacle_detector_node.dir/rclcpp_components/node_main_obstacle_detector_node.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/student_functions.cpp.o[0m
+[01m[K/home/ubuntu/rj_training_container/training_ws/src/software-training-old/obstacle_detector/src/student_functions.cpp:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ does not name a type
+    1 | [01;31m[Kcv[m[K::Mat FindColors(const cv::Mat input, const cv::Scalar range_min, const cv::Scalar range_max)
+      | [01;31m[K^~[m[K
+[01m[K/home/ubuntu/rj_training_container/training_ws/src/software-training-old/obstacle_detector/src/student_functions.cpp:25:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ does not name a type
+   25 | [01;31m[Kcv[m[K::Mat ReprojectToGroundPlane(const cv::Mat input, const cv::Mat homography, const cv::Size map_size) {
+      | [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/obstacle_detector.dir/build.make:90: CMakeFiles/obstacle_detector.dir/src/student_functions.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/ubuntu/rj_training_container/training_ws/src/software-training-old/obstacle_detector/src/obstacle_detector.cpp:[m[K In member function ‘[01m[Kvoid obstacle_detector::ObstacleDetector::ImageCallback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[01m[K/home/ubuntu/rj_training_container/training_ws/src/software-training-old/obstacle_detector/src/obstacle_detector.cpp:94:31:[m[K [01;31m[Kerror: [m[K‘[01m[KFindColors[m[K’ was not declared in this scope
+   94 |     cv::Mat detected_colors = [01;31m[KFindColors[m[K(cv_image->image, min_color, max_color);
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/rj_training_container/training_ws/src/software-training-old/obstacle_detector/src/obstacle_detector.cpp:128:32:[m[K [01;31m[Kerror: [m[K‘[01m[KReprojectToGroundPlane[m[K’ was not declared in this scope
+  128 |     cv::Mat projected_colors = [01;31m[KReprojectToGroundPlane[m[K(detected_colors, homography, map_size);
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/obstacle_detector.dir/build.make:76: CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/obstacle_detector.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 80%] [32m[1mLinking CXX executable obstacle_detector_node[0m
+[ 80%] Built target obstacle_detector_node
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,79 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found nav2_behavior_tree: 1.1.16 (/opt/ros/humble/share/nav2_behavior_tree/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found stsl_interfaces: 0.1.0 (/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/share/stsl_interfaces/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/stsl_bt_nodes
+[ 14%] [32mBuilding CXX object CMakeFiles/stsl_bt_nodes.dir/src/for_each_mineral_sample_node.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/stsl_bt_nodes.dir/src/get_sample_pose_node.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/stsl_bt_nodes.dir/src/log_node.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/stsl_bt_nodes.dir/src/node_registration.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/stsl_bt_nodes.dir/src/reset_mineral_deposit_tracker_node.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/stsl_bt_nodes.dir/src/set_light_state_node.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libstsl_bt_nodes.so[0m
+[100%] Built target stsl_bt_nodes
+-- Install configuration: ""
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib/libstsl_bt_nodes.so
+-- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib/libstsl_bt_nodes.so" to ""
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/environment/library_path.sh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/environment/library_path.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/ament_index/resource_index/package_run_dependencies/stsl_bt_nodes
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/ament_index/resource_index/parent_prefix_path/stsl_bt_nodes
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/environment/path.sh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/environment/path.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/local_setup.bash
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/local_setup.sh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/local_setup.zsh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/local_setup.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/package.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/ament_index/resource_index/packages/stsl_bt_nodes
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/cmake/stsl_bt_nodesConfig.cmake
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/cmake/stsl_bt_nodesConfig-version.cmake
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/package.xml

@@ -1,0 +1,24 @@
+[4.523s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/joystick_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/joystick_msgs -- -j16 -l16
+[31.572s] [  9%] Built target joystick_msgs__cpp
+[31.592s] [ 12%] Built target joystick_msgs__rosidl_generator_c
+[37.904s] [ 12%] Built target ament_cmake_python_copy_joystick_msgs
+[49.227s] [ 22%] Built target joystick_msgs__rosidl_typesupport_fastrtps_cpp
+[49.477s] [ 32%] Built target joystick_msgs__rosidl_typesupport_introspection_cpp
+[49.571s] [ 41%] Built target joystick_msgs__rosidl_typesupport_cpp
+[49.819s] [ 51%] Built target joystick_msgs__rosidl_typesupport_c
+[49.918s] [ 61%] Built target joystick_msgs__rosidl_typesupport_fastrtps_c
+[50.222s] [ 70%] Built target joystick_msgs__rosidl_typesupport_introspection_c
+[55.827s] running egg_info
+[55.834s] writing joystick_msgs.egg-info/PKG-INFO
+[55.854s] writing dependency_links to joystick_msgs.egg-info/dependency_links.txt
+[55.869s] writing top-level names to joystick_msgs.egg-info/top_level.txt
+[55.970s] reading manifest file 'joystick_msgs.egg-info/SOURCES.txt'
+[56.095s] writing manifest file 'joystick_msgs.egg-info/SOURCES.txt'
+[61.376s] [ 70%] Built target ament_cmake_python_build_joystick_msgs_egg
+[62.753s] [ 70%] Built target joystick_msgs
+[74.619s] [ 74%] Built target joystick_msgs__py
+[85.066s] [ 80%] Built target joystick_msgs__rosidl_generator_py
+[97.942s] [ 87%] Built target joystick_msgs__rosidl_typesupport_c__pyext
+[98.354s] [ 93%] Built target joystick_msgs__rosidl_typesupport_fastrtps_c__pyext
+[98.642s] [100%] Built target joystick_msgs__rosidl_typesupport_introspection_c__pyext
+[102.359s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/joystick_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/joystick_msgs -- -j16 -l16

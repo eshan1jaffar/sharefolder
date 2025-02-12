@@ -1,0 +1,11 @@
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking/CMakeFiles/uninstall.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking/CMakeFiles/mineral_deposit_tracking_uninstall.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking/CMakeFiles/mineral_deposit_tracking.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking/CMakeFiles/mineral_deposit_tracker.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking/CMakeFiles/test.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking/CMakeFiles/edit_cache.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking/CMakeFiles/list_install_components.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking/CMakeFiles/install.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking/CMakeFiles/install/local.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking/CMakeFiles/install/strip.dir

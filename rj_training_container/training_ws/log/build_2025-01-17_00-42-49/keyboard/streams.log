@@ -1,0 +1,21 @@
+[27.902s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/src/trainingv2/turtlesim_project/src/keyboard': PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/build/keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/keyboard build --build-base /home/ubuntu/rj_training_container/training_ws/build/keyboard/build install --record /home/ubuntu/rj_training_container/training_ws/build/keyboard/install.log --single-version-externally-managed install_data
+[61.982s] running egg_info
+[61.990s] writing ../../../../../build/keyboard/keyboard.egg-info/PKG-INFO
+[61.998s] writing dependency_links to ../../../../../build/keyboard/keyboard.egg-info/dependency_links.txt
+[62.003s] writing entry points to ../../../../../build/keyboard/keyboard.egg-info/entry_points.txt
+[62.011s] writing requirements to ../../../../../build/keyboard/keyboard.egg-info/requires.txt
+[62.017s] writing top-level names to ../../../../../build/keyboard/keyboard.egg-info/top_level.txt
+[62.028s] reading manifest file '../../../../../build/keyboard/keyboard.egg-info/SOURCES.txt'
+[62.036s] writing manifest file '../../../../../build/keyboard/keyboard.egg-info/SOURCES.txt'
+[62.043s] running build
+[62.049s] running build_py
+[62.054s] running install
+[62.061s] running install_lib
+[62.067s] running install_data
+[62.073s] running install_egg_info
+[62.079s] removing '/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages/keyboard-0.0.0-py3.10.egg-info' (and everything under it)
+[62.086s] Copying ../../../../../build/keyboard/keyboard.egg-info to /home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages/keyboard-0.0.0-py3.10.egg-info
+[62.093s] running install_scripts
+[62.099s] Installing keystroke_listen script to /home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/keyboard
+[62.107s] writing list of installed files to '/home/ubuntu/rj_training_container/training_ws/build/keyboard/install.log'
+[62.117s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/src/trainingv2/turtlesim_project/src/keyboard' returned '0': PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/build/keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/keyboard build --build-base /home/ubuntu/rj_training_container/training_ws/build/keyboard/build install --record /home/ubuntu/rj_training_container/training_ws/build/keyboard/install.log --single-version-externally-managed install_data

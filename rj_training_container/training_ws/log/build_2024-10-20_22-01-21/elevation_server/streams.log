@@ -1,0 +1,30 @@
+[0.231s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/elevation_server': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/elevation_server -- -j16 -l16
+[1.098s] [ 50%] Built target elevation_server_node
+[1.193s] [100%] Built target elevation_server_component
+[1.322s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/elevation_server' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/elevation_server -- -j16 -l16
+[1.445s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/elevation_server': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/elevation_server
+[1.520s] -- Install configuration: ""
+[1.635s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib/elevation_server/elevation_server_node
+[1.821s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib/libelevation_server_component.so
+[1.921s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/launch
+[1.989s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/launch/elevation_server.launch.py
+[2.023s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/config
+[2.096s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/config/elevation_server_params.yaml
+[2.152s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/config/map.png
+[2.235s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/ament_index/resource_index/package_run_dependencies/elevation_server
+[2.314s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/ament_index/resource_index/parent_prefix_path/elevation_server
+[2.353s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/environment/ament_prefix_path.sh
+[2.407s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/environment/ament_prefix_path.dsv
+[2.445s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/environment/path.sh
+[2.501s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/environment/path.dsv
+[2.549s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/local_setup.bash
+[2.591s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/local_setup.sh
+[2.630s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/local_setup.zsh
+[2.679s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/local_setup.dsv
+[2.726s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/package.dsv
+[2.902s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/ament_index/resource_index/packages/elevation_server
+[2.995s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/ament_index/resource_index/rclcpp_components/elevation_server
+[3.049s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/cmake/elevation_serverConfig.cmake
+[3.089s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/cmake/elevation_serverConfig-version.cmake
+[3.143s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/package.xml
+[3.834s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/elevation_server' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/elevation_server

@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target controllers[0m
+gmake[2]: Warning: File 'CMakeFiles/controllers.dir/compiler_depend.make' has modification time 0.027 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target controllers
+-- Install configuration: ""
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/lib/libcontrollers.so
+-- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/controllers/lib/libcontrollers.so" to ""
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/plugin_descriptions.xml
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/ament_index/resource_index/package_run_dependencies/controllers
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/ament_index/resource_index/parent_prefix_path/controllers
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/environment/path.sh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/environment/path.dsv
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/local_setup.bash
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/local_setup.sh
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/local_setup.zsh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/local_setup.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/package.dsv
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/ament_index/resource_index/packages/controllers
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/ament_index/resource_index/nav2_core__pluginlib__plugin/controllers
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/cmake/controllersConfig.cmake
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/cmake/controllersConfig-version.cmake
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/package.xml

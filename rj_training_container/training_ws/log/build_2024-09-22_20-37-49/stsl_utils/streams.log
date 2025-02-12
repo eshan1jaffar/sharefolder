@@ -1,0 +1,98 @@
+[0.432s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/stsl/stsl_utils -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/stsl_utils
+[1.628s] -- The C compiler identification is GNU 11.4.0
+[1.923s] -- The CXX compiler identification is GNU 11.4.0
+[2.287s] -- Detecting C compiler ABI info
+[4.751s] -- Detecting C compiler ABI info - done
+[4.855s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.860s] -- Detecting C compile features
+[4.864s] -- Detecting C compile features - done
+[5.131s] -- Detecting CXX compiler ABI info
+[7.391s] -- Detecting CXX compiler ABI info - done
+[7.490s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.494s] -- Detecting CXX compile features
+[7.498s] -- Detecting CXX compile features - done
+[7.702s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.994s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.483s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.516s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[8.606s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.614s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.634s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.652s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.684s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.767s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.773s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.928s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.003s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.111s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.304s] -- Looking for pthread.h
+[11.382s] -- Looking for pthread.h - found
+[11.432s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.291s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.304s] -- Found Threads: TRUE  
+[13.418s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[13.482s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[13.506s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[13.587s] -- Looking for wsyncup in /usr/lib/x86_64-linux-gnu/libcurses.so
+[14.687s] -- Looking for wsyncup in /usr/lib/x86_64-linux-gnu/libcurses.so - found
+[14.704s] -- Looking for cbreak in /usr/lib/x86_64-linux-gnu/libncurses.so
+[15.817s] -- Looking for cbreak in /usr/lib/x86_64-linux-gnu/libncurses.so - found
+[15.826s] -- Looking for nodelay in /usr/lib/x86_64-linux-gnu/libncurses.so
+[16.950s] -- Looking for nodelay in /usr/lib/x86_64-linux-gnu/libncurses.so - found
+[17.027s] -- Found Curses: /usr/lib/x86_64-linux-gnu/libncurses.so  
+[17.153s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.897s] -- Added test 'copyright' to check source files copyright and LICENSE
+[18.577s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.580s] -- Configured cppcheck include dirs: 
+[18.583s] -- Configured cppcheck exclude dirs and/or files: 
+[19.273s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[19.275s] -- Configured cpplint exclude dirs and/or files: 
+[19.523s] -- Added test 'lint_cmake' to check CMake code style
+[20.549s] -- Added test 'uncrustify' to check C / C++ code style
+[20.552s] -- Configured uncrustify additional arguments: 
+[20.683s] -- Added test 'xmllint' to check XML markup files
+[20.924s] -- Configuring done
+[22.181s] -- Generating done
+[22.417s] -- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/stsl_utils
+[22.438s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/stsl/stsl_utils -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/stsl_utils
+[22.458s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_utils -- -j16 -l16
+[22.908s] [ 42%] [32mBuilding CXX object CMakeFiles/keyboard_teleop.dir/rclcpp_components/node_main_keyboard_teleop.cpp.o[0m
+[22.911s] [ 42%] [32mBuilding CXX object CMakeFiles/floor_mat_visualizer.dir/rclcpp_components/node_main_floor_mat_visualizer.cpp.o[0m
+[22.914s] [ 42%] [32mBuilding CXX object CMakeFiles/stsl_utils.dir/src/keyboard_teleop.cpp.o[0m
+[22.927s] [ 57%] [32mBuilding CXX object CMakeFiles/stsl_utils.dir/src/floor_mat_visualizer.cpp.o[0m
+[29.005s] [ 71%] [32m[1mLinking CXX executable keyboard_teleop[0m
+[29.032s] [ 85%] [32m[1mLinking CXX executable floor_mat_visualizer[0m
+[29.886s] [ 85%] Built target keyboard_teleop
+[29.901s] [ 85%] Built target floor_mat_visualizer
+[32.399s] [100%] [32m[1mLinking CXX shared library libstsl_utils.so[0m
+[36.182s] [100%] Built target stsl_utils
+[36.261s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_utils -- -j16 -l16
+[36.367s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/stsl_utils
+[36.384s] -- Install configuration: ""
+[36.406s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib/stsl_utils/keyboard_teleop
+[36.629s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib/stsl_utils/keyboard_teleop" to ""
+[36.668s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib/stsl_utils/floor_mat_visualizer
+[36.908s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib/stsl_utils/floor_mat_visualizer" to ""
+[36.934s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib/libstsl_utils.so
+[37.388s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib/libstsl_utils.so" to ""
+[37.405s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/visualization_meshes
+[37.456s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/visualization_meshes/floor_mat
+[37.526s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/visualization_meshes/floor_mat/floor_mat.dae
+[37.681s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/visualization_meshes/floor_mat/floor_mat.png
+[37.868s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/ament_index/resource_index/package_run_dependencies/stsl_utils
+[38.053s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/ament_index/resource_index/parent_prefix_path/stsl_utils
+[38.191s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/environment/ament_prefix_path.sh
+[38.279s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/environment/ament_prefix_path.dsv
+[38.383s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/environment/path.sh
+[38.479s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/environment/path.dsv
+[38.597s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/local_setup.bash
+[38.695s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/local_setup.sh
+[38.789s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/local_setup.zsh
+[38.866s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/local_setup.dsv
+[38.942s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/package.dsv
+[39.140s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/ament_index/resource_index/packages/stsl_utils
+[39.490s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/ament_index/resource_index/rclcpp_components/stsl_utils
+[39.690s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/cmake/stsl_utilsConfig.cmake
+[39.807s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/cmake/stsl_utilsConfig-version.cmake
+[39.935s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/package.xml
+[40.038s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/stsl_utils

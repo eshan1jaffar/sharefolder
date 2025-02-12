@@ -1,0 +1,21 @@
+gmake[2]: Warning: File 'CMakeFiles/obstacle_detector_node.dir/compiler_depend.make' has modification time 3.1 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/obstacle_detector.dir/compiler_depend.make' has modification time 2.8 s in the future
+[01m[K/home/ubuntu/rj_training_container/training_ws/src/software-training-old/obstacle_detector/src/student_functions.cpp:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ does not name a type
+    1 | [01;31m[Kcv[m[K::Mat FindColors(const cv::Mat input, const cv::Scalar range_min, const cv::Scalar range_max)
+      | [01;31m[K^~[m[K
+[01m[K/home/ubuntu/rj_training_container/training_ws/src/software-training-old/obstacle_detector/src/student_functions.cpp:25:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv[m[K’ does not name a type
+   25 | [01;31m[Kcv[m[K::Mat ReprojectToGroundPlane(const cv::Mat input, const cv::Mat homography, const cv::Size map_size) {
+      | [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/obstacle_detector.dir/build.make:90: CMakeFiles/obstacle_detector.dir/src/student_functions.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/ubuntu/rj_training_container/training_ws/src/software-training-old/obstacle_detector/src/obstacle_detector.cpp:[m[K In member function ‘[01m[Kvoid obstacle_detector::ObstacleDetector::ImageCallback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[01m[K/home/ubuntu/rj_training_container/training_ws/src/software-training-old/obstacle_detector/src/obstacle_detector.cpp:94:31:[m[K [01;31m[Kerror: [m[K‘[01m[KFindColors[m[K’ was not declared in this scope
+   94 |     cv::Mat detected_colors = [01;31m[KFindColors[m[K(cv_image->image, min_color, max_color);
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/rj_training_container/training_ws/src/software-training-old/obstacle_detector/src/obstacle_detector.cpp:128:32:[m[K [01;31m[Kerror: [m[K‘[01m[KReprojectToGroundPlane[m[K’ was not declared in this scope
+  128 |     cv::Mat projected_colors = [01;31m[KReprojectToGroundPlane[m[K(detected_colors, homography, map_size);
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/obstacle_detector.dir/build.make:76: CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/obstacle_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

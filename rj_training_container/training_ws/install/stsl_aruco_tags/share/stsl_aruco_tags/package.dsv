@@ -1,0 +1,11 @@
+source;share/stsl_aruco_tags/hook/cmake_prefix_path.ps1
+source;share/stsl_aruco_tags/hook/cmake_prefix_path.dsv
+source;share/stsl_aruco_tags/hook/cmake_prefix_path.sh
+source;share/stsl_aruco_tags/hook/ld_library_path_lib.ps1
+source;share/stsl_aruco_tags/hook/ld_library_path_lib.dsv
+source;share/stsl_aruco_tags/hook/ld_library_path_lib.sh
+source;share/stsl_aruco_tags/local_setup.bash
+source;share/stsl_aruco_tags/local_setup.dsv
+source;share/stsl_aruco_tags/local_setup.ps1
+source;share/stsl_aruco_tags/local_setup.sh
+source;share/stsl_aruco_tags/local_setup.zsh

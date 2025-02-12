@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target floor_mat_visualizer[0m
+[35m[1mConsolidate compiler generated dependencies of target stsl_utils[0m
+[35m[1mConsolidate compiler generated dependencies of target keyboard_teleop[0m
+[ 28%] Built target floor_mat_visualizer
+[ 57%] Built target keyboard_teleop
+[ 71%] [32mBuilding CXX object CMakeFiles/stsl_utils.dir/src/keyboard_teleop.cpp.o[0m
+[ 85%] [32m[1mLinking CXX shared library libstsl_utils.so[0m
+[100%] Built target stsl_utils

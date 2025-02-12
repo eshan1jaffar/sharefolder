@@ -1,0 +1,34 @@
+[6.834s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/joystick_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/joystick_msgs -- -j16 -l16
+[37.158s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_generator_c[0m
+[49.082s] [  3%] Built target joystick_msgs__cpp
+[52.137s] [ 12%] Built target joystick_msgs__rosidl_generator_c
+[60.648s] [ 12%] Built target ament_cmake_python_copy_joystick_msgs
+[61.367s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_cpp[0m
+[62.832s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_introspection_cpp[0m
+[63.250s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[66.440s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_introspection_c[0m
+[66.533s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_c[0m
+[67.319s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_fastrtps_c[0m
+[76.539s] [ 22%] Built target joystick_msgs__rosidl_typesupport_cpp
+[77.013s] [ 32%] Built target joystick_msgs__rosidl_typesupport_introspection_cpp
+[78.778s] [ 41%] Built target joystick_msgs__rosidl_typesupport_fastrtps_cpp
+[79.218s] [ 51%] Built target joystick_msgs__rosidl_typesupport_c
+[79.958s] [ 61%] Built target joystick_msgs__rosidl_typesupport_introspection_c
+[80.735s] [ 70%] Built target joystick_msgs__rosidl_typesupport_fastrtps_c
+[87.238s] running egg_info
+[87.251s] writing joystick_msgs.egg-info/PKG-INFO
+[87.271s] writing dependency_links to joystick_msgs.egg-info/dependency_links.txt
+[87.305s] writing top-level names to joystick_msgs.egg-info/top_level.txt
+[87.448s] reading manifest file 'joystick_msgs.egg-info/SOURCES.txt'
+[87.626s] writing manifest file 'joystick_msgs.egg-info/SOURCES.txt'
+[95.299s] [ 70%] Built target ament_cmake_python_build_joystick_msgs_egg
+[115.013s] [ 70%] Built target joystick_msgs
+[134.977s] [ 74%] Built target joystick_msgs__py
+[144.074s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_generator_py[0m
+[153.413s] [ 80%] Built target joystick_msgs__rosidl_generator_py
+[161.190s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[161.193s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[169.064s] [ 87%] Built target joystick_msgs__rosidl_typesupport_fastrtps_c__pyext
+[169.198s] [ 93%] Built target joystick_msgs__rosidl_typesupport_introspection_c__pyext
+[176.948s] [35m[1mConsolidate compiler generated dependencies of target joystick_msgs__rosidl_typesupport_c__pyext[0m
+[182.374s] [100%] Built target joystick_msgs__rosidl_typesupport_c__pyext

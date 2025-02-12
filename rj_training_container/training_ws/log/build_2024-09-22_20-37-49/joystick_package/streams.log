@@ -1,0 +1,96 @@
+[0.226s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/joystick_package': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/trainingv2/controller_project/joystick_package -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/joystick_package
+[1.508s] -- The C compiler identification is GNU 11.4.0
+[2.318s] -- The CXX compiler identification is GNU 11.4.0
+[2.476s] -- Detecting C compiler ABI info
+[4.457s] -- Detecting C compiler ABI info - done
+[4.508s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.509s] -- Detecting C compile features
+[4.512s] -- Detecting C compile features - done
+[4.648s] -- Detecting CXX compiler ABI info
+[6.482s] -- Detecting CXX compiler ABI info - done
+[6.524s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.526s] -- Detecting CXX compile features
+[6.528s] -- Detecting CXX compile features - done
+[6.691s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.015s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[13.148s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[15.407s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[15.633s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[15.832s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[16.016s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.218s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[17.305s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[19.141s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[19.419s] -- Found FastRTPS: /opt/ros/humble/include  
+[19.848s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[20.170s] -- Looking for pthread.h
+[22.162s] -- Looking for pthread.h - found
+[22.187s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[24.492s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[24.504s] -- Found Threads: TRUE  
+[25.069s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[25.550s] -- Found joystick_msgs: 0.0.0 (/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/share/joystick_msgs/cmake)
+[26.545s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[26.711s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[26.886s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[26.960s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[27.202s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[27.259s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[27.260s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[27.262s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[27.263s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[27.467s] -- Found PythonExtra: .so  
+[30.356s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[30.357s] -- Configured cppcheck include dirs: /home/ubuntu/rj_training_container/training_ws/src/trainingv2/controller_project/joystick_package/include
+[30.359s] -- Configured cppcheck exclude dirs and/or files: 
+[30.553s] -- Added test 'flake8' to check Python code syntax and style conventions
+[30.930s] -- Added test 'lint_cmake' to check CMake code style
+[31.131s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[32.581s] -- Added test 'uncrustify' to check C / C++ code style
+[32.582s] -- Configured uncrustify additional arguments: 
+[32.781s] -- Added test 'xmllint' to check XML markup files
+[33.286s] -- Configuring done
+[34.573s] -- Generating done
+[34.741s] -- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/joystick_package
+[34.758s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/joystick_package' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/trainingv2/controller_project/joystick_package -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/joystick_package
+[34.772s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/joystick_package': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/joystick_package -- -j16 -l16
+[35.803s] [ 25%] [32mBuilding CXX object CMakeFiles/joystick_package.dir/src/joystick_driver.cpp.o[0m
+[35.838s] [ 50%] [32mBuilding CXX object CMakeFiles/joystick_package_JoystickDriver.dir/rclcpp_components/node_main_joystick_package_JoystickDriver.cpp.o[0m
+[43.336s] [ 75%] [32m[1mLinking CXX executable joystick_package_JoystickDriver[0m
+[44.266s] [ 75%] Built target joystick_package_JoystickDriver
+[58.637s] [100%] [32m[1mLinking CXX shared library libjoystick_package.so[0m
+[63.329s] [100%] Built target joystick_package
+[63.727s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/joystick_package' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/joystick_package -- -j16 -l16
+[63.806s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/joystick_package': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/joystick_package
+[63.957s] -- Install configuration: ""
+[63.989s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib/joystick_package/joystick_package_JoystickDriver
+[64.152s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib/joystick_package/joystick_package_JoystickDriver" to ""
+[64.169s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package//launch
+[64.229s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package//launch/joystick.launch.py
+[64.335s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package//config
+[64.379s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package//config/joystick_driver_params.yaml
+[64.483s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib/libjoystick_package.so
+[65.154s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib/libjoystick_package.so" to ""
+[65.201s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/environment/library_path.sh
+[65.346s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/environment/library_path.dsv
+[65.607s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/ament_index/resource_index/package_run_dependencies/joystick_package
+[65.964s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/ament_index/resource_index/parent_prefix_path/joystick_package
+[66.213s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/environment/ament_prefix_path.sh
+[66.404s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/environment/ament_prefix_path.dsv
+[66.597s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/environment/path.sh
+[66.753s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/environment/path.dsv
+[66.949s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/local_setup.bash
+[67.137s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/local_setup.sh
+[67.317s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/local_setup.zsh
+[67.523s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/local_setup.dsv
+[67.702s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/package.dsv
+[67.937s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/ament_index/resource_index/packages/joystick_package
+[68.239s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/ament_index/resource_index/rclcpp_components/joystick_package
+[68.560s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[68.793s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/cmake/ament_cmake_export_libraries-extras.cmake
+[69.039s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[69.269s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/cmake/joystick_packageConfig.cmake
+[69.488s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/cmake/joystick_packageConfig-version.cmake
+[69.732s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/joystick_package/share/joystick_package/package.xml
+[69.969s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/joystick_package' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/joystick_package

@@ -1,0 +1,6 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/teleop.dir/src/key_to_twist.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/key_to_twist.dir/rclcpp_components/node_main_key_to_twist.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable key_to_twist[0m
+[ 75%] Built target key_to_twist
+[100%] [32m[1mLinking CXX shared library libteleop.so[0m
+[100%] Built target teleop

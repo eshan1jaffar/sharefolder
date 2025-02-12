@@ -1,0 +1,89 @@
+[0.258s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/elevation_server': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/stsl/elevation_server -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/elevation_server
+[1.124s] -- The C compiler identification is GNU 11.4.0
+[1.768s] -- The CXX compiler identification is GNU 11.4.0
+[1.953s] -- Detecting C compiler ABI info
+[3.802s] -- Detecting C compiler ABI info - done
+[3.882s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.885s] -- Detecting C compile features
+[3.888s] -- Detecting C compile features - done
+[4.087s] -- Detecting CXX compiler ABI info
+[6.011s] -- Detecting CXX compiler ABI info - done
+[6.085s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.089s] -- Detecting CXX compile features
+[6.092s] -- Detecting CXX compile features - done
+[6.326s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.410s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[9.023s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[9.804s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.930s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.053s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.192s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.116s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.185s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.064s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[12.246s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.527s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.851s] -- Looking for pthread.h
+[14.783s] -- Looking for pthread.h - found
+[14.816s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.549s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[16.563s] -- Found Threads: TRUE  
+[16.902s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[17.179s] -- Found stsl_interfaces: 0.1.0 (/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/share/stsl_interfaces/cmake)
+[18.181s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[18.728s] -- Found OpenCV: /usr (found version "4.5.4") 
+[18.819s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[19.046s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[20.964s] -- Added test 'copyright' to check source files copyright and LICENSE
+[21.726s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[21.728s] -- Configured cppcheck include dirs: 
+[21.730s] -- Configured cppcheck exclude dirs and/or files: 
+[22.410s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[22.412s] -- Configured cpplint exclude dirs and/or files: 
+[22.517s] -- Added test 'flake8' to check Python code syntax and style conventions
+[22.701s] -- Added test 'lint_cmake' to check CMake code style
+[22.787s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[23.443s] -- Added test 'uncrustify' to check C / C++ code style
+[23.446s] -- Configured uncrustify additional arguments: 
+[23.527s] -- Added test 'xmllint' to check XML markup files
+[23.787s] -- Configuring done
+[25.241s] -- Generating done
+[25.458s] -- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/elevation_server
+[25.483s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/elevation_server' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/stsl/elevation_server -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/elevation_server
+[25.503s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/elevation_server': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/elevation_server -- -j16 -l16
+[26.540s] [ 25%] [32mBuilding CXX object CMakeFiles/elevation_server_component.dir/src/elevation_server.cpp.o[0m
+[26.554s] [ 50%] [32mBuilding CXX object CMakeFiles/elevation_server_node.dir/rclcpp_components/node_main_elevation_server_node.cpp.o[0m
+[34.522s] [ 75%] [32m[1mLinking CXX executable elevation_server_node[0m
+[36.087s] [ 75%] Built target elevation_server_node
+[43.303s] [100%] [32m[1mLinking CXX shared library libelevation_server_component.so[0m
+[47.307s] [100%] Built target elevation_server_component
+[47.452s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/elevation_server' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/elevation_server -- -j16 -l16
+[47.577s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/elevation_server': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/elevation_server
+[47.644s] -- Install configuration: ""
+[47.684s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib/elevation_server/elevation_server_node
+[48.028s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib/elevation_server/elevation_server_node" to ""
+[48.070s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib/libelevation_server_component.so
+[48.797s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib/libelevation_server_component.so" to ""
+[48.822s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/launch
+[48.914s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/launch/elevation_server.launch.py
+[49.100s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/config
+[49.183s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/config/elevation_server_params.yaml
+[49.388s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/config/map.png
+[49.756s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/ament_index/resource_index/package_run_dependencies/elevation_server
+[50.094s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/ament_index/resource_index/parent_prefix_path/elevation_server
+[50.381s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/environment/ament_prefix_path.sh
+[50.571s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/environment/ament_prefix_path.dsv
+[50.772s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/environment/path.sh
+[50.972s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/environment/path.dsv
+[51.177s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/local_setup.bash
+[51.358s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/local_setup.sh
+[51.529s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/local_setup.zsh
+[51.701s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/local_setup.dsv
+[51.868s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/package.dsv
+[52.117s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/ament_index/resource_index/packages/elevation_server
+[52.463s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/ament_index/resource_index/rclcpp_components/elevation_server
+[52.760s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/cmake/elevation_serverConfig.cmake
+[52.959s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/cmake/elevation_serverConfig-version.cmake
+[53.167s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/elevation_server/share/elevation_server/package.xml
+[53.319s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/elevation_server' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/elevation_server

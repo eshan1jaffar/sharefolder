@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+85e234c1e7ce25fe568303878a957067 CMakeFiles/joystick_package_uninstall

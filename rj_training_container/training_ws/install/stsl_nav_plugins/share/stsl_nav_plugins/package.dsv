@@ -1,0 +1,6 @@
+source;share/stsl_nav_plugins/hook/cmake_prefix_path.ps1
+source;share/stsl_nav_plugins/hook/cmake_prefix_path.dsv
+source;share/stsl_nav_plugins/hook/cmake_prefix_path.sh
+source;share/stsl_nav_plugins/hook/ld_library_path_lib.ps1
+source;share/stsl_nav_plugins/hook/ld_library_path_lib.dsv
+source;share/stsl_nav_plugins/hook/ld_library_path_lib.sh

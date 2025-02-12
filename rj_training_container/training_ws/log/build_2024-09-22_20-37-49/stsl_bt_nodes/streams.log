@@ -1,0 +1,85 @@
+[0.254s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_bt_nodes': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/stsl/stsl_bt_nodes -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes
+[1.105s] -- The C compiler identification is GNU 11.4.0
+[1.789s] -- The CXX compiler identification is GNU 11.4.0
+[1.970s] -- Detecting C compiler ABI info
+[3.788s] -- Detecting C compiler ABI info - done
+[3.871s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.876s] -- Detecting C compile features
+[3.879s] -- Detecting C compile features - done
+[4.073s] -- Detecting CXX compiler ABI info
+[5.947s] -- Detecting CXX compiler ABI info - done
+[6.033s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.036s] -- Detecting CXX compile features
+[6.040s] -- Detecting CXX compile features - done
+[6.276s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.339s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.786s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[9.509s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.635s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.765s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.907s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.107s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.783s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.853s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.708s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.896s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.190s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.443s] -- Looking for pthread.h
+[14.106s] -- Looking for pthread.h - found
+[14.144s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.788s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.801s] -- Found Threads: TRUE  
+[16.159s] -- Found nav2_behavior_tree: 1.1.16 (/opt/ros/humble/share/nav2_behavior_tree/cmake)
+[17.860s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[17.863s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[17.865s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[18.527s] -- Found stsl_interfaces: 0.1.0 (/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/share/stsl_interfaces/cmake)
+[19.449s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[21.454s] -- Added test 'copyright' to check source files copyright and LICENSE
+[22.503s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.506s] -- Configured cppcheck include dirs: 
+[22.509s] -- Configured cppcheck exclude dirs and/or files: 
+[23.489s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[23.492s] -- Configured cpplint exclude dirs and/or files: 
+[24.040s] -- Added test 'lint_cmake' to check CMake code style
+[25.968s] -- Added test 'uncrustify' to check C / C++ code style
+[25.970s] -- Configured uncrustify additional arguments: 
+[26.179s] -- Added test 'xmllint' to check XML markup files
+[26.940s] -- Configuring done
+[28.420s] -- Generating done
+[28.679s] -- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/stsl_bt_nodes
+[28.711s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_bt_nodes' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/stsl/stsl_bt_nodes -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes
+[28.737s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_bt_nodes': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_bt_nodes -- -j16 -l16
+[29.603s] [ 14%] [32mBuilding CXX object CMakeFiles/stsl_bt_nodes.dir/src/for_each_mineral_sample_node.cpp.o[0m
+[29.629s] [ 42%] [32mBuilding CXX object CMakeFiles/stsl_bt_nodes.dir/src/get_sample_pose_node.cpp.o[0m
+[29.632s] [ 42%] [32mBuilding CXX object CMakeFiles/stsl_bt_nodes.dir/src/log_node.cpp.o[0m
+[29.684s] [ 57%] [32mBuilding CXX object CMakeFiles/stsl_bt_nodes.dir/src/node_registration.cpp.o[0m
+[29.704s] [ 71%] [32mBuilding CXX object CMakeFiles/stsl_bt_nodes.dir/src/reset_mineral_deposit_tracker_node.cpp.o[0m
+[29.714s] [ 85%] [32mBuilding CXX object CMakeFiles/stsl_bt_nodes.dir/src/set_light_state_node.cpp.o[0m
+[45.806s] [100%] [32m[1mLinking CXX shared library libstsl_bt_nodes.so[0m
+[55.551s] [100%] Built target stsl_bt_nodes
+[56.255s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_bt_nodes' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_bt_nodes -- -j16 -l16
+[56.377s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_bt_nodes': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/stsl_bt_nodes
+[56.432s] -- Install configuration: ""
+[56.457s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib/libstsl_bt_nodes.so
+[57.307s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib/libstsl_bt_nodes.so" to ""
+[57.351s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/environment/library_path.sh
+[57.476s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/environment/library_path.dsv
+[57.663s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/ament_index/resource_index/package_run_dependencies/stsl_bt_nodes
+[57.882s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/ament_index/resource_index/parent_prefix_path/stsl_bt_nodes
+[58.029s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/environment/ament_prefix_path.sh
+[58.138s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/environment/ament_prefix_path.dsv
+[58.261s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/environment/path.sh
+[58.377s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/environment/path.dsv
+[58.513s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/local_setup.bash
+[58.630s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/local_setup.sh
+[58.735s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/local_setup.zsh
+[58.838s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/local_setup.dsv
+[58.939s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/package.dsv
+[59.086s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/ament_index/resource_index/packages/stsl_bt_nodes
+[59.251s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/cmake/ament_cmake_export_libraries-extras.cmake
+[59.380s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.504s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/cmake/stsl_bt_nodesConfig.cmake
+[59.611s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/cmake/stsl_bt_nodesConfig-version.cmake
+[59.725s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/share/stsl_bt_nodes/package.xml
+[59.816s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_bt_nodes' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/stsl_bt_nodes

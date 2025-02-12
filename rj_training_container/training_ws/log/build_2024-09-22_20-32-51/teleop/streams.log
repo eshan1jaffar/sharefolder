@@ -1,0 +1,11 @@
+[1.190s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/teleop -- -j16 -l16
+[1.967s] [ 25%] [32mBuilding CXX object CMakeFiles/teleop.dir/src/key_to_twist.cpp.o[0m
+[1.998s] [ 50%] [32mBuilding CXX object CMakeFiles/key_to_twist.dir/rclcpp_components/node_main_key_to_twist.cpp.o[0m
+[9.157s] [01m[K/home/ubuntu/rj_training_container/training_ws/src/trainingv2/turtlesim_project/src/teleop/src/key_to_twist.cpp:[m[K In member function ‘[01m[Kvoid key_to_twist::KeyToTwist::keyPressCallback(const String&)[m[K’:
+[9.161s] [01m[K/home/ubuntu/rj_training_container/training_ws/src/trainingv2/turtlesim_project/src/teleop/src/key_to_twist.cpp:18:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.165s]    18 | void KeyToTwist::keyPressCallback([01;35m[Kconst std_msgs::msg::String & msg[m[K)
+[9.167s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[10.924s] [ 75%] [32m[1mLinking CXX executable key_to_twist[0m
+[11.575s] [ 75%] Built target key_to_twist
+[20.308s] [100%] [32m[1mLinking CXX shared library libteleop.so[0m
+[24.602s] [100%] Built target teleop

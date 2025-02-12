@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from stsl_interfaces/action/ExecuteMission.action
+// generated code does not contain a copyright notice
+
+
+module stsl_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct ExecuteMission_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct ExecuteMission_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct ExecuteMission_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

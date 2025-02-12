@@ -1,0 +1,149 @@
+[8.060s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_interfaces -- -j16 -l16
+[47.724s] [35m[1mConsolidate compiler generated dependencies of target stsl_interfaces__rosidl_generator_c[0m
+[49.637s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[50.346s] gmake[2]: Warning: File 'CMakeFiles/stsl_interfaces__rosidl_generator_c.dir/compiler_depend.make' has modification time 4 s in the future
+[60.733s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[63.417s] [  2%] Built target ament_cmake_python_copy_stsl_interfaces
+[160.025s] [  3%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_c.dir/rosidl_generator_c/stsl_interfaces/msg/detail/mineral_deposit_array__functions.c.o[0m
+[161.408s] [  4%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_c.dir/rosidl_generator_c/stsl_interfaces/msg/detail/mineral_deposit_sample__functions.c.o[0m
+[162.188s] [  5%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_c.dir/rosidl_generator_c/stsl_interfaces/msg/detail/tag__functions.c.o[0m
+[163.380s] [  6%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_c.dir/rosidl_generator_c/stsl_interfaces/msg/detail/tag_array__functions.c.o[0m
+[168.778s] [  6%] Built target stsl_interfaces__cpp
+[175.824s] [  7%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_c.dir/rosidl_generator_c/stsl_interfaces/action/detail/park_at_peak__functions.c.o[0m
+[186.215s] [  8%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_c.dir/rosidl_generator_c/stsl_interfaces/srv/detail/reset_mineral_deposit_tracking__functions.c.o[0m
+[186.569s] [  9%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_c.dir/rosidl_generator_c/stsl_interfaces/msg/detail/mineral_deposit__functions.c.o[0m
+[191.245s] [ 10%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_c.dir/rosidl_generator_c/stsl_interfaces/action/detail/execute_mission__functions.c.o[0m
+[195.254s] [ 11%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_c.dir/rosidl_generator_c/stsl_interfaces/srv/detail/sample_elevation__functions.c.o[0m
+[204.202s] [ 12%] [32m[1mLinking C shared library libstsl_interfaces__rosidl_generator_c.so[0m
+[210.684s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[214.410s] [ 12%] Built target stsl_interfaces__rosidl_generator_c
+[222.368s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[222.411s] [ 14%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[222.439s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[222.443s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[223.845s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[223.851s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[231.051s] running egg_info
+[231.063s] writing stsl_interfaces.egg-info/PKG-INFO
+[231.085s] writing dependency_links to stsl_interfaces.egg-info/dependency_links.txt
+[231.122s] writing top-level names to stsl_interfaces.egg-info/top_level.txt
+[231.453s] reading manifest file 'stsl_interfaces.egg-info/SOURCES.txt'
+[231.863s] writing manifest file 'stsl_interfaces.egg-info/SOURCES.txt'
+[240.250s] [ 18%] Built target ament_cmake_python_build_stsl_interfaces_egg
+[243.952s] [35m[1mConsolidate compiler generated dependencies of target stsl_interfaces__rosidl_typesupport_cpp[0m
+[256.890s] [ 20%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stsl_interfaces/msg/mineral_deposit__type_support.cpp.o[0m
+[262.751s] [35m[1mConsolidate compiler generated dependencies of target stsl_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[262.833s] [ 21%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stsl_interfaces/msg/tag_array__type_support.cpp.o[0m
+[264.857s] [ 22%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stsl_interfaces/msg/tag__type_support.cpp.o[0m
+[267.009s] [ 23%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stsl_interfaces/srv/reset_mineral_deposit_tracking__type_support.cpp.o[0m
+[267.368s] gmake[2]: Warning: File 'CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.make' has modification time 2.8 s in the future
+[269.986s] [35m[1mConsolidate compiler generated dependencies of target stsl_interfaces__rosidl_typesupport_c[0m
+[272.216s] gmake[2]: Warning: File 'CMakeFiles/stsl_interfaces__rosidl_typesupport_c.dir/compiler_depend.make' has modification time 4.7 s in the future
+[274.618s] [ 24%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stsl_interfaces/msg/detail/dds_fastrtps/mineral_deposit__type_support.cpp.o[0m
+[278.109s] [ 26%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/stsl_interfaces/msg/mineral_deposit__type_support.cpp.o[0m
+[278.120s] [ 26%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stsl_interfaces/action/park_at_peak__type_support.cpp.o[0m
+[279.872s] [ 27%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stsl_interfaces/action/execute_mission__type_support.cpp.o[0m
+[280.092s] [ 28%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/stsl_interfaces/msg/mineral_deposit_array__type_support.cpp.o[0m
+[283.345s] [35m[1mConsolidate compiler generated dependencies of target stsl_interfaces__rosidl_typesupport_introspection_cpp[0m
+[286.068s] [ 29%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/stsl_interfaces/msg/mineral_deposit_sample__type_support.cpp.o[0m
+[286.874s] [ 30%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/stsl_interfaces/srv/reset_mineral_deposit_tracking__type_support.cpp.o[0m
+[287.895s] gmake[2]: Warning: File 'CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_cpp.dir/compiler_depend.make' has modification time 2.9 s in the future
+[287.990s] [ 31%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/stsl_interfaces/srv/sample_elevation__type_support.cpp.o[0m
+[289.841s] [ 32%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/stsl_interfaces/msg/tag_array__type_support.cpp.o[0m
+[290.268s] [ 33%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/stsl_interfaces/msg/tag__type_support.cpp.o[0m
+[290.746s] [ 34%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stsl_interfaces/msg/detail/dds_fastrtps/mineral_deposit_array__type_support.cpp.o[0m
+[291.679s] [ 35%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stsl_interfaces/msg/detail/dds_fastrtps/mineral_deposit_sample__type_support.cpp.o[0m
+[294.505s] [35m[1mConsolidate compiler generated dependencies of target stsl_interfaces__rosidl_typesupport_introspection_c[0m
+[294.707s] [ 36%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/stsl_interfaces/action/execute_mission__type_support.cpp.o[0m
+[294.865s] [ 37%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stsl_interfaces/srv/sample_elevation__type_support.cpp.o[0m
+[295.572s] [ 38%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stsl_interfaces/msg/detail/mineral_deposit__type_support.cpp.o[0m
+[295.768s] [ 40%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stsl_interfaces/msg/detail/mineral_deposit_array__type_support.cpp.o[0m
+[296.241s] [ 41%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stsl_interfaces/msg/mineral_deposit_sample__type_support.cpp.o[0m
+[296.995s] gmake[2]: Warning: File 'CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.make' has modification time 4.2 s in the future
+[301.772s] [35m[1mConsolidate compiler generated dependencies of target stsl_interfaces__rosidl_typesupport_fastrtps_c[0m
+[305.113s] [ 42%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stsl_interfaces/msg/detail/mineral_deposit__type_support.c.o[0m
+[306.110s] gmake[2]: Warning: File 'CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.make' has modification time 3 s in the future
+[307.086s] [ 43%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stsl_interfaces/action/detail/dds_fastrtps/execute_mission__type_support.cpp.o[0m
+[308.714s] [ 44%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stsl_interfaces/msg/detail/mineral_deposit_sample__type_support.c.o[0m
+[309.125s] [ 45%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/stsl_interfaces/action/park_at_peak__type_support.cpp.o[0m
+[309.481s] [ 46%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stsl_interfaces/srv/detail/dds_fastrtps/sample_elevation__type_support.cpp.o[0m
+[309.673s] [ 48%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stsl_interfaces/msg/mineral_deposit_array__type_support.cpp.o[0m
+[309.679s] [ 48%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stsl_interfaces/msg/detail/tag__type_support.c.o[0m
+[309.808s] [ 49%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stsl_interfaces/msg/detail/tag_array__type_support.c.o[0m
+[310.210s] [ 50%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stsl_interfaces/msg/detail/mineral_deposit_sample__type_support.cpp.o[0m
+[311.689s] [ 51%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stsl_interfaces/srv/detail/dds_fastrtps/reset_mineral_deposit_tracking__type_support.cpp.o[0m
+[312.627s] [ 52%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stsl_interfaces/srv/detail/reset_mineral_deposit_tracking__type_support.c.o[0m
+[312.991s] [ 53%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stsl_interfaces/msg/detail/mineral_deposit_array__type_support.c.o[0m
+[313.749s] [ 54%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stsl_interfaces/msg/detail/mineral_deposit__type_support_c.cpp.o[0m
+[322.220s] [ 55%] [32m[1mLinking CXX shared library libstsl_interfaces__rosidl_typesupport_c.so[0m
+[322.530s] [ 56%] [32m[1mLinking CXX shared library libstsl_interfaces__rosidl_typesupport_cpp.so[0m
+[323.240s] [ 57%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stsl_interfaces/srv/detail/sample_elevation__type_support.cpp.o[0m
+[325.100s] [ 58%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stsl_interfaces/action/detail/park_at_peak__type_support.c.o[0m
+[325.277s] [ 60%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stsl_interfaces/action/detail/dds_fastrtps/park_at_peak__type_support.cpp.o[0m
+[325.914s] [ 61%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stsl_interfaces/msg/detail/mineral_deposit_array__type_support_c.cpp.o[0m
+[326.484s] [ 62%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stsl_interfaces/msg/detail/mineral_deposit_sample__type_support_c.cpp.o[0m
+[330.778s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[337.982s] [ 62%] Built target stsl_interfaces__rosidl_typesupport_c
+[338.052s] [ 63%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stsl_interfaces/srv/detail/reset_mineral_deposit_tracking__type_support.cpp.o[0m
+[338.461s] [ 64%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stsl_interfaces/msg/detail/tag__type_support_c.cpp.o[0m
+[338.760s] [ 64%] Built target stsl_interfaces__rosidl_typesupport_cpp
+[338.786s] [ 66%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stsl_interfaces/action/detail/execute_mission__type_support.cpp.o[0m
+[338.791s] [ 66%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stsl_interfaces/action/detail/park_at_peak__type_support.cpp.o[0m
+[338.878s] [ 67%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stsl_interfaces/msg/detail/tag_array__type_support.cpp.o[0m
+[338.965s] [ 68%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stsl_interfaces/msg/detail/tag_array__type_support_c.cpp.o[0m
+[339.185s] [ 69%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stsl_interfaces/action/detail/execute_mission__type_support.c.o[0m
+[339.509s] [ 70%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stsl_interfaces/srv/detail/sample_elevation__type_support.c.o[0m
+[341.043s] [ 71%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stsl_interfaces/srv/detail/reset_mineral_deposit_tracking__type_support_c.cpp.o[0m
+[341.348s] [ 72%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stsl_interfaces/srv/detail/sample_elevation__type_support_c.cpp.o[0m
+[342.139s] [ 74%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stsl_interfaces/msg/detail/dds_fastrtps/tag__type_support.cpp.o[0m
+[342.146s] [ 74%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stsl_interfaces/msg/detail/dds_fastrtps/tag_array__type_support.cpp.o[0m
+[342.692s] [ 75%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stsl_interfaces/action/detail/execute_mission__type_support_c.cpp.o[0m
+[351.753s] [ 76%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stsl_interfaces/msg/detail/tag__type_support.cpp.o[0m
+[352.072s] [ 77%] [32mBuilding CXX object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stsl_interfaces/action/detail/park_at_peak__type_support_c.cpp.o[0m
+[352.177s] [ 78%] [32m[1mLinking C shared library libstsl_interfaces__rosidl_typesupport_introspection_c.so[0m
+[354.831s] [ 80%] [32m[1mLinking CXX shared library libstsl_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[359.951s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[361.881s] [ 81%] [32m[1mLinking CXX shared library libstsl_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[362.069s] [ 82%] [32m[1mLinking CXX shared library libstsl_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[363.258s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[364.586s] [ 82%] Built target stsl_interfaces__rosidl_typesupport_introspection_c
+[367.647s] [ 82%] Built target stsl_interfaces__rosidl_typesupport_fastrtps_cpp
+[369.255s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[369.303s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[372.743s] [ 82%] Built target stsl_interfaces__rosidl_typesupport_fastrtps_c
+[373.079s] [ 82%] Built target stsl_interfaces__rosidl_typesupport_introspection_cpp
+[382.286s] [ 82%] Built target stsl_interfaces
+[392.175s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[413.073s] [ 83%] Built target stsl_interfaces__py
+[419.339s] [35m[1mConsolidate compiler generated dependencies of target stsl_interfaces__rosidl_generator_py[0m
+[420.963s] gmake[2]: Warning: File 'CMakeFiles/stsl_interfaces__rosidl_generator_py.dir/compiler_depend.make' has modification time 5.2 s in the future
+[425.613s] [ 85%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_py.dir/rosidl_generator_py/stsl_interfaces/msg/_mineral_deposit_s.c.o[0m
+[425.617s] [ 85%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_py.dir/rosidl_generator_py/stsl_interfaces/msg/_mineral_deposit_array_s.c.o[0m
+[425.681s] [ 86%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_py.dir/rosidl_generator_py/stsl_interfaces/msg/_mineral_deposit_sample_s.c.o[0m
+[425.806s] [ 88%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_py.dir/rosidl_generator_py/stsl_interfaces/msg/_tag_s.c.o[0m
+[425.810s] [ 88%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_py.dir/rosidl_generator_py/stsl_interfaces/msg/_tag_array_s.c.o[0m
+[425.871s] [ 90%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_py.dir/rosidl_generator_py/stsl_interfaces/srv/_reset_mineral_deposit_tracking_s.c.o[0m
+[425.876s] [ 90%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_py.dir/rosidl_generator_py/stsl_interfaces/srv/_sample_elevation_s.c.o[0m
+[426.314s] [ 91%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_py.dir/rosidl_generator_py/stsl_interfaces/action/_execute_mission_s.c.o[0m
+[427.542s] [ 92%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_generator_py.dir/rosidl_generator_py/stsl_interfaces/action/_park_at_peak_s.c.o[0m
+[436.980s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/stsl_interfaces/libstsl_interfaces__rosidl_generator_py.so[0m
+[444.659s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[449.388s] [ 93%] Built target stsl_interfaces__rosidl_generator_py
+[452.746s] [35m[1mConsolidate compiler generated dependencies of target stsl_interfaces__rosidl_typesupport_c__pyext[0m
+[452.748s] [35m[1mConsolidate compiler generated dependencies of target stsl_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[453.485s] gmake[2]: Warning: File 'CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/compiler_depend.make' has modification time 6 s in the future
+[453.499s] gmake[2]: Warning: File 'CMakeFiles/stsl_interfaces__rosidl_typesupport_c__pyext.dir/compiler_depend.make' has modification time 6 s in the future
+[454.311s] [35m[1mConsolidate compiler generated dependencies of target stsl_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[455.608s] gmake[2]: Warning: File 'CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_c__pyext.dir/compiler_depend.make' has modification time 5.3 s in the future
+[456.437s] [ 94%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/stsl_interfaces/_stsl_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[456.455s] [ 95%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/stsl_interfaces/_stsl_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[460.292s] [ 96%] [32mBuilding C object CMakeFiles/stsl_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/stsl_interfaces/_stsl_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[465.581s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/stsl_interfaces/stsl_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[465.668s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/stsl_interfaces/stsl_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[470.908s] [100%] [32m[1mLinking C shared library rosidl_generator_py/stsl_interfaces/stsl_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[472.560s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[472.637s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[477.384s] [100%] Built target stsl_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[477.424s] [100%] Built target stsl_interfaces__rosidl_typesupport_c__pyext
+[478.036s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[482.402s] [100%] Built target stsl_interfaces__rosidl_typesupport_introspection_c__pyext

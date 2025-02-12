@@ -1,0 +1,6 @@
+[0.493s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/controllers -- -j16 -l16
+[1.419s] [ 25%] [32mBuilding CXX object CMakeFiles/controllers.dir/src/lqr_controller.cpp.o[0m
+[1.421s] [ 50%] [32mBuilding CXX object CMakeFiles/controllers.dir/src/pid_controller.cpp.o[0m
+[1.424s] [ 75%] [32mBuilding CXX object CMakeFiles/controllers.dir/src/test_path_generator.cpp.o[0m
+[20.743s] [100%] [32m[1mLinking CXX shared library libcontrollers.so[0m
+[24.875s] [100%] Built target controllers

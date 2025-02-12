@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target key_to_twist[0m
+[35m[1mConsolidate compiler generated dependencies of target teleop[0m
+[ 50%] Built target key_to_twist
+[100%] Built target teleop
+-- Install configuration: ""
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/lib/teleop/key_to_twist
+-- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/teleop/lib/teleop/key_to_twist" to ""
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/lib/libteleop.so
+-- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/teleop/lib/libteleop.so" to ""
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/environment/library_path.sh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/environment/library_path.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/ament_index/resource_index/package_run_dependencies/teleop
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/ament_index/resource_index/parent_prefix_path/teleop
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/environment/path.sh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/environment/path.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/local_setup.bash
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/local_setup.sh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/local_setup.zsh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/local_setup.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/package.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/ament_index/resource_index/packages/teleop
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/ament_index/resource_index/rclcpp_components/teleop
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/cmake/teleopConfig.cmake
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/cmake/teleopConfig-version.cmake
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/package.xml

@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from stsl_interfaces/srv/ResetMineralDepositTracking.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseWithCovariance.idl"
+
+module stsl_interfaces {
+  module srv {
+    struct ResetMineralDepositTracking_Request {
+      int32 id;
+
+      geometry_msgs::msg::PoseWithCovariance pose;
+    };
+    struct ResetMineralDepositTracking_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

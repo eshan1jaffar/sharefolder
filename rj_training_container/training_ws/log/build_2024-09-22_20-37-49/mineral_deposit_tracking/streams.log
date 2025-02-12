@@ -1,0 +1,63 @@
+[0.355s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/software-training-old/mineral_deposit_tracking -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking
+[0.676s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.604s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.677s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.682s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.692s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.724s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.760s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.835s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.847s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.930s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.015s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.127s] -- Found stsl_interfaces: 0.1.0 (/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/share/stsl_interfaces/cmake)
+[4.338s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.437s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.513s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.989s] -- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)
+[5.149s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.099s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.446s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.448s] -- Configured cppcheck include dirs: 
+[7.450s] -- Configured cppcheck exclude dirs and/or files: 
+[7.826s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.829s] -- Configured cpplint exclude dirs and/or files: 
+[7.980s] -- Added test 'lint_cmake' to check CMake code style
+[8.417s] -- Added test 'uncrustify' to check C / C++ code style
+[8.420s] -- Configured uncrustify additional arguments: 
+[8.479s] -- Added test 'xmllint' to check XML markup files
+[8.843s] -- Configuring done
+[10.371s] -- Generating done
+[10.627s] -- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking
+[10.642s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/software-training-old/mineral_deposit_tracking -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking
+[10.668s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking -- -j16 -l16
+[11.609s] [ 25%] [32mBuilding CXX object CMakeFiles/mineral_deposit_tracker.dir/rclcpp_components/node_main_mineral_deposit_tracker.cpp.o[0m
+[11.627s] [ 50%] [32mBuilding CXX object CMakeFiles/mineral_deposit_tracking.dir/src/mineral_deposit_tracker.cpp.o[0m
+[17.958s] [ 75%] [32m[1mLinking CXX executable mineral_deposit_tracker[0m
+[19.546s] [ 75%] Built target mineral_deposit_tracker
+[41.383s] [100%] [32m[1mLinking CXX shared library libmineral_deposit_tracking.so[0m
+[51.973s] [100%] Built target mineral_deposit_tracking
+[52.108s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking -- -j16 -l16
+[52.236s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking
+[52.300s] -- Install configuration: ""
+[52.347s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib/mineral_deposit_tracking/mineral_deposit_tracker
+[52.701s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib/mineral_deposit_tracking/mineral_deposit_tracker" to ""
+[52.744s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib/libmineral_deposit_tracking.so
+[54.284s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib/libmineral_deposit_tracking.so" to ""
+[54.372s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/share/ament_index/resource_index/package_run_dependencies/mineral_deposit_tracking
+[54.649s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/share/ament_index/resource_index/parent_prefix_path/mineral_deposit_tracking
+[54.872s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.sh
+[55.012s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/ament_prefix_path.dsv
+[55.188s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.sh
+[55.338s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/share/mineral_deposit_tracking/environment/path.dsv
+[55.513s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.bash
+[55.644s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.sh
+[55.774s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.zsh
+[55.898s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/share/mineral_deposit_tracking/local_setup.dsv
+[56.025s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.dsv
+[56.217s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/share/ament_index/resource_index/packages/mineral_deposit_tracking
+[56.479s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/share/ament_index/resource_index/rclcpp_components/mineral_deposit_tracking
+[56.703s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig.cmake
+[56.840s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/share/mineral_deposit_tracking/cmake/mineral_deposit_trackingConfig-version.cmake
+[56.995s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/share/mineral_deposit_tracking/package.xml
+[57.109s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_tracking

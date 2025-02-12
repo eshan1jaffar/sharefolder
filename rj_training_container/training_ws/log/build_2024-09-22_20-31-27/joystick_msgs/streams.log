@@ -1,0 +1,49 @@
+[0.324s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/joystick_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/trainingv2/controller_project/joystick_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs
+[1.117s] -- The C compiler identification is GNU 11.4.0
+[1.494s] -- The CXX compiler identification is GNU 11.4.0
+[1.707s] -- Detecting C compiler ABI info
+[3.686s] -- Detecting C compiler ABI info - done
+[3.789s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.792s] -- Detecting C compile features
+[3.797s] -- Detecting C compile features - done
+[4.025s] -- Detecting CXX compiler ABI info
+[6.007s] -- Detecting CXX compiler ABI info - done
+[6.108s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.116s] -- Detecting CXX compile features
+[6.127s] -- Detecting CXX compile features - done
+[6.354s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.639s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.145s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[7.309s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.324s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.347s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.389s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.437s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.569s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.575s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.812s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.895s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.010s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.119s] -- Looking for pthread.h
+[9.774s] -- Looking for pthread.h - found
+[9.816s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.581s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.603s] -- Found Threads: TRUE  
+[11.734s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[11.759s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[14.020s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[18.713s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[19.891s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.934s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[19.938s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[19.978s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[19.980s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[19.981s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[19.983s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[20.023s] -- Found PythonExtra: .so  
+[20.766s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[21.639s] -- Added test 'lint_cmake' to check CMake code style
+[22.050s] -- Added test 'xmllint' to check XML markup files
+[22.584s] -- Configuring done
+[24.858s] -- Generating done
+[25.167s] -- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/joystick_msgs

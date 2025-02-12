@@ -1,0 +1,28 @@
+[0.460s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/astar_path_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/astar_path_planner -- -j16 -l16
+[1.609s] [35m[1mConsolidate compiler generated dependencies of target astar_path_planner[0m
+[6.385s] [100%] Built target astar_path_planner
+[6.540s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/astar_path_planner -- -j16 -l16
+[6.688s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/astar_path_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/astar_path_planner
+[10.291s] -- Install configuration: ""
+[10.296s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/lib/libastar_path_planner.so
+[10.299s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/lib/libastar_path_planner.so" to ""
+[10.304s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/astar_path_planner/astar_path_planner_libraries.xml
+[10.310s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/ament_index/resource_index/package_run_dependencies/astar_path_planner
+[10.314s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/ament_index/resource_index/parent_prefix_path/astar_path_planner
+[10.318s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.sh
+[10.322s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.dsv
+[10.327s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/astar_path_planner/environment/path.sh
+[10.330s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/astar_path_planner/environment/path.dsv
+[10.334s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/astar_path_planner/local_setup.bash
+[10.338s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/astar_path_planner/local_setup.sh
+[10.469s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/astar_path_planner/local_setup.zsh
+[10.728s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/astar_path_planner/local_setup.dsv
+[10.981s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/astar_path_planner/package.dsv
+[11.354s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/ament_index/resource_index/packages/astar_path_planner
+[11.854s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/astar_path_planner
+[12.223s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/astar_path_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.466s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/astar_path_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.750s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig.cmake
+[13.028s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig-version.cmake
+[13.264s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/share/astar_path_planner/package.xml
+[14.806s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/astar_path_planner

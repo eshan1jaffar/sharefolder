@@ -1,0 +1,59 @@
+[0.395s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/traini_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/stsl/traini_description -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/traini_description
+[1.659s] -- The C compiler identification is GNU 11.4.0
+[1.748s] -- The CXX compiler identification is GNU 11.4.0
+[2.093s] -- Detecting C compiler ABI info
+[4.642s] -- Detecting C compiler ABI info - done
+[4.754s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.758s] -- Detecting C compile features
+[4.763s] -- Detecting C compile features - done
+[5.021s] -- Detecting CXX compiler ABI info
+[7.282s] -- Detecting CXX compiler ABI info - done
+[7.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.388s] -- Detecting CXX compile features
+[7.393s] -- Detecting CXX compile features - done
+[7.624s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.921s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.436s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[8.439s] -- xacro: determining deps for: urdf/traini.urdf.xacro ...
+[8.654s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.970s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.943s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.256s] -- Added test 'lint_cmake' to check CMake code style
+[14.420s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[15.611s] -- Added test 'xmllint' to check XML markup files
+[15.865s] -- Configuring done
+[16.616s] -- Generating done
+[16.796s] -- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/traini_description
+[19.808s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/traini_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/stsl/traini_description -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/traini_description
+[19.816s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/traini_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/traini_description -- -j16 -l16
+[20.215s] [100%] [34m[1mxacro: generating urdf/traini.urdf from urdf/traini.urdf.xacro[0m
+[20.412s] [100%] Built target traini_description_urdf_generation
+[20.618s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/traini_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/traini_description -- -j16 -l16
+[20.702s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/traini_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/traini_description
+[20.723s] -- Install configuration: ""
+[20.761s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/urdf/traini.urdf
+[20.893s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/launch
+[20.963s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/launch/display.launch.py
+[21.153s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/launch/robot_state_publisher.launch.py
+[21.317s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/urdf
+[21.379s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/urdf/traini.urdf.xacro
+[21.535s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/rviz
+[21.597s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/rviz/urdf.rviz
+[21.754s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/meshes
+[21.814s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/meshes/Trainiii.dae
+[22.095s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/ament_index/resource_index/package_run_dependencies/traini_description
+[22.339s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/ament_index/resource_index/parent_prefix_path/traini_description
+[22.550s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/environment/ament_prefix_path.sh
+[22.682s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/environment/ament_prefix_path.dsv
+[22.835s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/environment/path.sh
+[23.013s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/environment/path.dsv
+[23.142s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/local_setup.bash
+[23.242s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/local_setup.sh
+[23.349s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/local_setup.zsh
+[23.458s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/local_setup.dsv
+[23.590s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/package.dsv
+[23.767s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/ament_index/resource_index/packages/traini_description
+[23.979s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/cmake/traini_descriptionConfig.cmake
+[24.121s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/cmake/traini_descriptionConfig-version.cmake
+[24.266s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_description/share/traini_description/package.xml
+[24.378s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/traini_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/traini_description

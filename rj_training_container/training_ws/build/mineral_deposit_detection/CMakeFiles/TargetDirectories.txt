@@ -1,0 +1,11 @@
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_detection/CMakeFiles/uninstall.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_detection/CMakeFiles/mineral_deposit_detection_uninstall.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_detection/CMakeFiles/mineral_deposit_detection.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_detection/CMakeFiles/mineral_deposit_detector.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_detection/CMakeFiles/test.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_detection/CMakeFiles/edit_cache.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_detection/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_detection/CMakeFiles/list_install_components.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_detection/CMakeFiles/install.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_detection/CMakeFiles/install/local.dir
+/home/ubuntu/rj_training_container/training_ws/build/mineral_deposit_detection/CMakeFiles/install/strip.dir

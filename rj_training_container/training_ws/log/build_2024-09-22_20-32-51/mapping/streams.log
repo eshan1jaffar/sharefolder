@@ -1,0 +1,7 @@
+[0.949s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/mapping -- -j16 -l16
+[1.549s] [ 50%] [32mBuilding CXX object CMakeFiles/mapping_node.dir/rclcpp_components/node_main_mapping_node.cpp.o[0m
+[1.558s] [ 50%] [32mBuilding CXX object CMakeFiles/mapping.dir/src/mapping_node.cpp.o[0m
+[8.686s] [ 75%] [32m[1mLinking CXX executable mapping_node[0m
+[9.728s] [ 75%] Built target mapping_node
+[11.204s] [100%] [32m[1mLinking CXX shared library libmapping.so[0m
+[12.842s] [100%] Built target mapping

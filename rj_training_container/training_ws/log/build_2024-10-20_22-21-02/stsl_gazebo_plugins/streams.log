@@ -1,0 +1,5 @@
+[5.017s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins -- -j16 -l16
+[30.329s] [ 33%] Built target RosNoisyPlanarOdomPlugin
+[30.724s] [ 66%] Built target RosLightControlPlugin
+[30.796s] [100%] Built target HideLightVisualsPlugin
+[35.924s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins -- -j16 -l16

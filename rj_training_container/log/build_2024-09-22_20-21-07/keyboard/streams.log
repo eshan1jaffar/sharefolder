@@ -1,0 +1,36 @@
+[3.870s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/src/trainingv2/turtlesim_project/src/keyboard': PYTHONPATH=/home/ubuntu/rj_training_container/build/keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/rj_training_container/install/keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../../build/keyboard build --build-base /home/ubuntu/rj_training_container/build/keyboard/build install --record /home/ubuntu/rj_training_container/build/keyboard/install.log --single-version-externally-managed install_data
+[14.983s] running egg_info
+[14.985s] creating ../../../../../../build/keyboard/keyboard.egg-info
+[14.988s] writing ../../../../../../build/keyboard/keyboard.egg-info/PKG-INFO
+[14.990s] writing dependency_links to ../../../../../../build/keyboard/keyboard.egg-info/dependency_links.txt
+[14.992s] writing entry points to ../../../../../../build/keyboard/keyboard.egg-info/entry_points.txt
+[14.995s] writing requirements to ../../../../../../build/keyboard/keyboard.egg-info/requires.txt
+[14.997s] writing top-level names to ../../../../../../build/keyboard/keyboard.egg-info/top_level.txt
+[14.999s] writing manifest file '../../../../../../build/keyboard/keyboard.egg-info/SOURCES.txt'
+[15.001s] reading manifest file '../../../../../../build/keyboard/keyboard.egg-info/SOURCES.txt'
+[15.003s] writing manifest file '../../../../../../build/keyboard/keyboard.egg-info/SOURCES.txt'
+[15.005s] running build
+[15.008s] running build_py
+[15.010s] creating /home/ubuntu/rj_training_container/build/keyboard/build
+[15.012s] creating /home/ubuntu/rj_training_container/build/keyboard/build/lib
+[15.014s] creating /home/ubuntu/rj_training_container/build/keyboard/build/lib/keyboard
+[15.016s] copying keyboard/listen.py -> /home/ubuntu/rj_training_container/build/keyboard/build/lib/keyboard
+[15.019s] copying keyboard/__init__.py -> /home/ubuntu/rj_training_container/build/keyboard/build/lib/keyboard
+[15.021s] running install
+[15.023s] running install_lib
+[15.026s] creating /home/ubuntu/rj_training_container/install/keyboard/lib/python3.10/site-packages/keyboard
+[15.028s] copying /home/ubuntu/rj_training_container/build/keyboard/build/lib/keyboard/listen.py -> /home/ubuntu/rj_training_container/install/keyboard/lib/python3.10/site-packages/keyboard
+[15.030s] copying /home/ubuntu/rj_training_container/build/keyboard/build/lib/keyboard/__init__.py -> /home/ubuntu/rj_training_container/install/keyboard/lib/python3.10/site-packages/keyboard
+[15.032s] byte-compiling /home/ubuntu/rj_training_container/install/keyboard/lib/python3.10/site-packages/keyboard/listen.py to listen.cpython-310.pyc
+[15.034s] byte-compiling /home/ubuntu/rj_training_container/install/keyboard/lib/python3.10/site-packages/keyboard/__init__.py to __init__.cpython-310.pyc
+[15.036s] running install_data
+[15.039s] creating /home/ubuntu/rj_training_container/install/keyboard/share/ament_index
+[15.042s] creating /home/ubuntu/rj_training_container/install/keyboard/share/ament_index/resource_index
+[15.044s] creating /home/ubuntu/rj_training_container/install/keyboard/share/ament_index/resource_index/packages
+[15.047s] copying resource/keyboard -> /home/ubuntu/rj_training_container/install/keyboard/share/ament_index/resource_index/packages
+[15.048s] copying package.xml -> /home/ubuntu/rj_training_container/install/keyboard/share/keyboard
+[15.051s] running install_egg_info
+[15.054s] Copying ../../../../../../build/keyboard/keyboard.egg-info to /home/ubuntu/rj_training_container/install/keyboard/lib/python3.10/site-packages/keyboard-0.0.0-py3.10.egg-info
+[15.056s] running install_scripts
+[15.058s] Installing keystroke_listen script to /home/ubuntu/rj_training_container/install/keyboard/lib/keyboard
+[15.060s] writing list of installed files to '/home/ubuntu/rj_training_container/build/keyboard/install.log'

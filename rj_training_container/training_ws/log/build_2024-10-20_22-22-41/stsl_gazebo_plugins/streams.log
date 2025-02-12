@@ -1,0 +1,30 @@
+[5.242s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins -- -j16 -l16
+[31.005s] [ 33%] Built target HideLightVisualsPlugin
+[31.707s] [ 66%] Built target RosLightControlPlugin
+[31.789s] [100%] Built target RosNoisyPlanarOdomPlugin
+[36.235s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins -- -j16 -l16
+[74.010s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins
+[77.242s] -- Install configuration: ""
+[77.352s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/lib/libRosLightControlPlugin.so
+[77.583s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/lib/libRosNoisyPlanarOdomPlugin.so
+[77.779s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/lib/libHideLightVisualsPlugin.so
+[77.828s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/stsl_gazebo_plugins//worlds
+[77.917s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/stsl_gazebo_plugins//worlds/ros_light_control_demo_world.sdf
+[77.969s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/stsl_gazebo_plugins//launch
+[78.058s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/stsl_gazebo_plugins//launch/ros_light_control_demo.launch.py
+[78.155s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/stsl_gazebo_plugins
+[78.252s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/stsl_gazebo_plugins
+[78.291s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/stsl_gazebo_plugins/environment/ament_prefix_path.sh
+[78.346s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/stsl_gazebo_plugins/environment/ament_prefix_path.dsv
+[78.386s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/stsl_gazebo_plugins/environment/path.sh
+[78.445s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/stsl_gazebo_plugins/environment/path.dsv
+[78.496s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/stsl_gazebo_plugins/local_setup.bash
+[78.546s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/stsl_gazebo_plugins/local_setup.sh
+[78.585s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/stsl_gazebo_plugins/local_setup.zsh
+[78.631s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/stsl_gazebo_plugins/local_setup.dsv
+[78.674s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/stsl_gazebo_plugins/package.dsv
+[78.827s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/ament_index/resource_index/packages/stsl_gazebo_plugins
+[78.880s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/stsl_gazebo_plugins/cmake/stsl_gazebo_pluginsConfig.cmake
+[78.921s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/stsl_gazebo_plugins/cmake/stsl_gazebo_pluginsConfig-version.cmake
+[78.993s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/share/stsl_gazebo_plugins/package.xml
+[79.509s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins

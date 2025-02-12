@@ -1,0 +1,34 @@
+[0.613s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_utils -- -j16 -l16
+[2.104s] [35m[1mConsolidate compiler generated dependencies of target floor_mat_visualizer[0m
+[2.109s] [35m[1mConsolidate compiler generated dependencies of target keyboard_teleop[0m
+[2.114s] [35m[1mConsolidate compiler generated dependencies of target stsl_utils[0m
+[4.136s] [ 57%] Built target floor_mat_visualizer
+[4.159s] [ 57%] Built target keyboard_teleop
+[5.340s] [100%] Built target stsl_utils
+[5.629s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_utils -- -j16 -l16
+[5.829s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/stsl_utils
+[8.129s] -- Install configuration: ""
+[8.134s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib/stsl_utils/keyboard_teleop
+[8.138s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib/stsl_utils/floor_mat_visualizer
+[8.143s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib/libstsl_utils.so
+[8.147s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/visualization_meshes
+[8.151s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/visualization_meshes/floor_mat
+[8.156s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/visualization_meshes/floor_mat/floor_mat.dae
+[8.160s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/visualization_meshes/floor_mat/floor_mat.png
+[8.169s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/ament_index/resource_index/package_run_dependencies/stsl_utils
+[8.306s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/ament_index/resource_index/parent_prefix_path/stsl_utils
+[8.381s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/environment/ament_prefix_path.sh
+[8.471s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/environment/ament_prefix_path.dsv
+[8.531s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/environment/path.sh
+[8.616s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/environment/path.dsv
+[8.695s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/local_setup.bash
+[8.774s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/local_setup.sh
+[8.842s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/local_setup.zsh
+[8.909s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/local_setup.dsv
+[8.977s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/package.dsv
+[9.240s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/ament_index/resource_index/packages/stsl_utils
+[9.377s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/ament_index/resource_index/rclcpp_components/stsl_utils
+[9.456s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/cmake/stsl_utilsConfig.cmake
+[9.515s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/cmake/stsl_utilsConfig-version.cmake
+[9.591s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_utils/share/stsl_utils/package.xml
+[11.131s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/stsl_utils

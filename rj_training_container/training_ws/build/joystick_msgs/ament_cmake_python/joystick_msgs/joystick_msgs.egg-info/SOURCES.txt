@@ -1,0 +1,8 @@
+setup.py
+joystick_msgs/__init__.py
+joystick_msgs.egg-info/PKG-INFO
+joystick_msgs.egg-info/SOURCES.txt
+joystick_msgs.egg-info/dependency_links.txt
+joystick_msgs.egg-info/top_level.txt
+joystick_msgs/msg/__init__.py
+joystick_msgs/msg/_velocity_pair.py

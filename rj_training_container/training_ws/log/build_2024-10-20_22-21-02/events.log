@@ -1,0 +1,743 @@
+[0.000000] (-) TimerEvent: {}
+[0.000752] (astar_path_planner) JobQueued: {'identifier': 'astar_path_planner', 'dependencies': OrderedDict()}
+[0.001067] (controllers) JobQueued: {'identifier': 'controllers', 'dependencies': OrderedDict()}
+[0.001337] (joystick_msgs) JobQueued: {'identifier': 'joystick_msgs', 'dependencies': OrderedDict()}
+[0.001565] (keyboard) JobQueued: {'identifier': 'keyboard', 'dependencies': OrderedDict()}
+[0.001752] (mapping) JobQueued: {'identifier': 'mapping', 'dependencies': OrderedDict()}
+[0.001968] (obstacle_detector) JobQueued: {'identifier': 'obstacle_detector', 'dependencies': OrderedDict()}
+[0.007900] (rj_training_bringup) JobQueued: {'identifier': 'rj_training_bringup', 'dependencies': OrderedDict()}
+[0.008100] (stsl_gazebo_plugins) JobQueued: {'identifier': 'stsl_gazebo_plugins', 'dependencies': OrderedDict()}
+[0.008265] (stsl_interfaces) JobQueued: {'identifier': 'stsl_interfaces', 'dependencies': OrderedDict()}
+[0.008440] (stsl_nav_plugins) JobQueued: {'identifier': 'stsl_nav_plugins', 'dependencies': OrderedDict()}
+[0.008753] (stsl_utils) JobQueued: {'identifier': 'stsl_utils', 'dependencies': OrderedDict()}
+[0.009041] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.009441] (traini_description) JobQueued: {'identifier': 'traini_description', 'dependencies': OrderedDict()}
+[0.009715] (coordinate_transform) JobQueued: {'identifier': 'coordinate_transform', 'dependencies': OrderedDict([('stsl_interfaces', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces')])}
+[0.010091] (elevation_server) JobQueued: {'identifier': 'elevation_server', 'dependencies': OrderedDict([('stsl_interfaces', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces')])}
+[0.010539] (joystick_package) JobQueued: {'identifier': 'joystick_package', 'dependencies': OrderedDict([('joystick_msgs', '/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs')])}
+[0.010760] (localization) JobQueued: {'identifier': 'localization', 'dependencies': OrderedDict([('stsl_interfaces', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces')])}
+[0.010968] (mineral_deposit_detection) JobQueued: {'identifier': 'mineral_deposit_detection', 'dependencies': OrderedDict([('stsl_interfaces', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces')])}
+[0.011191] (mineral_deposit_tracking) JobQueued: {'identifier': 'mineral_deposit_tracking', 'dependencies': OrderedDict([('stsl_interfaces', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces')])}
+[0.011450] (peak_finder) JobQueued: {'identifier': 'peak_finder', 'dependencies': OrderedDict([('stsl_interfaces', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces')])}
+[0.011699] (stsl_aruco_tags) JobQueued: {'identifier': 'stsl_aruco_tags', 'dependencies': OrderedDict([('stsl_interfaces', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces')])}
+[0.011959] (stsl_bt_nodes) JobQueued: {'identifier': 'stsl_bt_nodes', 'dependencies': OrderedDict([('stsl_interfaces', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces')])}
+[0.012216] (stsl_rviz_plugins) JobQueued: {'identifier': 'stsl_rviz_plugins', 'dependencies': OrderedDict([('stsl_interfaces', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces')])}
+[0.012406] (mission_orchestration) JobQueued: {'identifier': 'mission_orchestration', 'dependencies': OrderedDict([('stsl_interfaces', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces'), ('stsl_bt_nodes', '/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes')])}
+[0.012602] (traini_gazebo) JobQueued: {'identifier': 'traini_gazebo', 'dependencies': OrderedDict([('stsl_gazebo_plugins', '/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins'), ('stsl_interfaces', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces'), ('stsl_aruco_tags', '/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags')])}
+[0.012801] (traini_bringup) JobQueued: {'identifier': 'traini_bringup', 'dependencies': OrderedDict([('stsl_gazebo_plugins', '/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins'), ('stsl_interfaces', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces'), ('traini_description', '/home/ubuntu/rj_training_container/training_ws/install/traini_description'), ('stsl_aruco_tags', '/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags'), ('traini_gazebo', '/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo')])}
+[0.013007] (stsl_desktop) JobQueued: {'identifier': 'stsl_desktop', 'dependencies': OrderedDict([('stsl_gazebo_plugins', '/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins'), ('stsl_interfaces', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces'), ('stsl_nav_plugins', '/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins'), ('stsl_utils', '/home/ubuntu/rj_training_container/training_ws/install/stsl_utils'), ('traini_description', '/home/ubuntu/rj_training_container/training_ws/install/traini_description'), ('elevation_server', '/home/ubuntu/rj_training_container/training_ws/install/elevation_server'), ('mineral_deposit_detection', '/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection'), ('stsl_aruco_tags', '/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags'), ('stsl_bt_nodes', '/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes'), ('stsl_rviz_plugins', '/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins'), ('mission_orchestration', '/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration'), ('traini_gazebo', '/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo'), ('traini_bringup', '/home/ubuntu/rj_training_container/training_ws/install/traini_bringup')])}
+[0.013212] (stsl_interfaces) JobStarted: {'identifier': 'stsl_interfaces'}
+[0.098275] (-) TimerEvent: {}
+[0.198785] (-) TimerEvent: {}
+[0.299397] (-) TimerEvent: {}
+[0.400046] (-) TimerEvent: {}
+[0.427394] (stsl_gazebo_plugins) JobStarted: {'identifier': 'stsl_gazebo_plugins'}
+[0.500155] (-) TimerEvent: {}
+[0.600688] (-) TimerEvent: {}
+[0.701358] (-) TimerEvent: {}
+[0.739026] (traini_description) JobStarted: {'identifier': 'traini_description'}
+[0.801535] (-) TimerEvent: {}
+[0.902119] (-) TimerEvent: {}
+[1.002798] (-) TimerEvent: {}
+[1.074497] (joystick_msgs) JobStarted: {'identifier': 'joystick_msgs'}
+[1.102920] (-) TimerEvent: {}
+[1.203566] (-) TimerEvent: {}
+[1.304272] (-) TimerEvent: {}
+[1.404876] (-) TimerEvent: {}
+[1.450905] (stsl_nav_plugins) JobStarted: {'identifier': 'stsl_nav_plugins'}
+[1.505050] (-) TimerEvent: {}
+[1.605795] (-) TimerEvent: {}
+[1.706384] (-) TimerEvent: {}
+[1.806933] (-) TimerEvent: {}
+[1.862856] (stsl_utils) JobStarted: {'identifier': 'stsl_utils'}
+[1.907088] (-) TimerEvent: {}
+[2.007844] (-) TimerEvent: {}
+[2.108868] (-) TimerEvent: {}
+[2.211931] (-) TimerEvent: {}
+[2.289056] (astar_path_planner) JobStarted: {'identifier': 'astar_path_planner'}
+[2.312039] (-) TimerEvent: {}
+[2.412895] (-) TimerEvent: {}
+[2.513751] (-) TimerEvent: {}
+[2.614582] (-) TimerEvent: {}
+[2.698403] (controllers) JobStarted: {'identifier': 'controllers'}
+[2.714705] (-) TimerEvent: {}
+[2.815431] (-) TimerEvent: {}
+[2.916054] (-) TimerEvent: {}
+[3.016787] (-) TimerEvent: {}
+[3.109392] (keyboard) JobStarted: {'identifier': 'keyboard'}
+[3.116895] (-) TimerEvent: {}
+[3.217748] (-) TimerEvent: {}
+[3.318693] (-) TimerEvent: {}
+[3.419317] (-) TimerEvent: {}
+[3.520039] (-) TimerEvent: {}
+[3.566912] (mapping) JobStarted: {'identifier': 'mapping'}
+[3.620236] (-) TimerEvent: {}
+[3.720910] (-) TimerEvent: {}
+[3.821796] (-) TimerEvent: {}
+[3.922350] (-) TimerEvent: {}
+[3.981704] (obstacle_detector) JobStarted: {'identifier': 'obstacle_detector'}
+[4.022494] (-) TimerEvent: {}
+[4.123294] (-) TimerEvent: {}
+[4.224089] (-) TimerEvent: {}
+[4.324874] (-) TimerEvent: {}
+[4.419477] (rj_training_bringup) JobStarted: {'identifier': 'rj_training_bringup'}
+[4.424995] (-) TimerEvent: {}
+[4.525832] (-) TimerEvent: {}
+[4.626586] (-) TimerEvent: {}
+[4.727347] (-) TimerEvent: {}
+[4.827991] (-) TimerEvent: {}
+[4.846244] (teleop) JobStarted: {'identifier': 'teleop'}
+[4.928146] (-) TimerEvent: {}
+[5.029375] (-) TimerEvent: {}
+[5.130317] (-) TimerEvent: {}
+[5.231331] (-) TimerEvent: {}
+[5.286146] (stsl_interfaces) JobProgress: {'identifier': 'stsl_interfaces', 'progress': 'cmake'}
+[5.309369] (stsl_interfaces) JobProgress: {'identifier': 'stsl_interfaces', 'progress': 'build'}
+[5.315886] (stsl_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/rj_training_container/training_ws/build/stsl_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/stsl_interfaces', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/rj_training_container/training_ws/install/teleop/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib:/home/ubuntu/rj_training_container/training_ws/install/peak_finder/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/lib:/home/ubuntu/rj_training_container/training_ws/install/localization/lib:/home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/lib:/home/ubuntu/rj_training_container/training_ws/install/mapping/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:/home/ubuntu/rj_training_container/training_ws/install/controllers/lib:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-7FBcy9J9gt,guid=ae60ef4fc45e07bc9328976c671564c4'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15329'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-OJP9V2'), ('COLCON_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-OJP9V2/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:780e6e6f-a1dc-4924-bd0e-cba082c2326f'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/stsl_interfaces'), ('PYTHONPATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[5.338382] (-) TimerEvent: {}
+[5.387012] (stsl_gazebo_plugins) JobProgress: {'identifier': 'stsl_gazebo_plugins', 'progress': 'cmake'}
+[5.417084] (stsl_gazebo_plugins) JobProgress: {'identifier': 'stsl_gazebo_plugins', 'progress': 'build'}
+[5.424070] (stsl_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/rj_training_container/training_ws/install/teleop/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib:/home/ubuntu/rj_training_container/training_ws/install/peak_finder/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/lib:/home/ubuntu/rj_training_container/training_ws/install/localization/lib:/home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/lib:/home/ubuntu/rj_training_container/training_ws/install/mapping/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:/home/ubuntu/rj_training_container/training_ws/install/controllers/lib:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-7FBcy9J9gt,guid=ae60ef4fc45e07bc9328976c671564c4'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15329'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-OJP9V2'), ('COLCON_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-OJP9V2/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:780e6e6f-a1dc-4924-bd0e-cba082c2326f'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/stsl_gazebo_plugins'), ('PYTHONPATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[5.446163] (-) TimerEvent: {}
+[5.462692] (traini_description) JobProgress: {'identifier': 'traini_description', 'progress': 'cmake'}
+[5.492620] (traini_description) JobProgress: {'identifier': 'traini_description', 'progress': 'build'}
+[5.501223] (traini_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/rj_training_container/training_ws/build/traini_description', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/traini_description', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/rj_training_container/training_ws/install/teleop/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib:/home/ubuntu/rj_training_container/training_ws/install/peak_finder/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/lib:/home/ubuntu/rj_training_container/training_ws/install/localization/lib:/home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/lib:/home/ubuntu/rj_training_container/training_ws/install/mapping/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:/home/ubuntu/rj_training_container/training_ws/install/controllers/lib:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-7FBcy9J9gt,guid=ae60ef4fc45e07bc9328976c671564c4'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15329'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-OJP9V2'), ('COLCON_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-OJP9V2/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:780e6e6f-a1dc-4924-bd0e-cba082c2326f'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/traini_description'), ('PYTHONPATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[5.541296] (joystick_msgs) JobProgress: {'identifier': 'joystick_msgs', 'progress': 'cmake'}
+[5.546286] (-) TimerEvent: {}
+[5.573205] (joystick_msgs) JobProgress: {'identifier': 'joystick_msgs', 'progress': 'build'}
+[5.580379] (joystick_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/rj_training_container/training_ws/build/joystick_msgs', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/joystick_msgs', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/rj_training_container/training_ws/install/teleop/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib:/home/ubuntu/rj_training_container/training_ws/install/peak_finder/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/lib:/home/ubuntu/rj_training_container/training_ws/install/localization/lib:/home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/lib:/home/ubuntu/rj_training_container/training_ws/install/mapping/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:/home/ubuntu/rj_training_container/training_ws/install/controllers/lib:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-7FBcy9J9gt,guid=ae60ef4fc45e07bc9328976c671564c4'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15329'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-OJP9V2'), ('COLCON_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-OJP9V2/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:780e6e6f-a1dc-4924-bd0e-cba082c2326f'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/joystick_msgs'), ('PYTHONPATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[5.622318] (stsl_nav_plugins) JobProgress: {'identifier': 'stsl_nav_plugins', 'progress': 'cmake'}
+[5.646456] (-) TimerEvent: {}
+[5.658308] (stsl_nav_plugins) JobProgress: {'identifier': 'stsl_nav_plugins', 'progress': 'build'}
+[5.666609] (stsl_nav_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/rj_training_container/training_ws/install/teleop/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib:/home/ubuntu/rj_training_container/training_ws/install/peak_finder/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/lib:/home/ubuntu/rj_training_container/training_ws/install/localization/lib:/home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/lib:/home/ubuntu/rj_training_container/training_ws/install/mapping/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:/home/ubuntu/rj_training_container/training_ws/install/controllers/lib:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-7FBcy9J9gt,guid=ae60ef4fc45e07bc9328976c671564c4'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15329'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-OJP9V2'), ('COLCON_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-OJP9V2/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:780e6e6f-a1dc-4924-bd0e-cba082c2326f'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins'), ('PYTHONPATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[5.716159] (stsl_utils) JobProgress: {'identifier': 'stsl_utils', 'progress': 'cmake'}
+[5.746566] (-) TimerEvent: {}
+[5.755046] (stsl_utils) JobProgress: {'identifier': 'stsl_utils', 'progress': 'build'}
+[5.764147] (stsl_utils) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/rj_training_container/training_ws/build/stsl_utils', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/stsl_utils', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/rj_training_container/training_ws/install/teleop/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib:/home/ubuntu/rj_training_container/training_ws/install/peak_finder/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/lib:/home/ubuntu/rj_training_container/training_ws/install/localization/lib:/home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/lib:/home/ubuntu/rj_training_container/training_ws/install/mapping/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:/home/ubuntu/rj_training_container/training_ws/install/controllers/lib:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-7FBcy9J9gt,guid=ae60ef4fc45e07bc9328976c671564c4'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15329'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-OJP9V2'), ('COLCON_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-OJP9V2/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:780e6e6f-a1dc-4924-bd0e-cba082c2326f'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/stsl_utils'), ('PYTHONPATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[5.814221] (astar_path_planner) JobProgress: {'identifier': 'astar_path_planner', 'progress': 'cmake'}
+[5.846705] (-) TimerEvent: {}
+[5.858910] (astar_path_planner) JobProgress: {'identifier': 'astar_path_planner', 'progress': 'build'}
+[5.871609] (astar_path_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/rj_training_container/training_ws/build/astar_path_planner', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/astar_path_planner', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/rj_training_container/training_ws/install/teleop/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib:/home/ubuntu/rj_training_container/training_ws/install/peak_finder/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/lib:/home/ubuntu/rj_training_container/training_ws/install/localization/lib:/home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/lib:/home/ubuntu/rj_training_container/training_ws/install/mapping/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:/home/ubuntu/rj_training_container/training_ws/install/controllers/lib:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-7FBcy9J9gt,guid=ae60ef4fc45e07bc9328976c671564c4'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15329'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-OJP9V2'), ('COLCON_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-OJP9V2/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:780e6e6f-a1dc-4924-bd0e-cba082c2326f'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/astar_path_planner'), ('PYTHONPATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[5.920083] (controllers) JobProgress: {'identifier': 'controllers', 'progress': 'cmake'}
+[5.946825] (-) TimerEvent: {}
+[5.969059] (controllers) JobProgress: {'identifier': 'controllers', 'progress': 'build'}
+[5.982264] (controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/rj_training_container/training_ws/build/controllers', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/controllers', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/rj_training_container/training_ws/install/teleop/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib:/home/ubuntu/rj_training_container/training_ws/install/peak_finder/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/lib:/home/ubuntu/rj_training_container/training_ws/install/localization/lib:/home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/lib:/home/ubuntu/rj_training_container/training_ws/install/mapping/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:/home/ubuntu/rj_training_container/training_ws/install/controllers/lib:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-7FBcy9J9gt,guid=ae60ef4fc45e07bc9328976c671564c4'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15329'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-OJP9V2'), ('COLCON_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-OJP9V2/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:780e6e6f-a1dc-4924-bd0e-cba082c2326f'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/controllers'), ('PYTHONPATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[6.046991] (-) TimerEvent: {}
+[6.148039] (-) TimerEvent: {}
+[6.248856] (-) TimerEvent: {}
+[6.350043] (-) TimerEvent: {}
+[6.451522] (-) TimerEvent: {}
+[6.552731] (-) TimerEvent: {}
+[6.653827] (-) TimerEvent: {}
+[6.755320] (-) TimerEvent: {}
+[6.856276] (-) TimerEvent: {}
+[6.957178] (-) TimerEvent: {}
+[7.058090] (-) TimerEvent: {}
+[7.159190] (-) TimerEvent: {}
+[7.260248] (-) TimerEvent: {}
+[7.361110] (-) TimerEvent: {}
+[7.461886] (-) TimerEvent: {}
+[7.562523] (-) TimerEvent: {}
+[7.663271] (-) TimerEvent: {}
+[7.764002] (-) TimerEvent: {}
+[7.865163] (-) TimerEvent: {}
+[7.966181] (-) TimerEvent: {}
+[8.066928] (-) TimerEvent: {}
+[8.167690] (-) TimerEvent: {}
+[8.268451] (-) TimerEvent: {}
+[8.369242] (-) TimerEvent: {}
+[8.470329] (-) TimerEvent: {}
+[8.572490] (-) TimerEvent: {}
+[8.673365] (-) TimerEvent: {}
+[8.774220] (-) TimerEvent: {}
+[8.875131] (-) TimerEvent: {}
+[8.976392] (-) TimerEvent: {}
+[9.077455] (-) TimerEvent: {}
+[9.178277] (-) TimerEvent: {}
+[9.279163] (-) TimerEvent: {}
+[9.380042] (-) TimerEvent: {}
+[9.481361] (-) TimerEvent: {}
+[9.582246] (-) TimerEvent: {}
+[9.683094] (-) TimerEvent: {}
+[9.784227] (-) TimerEvent: {}
+[9.885098] (-) TimerEvent: {}
+[9.986168] (-) TimerEvent: {}
+[10.086872] (-) TimerEvent: {}
+[10.187620] (-) TimerEvent: {}
+[10.288352] (-) TimerEvent: {}
+[10.343472] (mapping) JobProgress: {'identifier': 'mapping', 'progress': 'cmake'}
+[10.375676] (mapping) JobProgress: {'identifier': 'mapping', 'progress': 'build'}
+[10.382613] (mapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/rj_training_container/training_ws/build/mapping', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/mapping', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/rj_training_container/training_ws/install/teleop/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib:/home/ubuntu/rj_training_container/training_ws/install/peak_finder/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/lib:/home/ubuntu/rj_training_container/training_ws/install/localization/lib:/home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/lib:/home/ubuntu/rj_training_container/training_ws/install/mapping/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:/home/ubuntu/rj_training_container/training_ws/install/controllers/lib:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-7FBcy9J9gt,guid=ae60ef4fc45e07bc9328976c671564c4'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15329'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-OJP9V2'), ('COLCON_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-OJP9V2/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:780e6e6f-a1dc-4924-bd0e-cba082c2326f'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/mapping'), ('PYTHONPATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[10.409341] (-) TimerEvent: {}
+[10.423429] (obstacle_detector) JobProgress: {'identifier': 'obstacle_detector', 'progress': 'cmake'}
+[10.456140] (obstacle_detector) JobProgress: {'identifier': 'obstacle_detector', 'progress': 'build'}
+[10.467255] (obstacle_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/rj_training_container/training_ws/build/obstacle_detector', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/obstacle_detector', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/rj_training_container/training_ws/install/teleop/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib:/home/ubuntu/rj_training_container/training_ws/install/peak_finder/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/lib:/home/ubuntu/rj_training_container/training_ws/install/localization/lib:/home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/lib:/home/ubuntu/rj_training_container/training_ws/install/mapping/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:/home/ubuntu/rj_training_container/training_ws/install/controllers/lib:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-7FBcy9J9gt,guid=ae60ef4fc45e07bc9328976c671564c4'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15329'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-OJP9V2'), ('COLCON_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-OJP9V2/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:780e6e6f-a1dc-4924-bd0e-cba082c2326f'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/obstacle_detector'), ('PYTHONPATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[10.507538] (rj_training_bringup) JobProgress: {'identifier': 'rj_training_bringup', 'progress': 'cmake'}
+[10.509440] (-) TimerEvent: {}
+[10.541780] (rj_training_bringup) JobProgress: {'identifier': 'rj_training_bringup', 'progress': 'build'}
+[10.549587] (rj_training_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/rj_training_container/training_ws/build/rj_training_bringup', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/rj_training_bringup', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/rj_training_container/training_ws/install/teleop/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib:/home/ubuntu/rj_training_container/training_ws/install/peak_finder/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/lib:/home/ubuntu/rj_training_container/training_ws/install/localization/lib:/home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/lib:/home/ubuntu/rj_training_container/training_ws/install/mapping/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:/home/ubuntu/rj_training_container/training_ws/install/controllers/lib:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-7FBcy9J9gt,guid=ae60ef4fc45e07bc9328976c671564c4'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15329'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-OJP9V2'), ('COLCON_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-OJP9V2/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:780e6e6f-a1dc-4924-bd0e-cba082c2326f'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/rj_training_bringup'), ('PYTHONPATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[10.596580] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'cmake'}
+[10.609567] (-) TimerEvent: {}
+[10.636284] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'build'}
+[10.647078] (teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/rj_training_container/training_ws/build/teleop', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/build/teleop', 'env': OrderedDict([('VNCDESKTOP', 'fff49067b779:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'fff49067b779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/rj_training_container/training_ws/install/teleop/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib:/home/ubuntu/rj_training_container/training_ws/install/peak_finder/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/lib:/home/ubuntu/rj_training_container/training_ws/install/localization/lib:/home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/lib:/home/ubuntu/rj_training_container/training_ws/install/mapping/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:/home/ubuntu/rj_training_container/training_ws/install/controllers/lib:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/rj_training_container'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/ubuntu/Desktop/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-7FBcy9J9gt,guid=ae60ef4fc45e07bc9328976c671564c4'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15329'), ('GNOME_KEYRING_CONTROL', '/home/ubuntu/.cache/keyring-OJP9V2'), ('COLCON_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('SSH_AUTH_SOCK', '/home/ubuntu/.cache/keyring-OJP9V2/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:780e6e6f-a1dc-4924-bd0e-cba082c2326f'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/rj_training_container/training_ws/build/teleop'), ('PYTHONPATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[10.709696] (-) TimerEvent: {}
+[10.810535] (-) TimerEvent: {}
+[10.911462] (-) TimerEvent: {}
+[11.012226] (-) TimerEvent: {}
+[11.113193] (-) TimerEvent: {}
+[11.214281] (-) TimerEvent: {}
+[11.315242] (-) TimerEvent: {}
+[11.416111] (-) TimerEvent: {}
+[11.517018] (-) TimerEvent: {}
+[11.618339] (-) TimerEvent: {}
+[11.719415] (-) TimerEvent: {}
+[11.820339] (-) TimerEvent: {}
+[11.921546] (-) TimerEvent: {}
+[12.022482] (-) TimerEvent: {}
+[12.123490] (-) TimerEvent: {}
+[12.224636] (-) TimerEvent: {}
+[12.325674] (-) TimerEvent: {}
+[12.426443] (-) TimerEvent: {}
+[12.527687] (-) TimerEvent: {}
+[12.628840] (-) TimerEvent: {}
+[12.730022] (-) TimerEvent: {}
+[12.831488] (-) TimerEvent: {}
+[12.932436] (-) TimerEvent: {}
+[13.033674] (-) TimerEvent: {}
+[13.134786] (-) TimerEvent: {}
+[13.235867] (-) TimerEvent: {}
+[13.336848] (-) TimerEvent: {}
+[13.437940] (-) TimerEvent: {}
+[13.539254] (-) TimerEvent: {}
+[13.640343] (-) TimerEvent: {}
+[13.741604] (-) TimerEvent: {}
+[13.842406] (-) TimerEvent: {}
+[13.943111] (-) TimerEvent: {}
+[14.044048] (-) TimerEvent: {}
+[14.144972] (-) TimerEvent: {}
+[14.246146] (-) TimerEvent: {}
+[14.347279] (-) TimerEvent: {}
+[14.448447] (-) TimerEvent: {}
+[14.549597] (-) TimerEvent: {}
+[14.650278] (-) TimerEvent: {}
+[14.751152] (-) TimerEvent: {}
+[14.852365] (-) TimerEvent: {}
+[14.953543] (-) TimerEvent: {}
+[15.054668] (-) TimerEvent: {}
+[15.155960] (-) TimerEvent: {}
+[15.257041] (-) TimerEvent: {}
+[15.358175] (-) TimerEvent: {}
+[15.459783] (-) TimerEvent: {}
+[15.561055] (-) TimerEvent: {}
+[15.662398] (-) TimerEvent: {}
+[15.763953] (-) TimerEvent: {}
+[15.865372] (-) TimerEvent: {}
+[15.967115] (-) TimerEvent: {}
+[16.068556] (-) TimerEvent: {}
+[16.169765] (-) TimerEvent: {}
+[16.271357] (-) TimerEvent: {}
+[16.373004] (-) TimerEvent: {}
+[16.474647] (-) TimerEvent: {}
+[16.575858] (-) TimerEvent: {}
+[16.677193] (-) TimerEvent: {}
+[16.779046] (-) TimerEvent: {}
+[16.880440] (-) TimerEvent: {}
+[16.982090] (-) TimerEvent: {}
+[17.083684] (-) TimerEvent: {}
+[17.185000] (-) TimerEvent: {}
+[17.286774] (-) TimerEvent: {}
+[17.387998] (-) TimerEvent: {}
+[17.489392] (-) TimerEvent: {}
+[17.591317] (-) TimerEvent: {}
+[17.692345] (-) TimerEvent: {}
+[17.793780] (-) TimerEvent: {}
+[17.895037] (-) TimerEvent: {}
+[17.996482] (-) TimerEvent: {}
+[18.097857] (-) TimerEvent: {}
+[18.199491] (-) TimerEvent: {}
+[18.300944] (-) TimerEvent: {}
+[18.402252] (-) TimerEvent: {}
+[18.503770] (-) TimerEvent: {}
+[18.605326] (-) TimerEvent: {}
+[18.707107] (-) TimerEvent: {}
+[18.808196] (-) TimerEvent: {}
+[18.909877] (-) TimerEvent: {}
+[19.011604] (-) TimerEvent: {}
+[19.112837] (-) TimerEvent: {}
+[19.214336] (-) TimerEvent: {}
+[19.318222] (-) TimerEvent: {}
+[19.419486] (-) TimerEvent: {}
+[19.520937] (-) TimerEvent: {}
+[19.622700] (-) TimerEvent: {}
+[19.724181] (-) TimerEvent: {}
+[19.825434] (-) TimerEvent: {}
+[19.926969] (-) TimerEvent: {}
+[20.028093] (-) TimerEvent: {}
+[20.138024] (keyboard) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../../build/keyboard', 'build', '--build-base', '/home/ubuntu/rj_training_container/training_ws/build/keyboard/build', 'install', '--record', '/home/ubuntu/rj_training_container/training_ws/build/keyboard/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/rj_training_container/training_ws/src/trainingv2/turtlesim_project/src/keyboard', 'env': {'VNCDESKTOP': 'fff49067b779:1 (ubuntu)', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': 'fff49067b779', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/rj_training_container/training_ws/install/teleop/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib:/home/ubuntu/rj_training_container/training_ws/install/peak_finder/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking/lib:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection/lib:/home/ubuntu/rj_training_container/training_ws/install/localization/lib:/home/ubuntu/rj_training_container/training_ws/install/elevation_server/lib:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins/lib:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/lib:/home/ubuntu/rj_training_container/training_ws/install/mapping/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_package/lib:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/lib:/home/ubuntu/rj_training_container/training_ws/install/controllers/lib:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/rj_training_container', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-7FBcy9J9gt,guid=ae60ef4fc45e07bc9328976c671564c4', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '15329', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-OJP9V2', 'COLCON_PREFIX_PATH': '/home/ubuntu/rj_training_container/training_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/fff49067b779:@/tmp/.ICE-unix/75,unix/fff49067b779:/tmp/.ICE-unix/75', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-OJP9V2/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner:/opt/ros/humble', 'TERMINATOR_UUID': 'urn:uuid:780e6e6f-a1dc-4924-bd0e-cba082c2326f', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/rj_training_container/training_ws/build/keyboard', 'PYTHONPATH': '/home/ubuntu/rj_training_container/training_ws/build/keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/rj_training_container/training_ws/install/stsl_desktop:/home/ubuntu/rj_training_container/training_ws/install/traini_bringup:/home/ubuntu/rj_training_container/training_ws/install/traini_gazebo:/home/ubuntu/rj_training_container/training_ws/install/traini_description:/home/ubuntu/rj_training_container/training_ws/install/teleop:/home/ubuntu/rj_training_container/training_ws/install/stsl_utils:/home/ubuntu/rj_training_container/training_ws/install/stsl_rviz_plugins:/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins:/home/ubuntu/rj_training_container/training_ws/install/mission_orchestration:/home/ubuntu/rj_training_container/training_ws/install/stsl_bt_nodes:/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags:/home/ubuntu/rj_training_container/training_ws/install/peak_finder:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_tracking:/home/ubuntu/rj_training_container/training_ws/install/mineral_deposit_detection:/home/ubuntu/rj_training_container/training_ws/install/localization:/home/ubuntu/rj_training_container/training_ws/install/elevation_server:/home/ubuntu/rj_training_container/training_ws/install/coordinate_transform:/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/home/ubuntu/rj_training_container/training_ws/install/stsl_gazebo_plugins:/home/ubuntu/rj_training_container/training_ws/install/rj_training_bringup:/home/ubuntu/rj_training_container/training_ws/install/obstacle_detector:/home/ubuntu/rj_training_container/training_ws/install/mapping:/home/ubuntu/rj_training_container/training_ws/install/joystick_package:/home/ubuntu/rj_training_container/training_ws/install/joystick_msgs:/home/ubuntu/rj_training_container/training_ws/install/controllers:/home/ubuntu/rj_training_container/training_ws/install/astar_path_planner', 'QT_FONT_DPI': '96'}, 'shell': False}
+[20.179062] (-) TimerEvent: {}
+[20.280129] (-) TimerEvent: {}
+[20.381562] (-) TimerEvent: {}
+[20.483261] (-) TimerEvent: {}
+[20.584438] (-) TimerEvent: {}
+[20.685669] (-) TimerEvent: {}
+[20.786475] (-) TimerEvent: {}
+[20.887676] (-) TimerEvent: {}
+[20.988764] (-) TimerEvent: {}
+[21.089710] (-) TimerEvent: {}
+[21.191272] (-) TimerEvent: {}
+[21.292222] (-) TimerEvent: {}
+[21.393422] (-) TimerEvent: {}
+[21.494595] (-) TimerEvent: {}
+[21.596201] (-) TimerEvent: {}
+[21.697944] (-) TimerEvent: {}
+[21.798789] (-) TimerEvent: {}
+[21.899733] (-) TimerEvent: {}
+[22.001232] (-) TimerEvent: {}
+[22.102185] (-) TimerEvent: {}
+[22.203690] (-) TimerEvent: {}
+[22.304400] (-) TimerEvent: {}
+[22.405417] (-) TimerEvent: {}
+[22.506362] (-) TimerEvent: {}
+[22.607158] (-) TimerEvent: {}
+[22.707951] (-) TimerEvent: {}
+[22.808843] (-) TimerEvent: {}
+[22.909909] (-) TimerEvent: {}
+[23.011105] (-) TimerEvent: {}
+[23.112381] (-) TimerEvent: {}
+[23.213588] (-) TimerEvent: {}
+[23.315496] (-) TimerEvent: {}
+[23.416932] (-) TimerEvent: {}
+[23.518676] (-) TimerEvent: {}
+[23.620107] (-) TimerEvent: {}
+[23.721241] (-) TimerEvent: {}
+[23.822627] (-) TimerEvent: {}
+[23.923942] (-) TimerEvent: {}
+[24.025348] (-) TimerEvent: {}
+[24.126769] (-) TimerEvent: {}
+[24.228135] (-) TimerEvent: {}
+[24.329896] (-) TimerEvent: {}
+[24.431614] (-) TimerEvent: {}
+[24.533100] (-) TimerEvent: {}
+[24.634497] (-) TimerEvent: {}
+[24.736405] (-) TimerEvent: {}
+[24.837985] (-) TimerEvent: {}
+[24.940024] (-) TimerEvent: {}
+[25.041622] (-) TimerEvent: {}
+[25.143205] (-) TimerEvent: {}
+[25.244735] (-) TimerEvent: {}
+[25.346208] (-) TimerEvent: {}
+[25.448144] (-) TimerEvent: {}
+[25.549604] (-) TimerEvent: {}
+[25.651414] (-) TimerEvent: {}
+[25.753165] (-) TimerEvent: {}
+[25.854614] (-) TimerEvent: {}
+[25.956599] (-) TimerEvent: {}
+[26.058062] (-) TimerEvent: {}
+[26.160110] (-) TimerEvent: {}
+[26.262338] (-) TimerEvent: {}
+[26.364448] (-) TimerEvent: {}
+[26.469485] (-) TimerEvent: {}
+[26.571293] (-) TimerEvent: {}
+[26.673394] (-) TimerEvent: {}
+[26.775030] (-) TimerEvent: {}
+[26.876939] (-) TimerEvent: {}
+[26.978664] (-) TimerEvent: {}
+[27.080205] (-) TimerEvent: {}
+[27.181724] (-) TimerEvent: {}
+[27.283067] (-) TimerEvent: {}
+[27.384763] (-) TimerEvent: {}
+[27.491163] (-) TimerEvent: {}
+[27.592728] (-) TimerEvent: {}
+[27.694401] (-) TimerEvent: {}
+[27.796018] (-) TimerEvent: {}
+[27.897172] (-) TimerEvent: {}
+[27.998492] (-) TimerEvent: {}
+[28.100160] (-) TimerEvent: {}
+[28.201578] (-) TimerEvent: {}
+[28.303032] (-) TimerEvent: {}
+[28.404189] (-) TimerEvent: {}
+[28.505356] (-) TimerEvent: {}
+[28.606664] (-) TimerEvent: {}
+[28.708014] (-) TimerEvent: {}
+[28.809358] (-) TimerEvent: {}
+[28.910698] (-) TimerEvent: {}
+[29.011733] (-) TimerEvent: {}
+[29.113012] (-) TimerEvent: {}
+[29.214466] (-) TimerEvent: {}
+[29.315779] (-) TimerEvent: {}
+[29.417461] (-) TimerEvent: {}
+[29.519004] (-) TimerEvent: {}
+[29.621996] (-) TimerEvent: {}
+[29.724962] (-) TimerEvent: {}
+[29.827079] (-) TimerEvent: {}
+[29.928444] (-) TimerEvent: {}
+[30.029573] (-) TimerEvent: {}
+[30.130966] (-) TimerEvent: {}
+[30.232330] (-) TimerEvent: {}
+[30.333503] (-) TimerEvent: {}
+[30.434855] (-) TimerEvent: {}
+[30.536332] (-) TimerEvent: {}
+[30.550018] (traini_description) StdoutLine: {'line': b'[100%] Built target traini_description_urdf_generation\n'}
+[30.636502] (-) TimerEvent: {}
+[30.738145] (-) TimerEvent: {}
+[30.754643] (stsl_gazebo_plugins) StdoutLine: {'line': b'[ 33%] Built target RosNoisyPlanarOdomPlugin\n'}
+[30.838268] (-) TimerEvent: {}
+[30.939603] (-) TimerEvent: {}
+[31.040594] (-) TimerEvent: {}
+[31.141772] (-) TimerEvent: {}
+[31.149688] (stsl_gazebo_plugins) StdoutLine: {'line': b'[ 66%] Built target RosLightControlPlugin\n'}
+[31.221200] (stsl_gazebo_plugins) StdoutLine: {'line': b'[100%] Built target HideLightVisualsPlugin\n'}
+[31.241940] (-) TimerEvent: {}
+[31.342997] (-) TimerEvent: {}
+[31.397513] (joystick_msgs) StdoutLine: {'line': b'[  9%] Built target joystick_msgs__rosidl_generator_c\n'}
+[31.443274] (-) TimerEvent: {}
+[31.500431] (joystick_msgs) StdoutLine: {'line': b'[ 12%] Built target joystick_msgs__cpp\n'}
+[31.543402] (-) TimerEvent: {}
+[31.645270] (-) TimerEvent: {}
+[31.746764] (-) TimerEvent: {}
+[31.848255] (-) TimerEvent: {}
+[31.949701] (-) TimerEvent: {}
+[31.960513] (stsl_utils) StdoutLine: {'line': b'[ 42%] Built target stsl_utils\n'}
+[32.050069] (-) TimerEvent: {}
+[32.151649] (-) TimerEvent: {}
+[32.252920] (-) TimerEvent: {}
+[32.355635] (-) TimerEvent: {}
+[32.457254] (-) TimerEvent: {}
+[32.558422] (-) TimerEvent: {}
+[32.658141] (stsl_utils) StdoutLine: {'line': b'[ 71%] Built target floor_mat_visualizer\n'}
+[32.661645] (-) TimerEvent: {}
+[32.763111] (-) TimerEvent: {}
+[32.865325] (-) TimerEvent: {}
+[32.902863] (stsl_interfaces) StdoutLine: {'line': b'[  1%] Built target stsl_interfaces__cpp\n'}
+[32.965488] (-) TimerEvent: {}
+[32.973417] (stsl_utils) StdoutLine: {'line': b'[100%] Built target keyboard_teleop\n'}
+[33.065702] (-) TimerEvent: {}
+[33.167403] (-) TimerEvent: {}
+[33.269762] (-) TimerEvent: {}
+[33.371552] (-) TimerEvent: {}
+[33.473284] (-) TimerEvent: {}
+[33.574719] (-) TimerEvent: {}
+[33.676484] (-) TimerEvent: {}
+[33.778178] (-) TimerEvent: {}
+[33.880063] (-) TimerEvent: {}
+[33.981904] (-) TimerEvent: {}
+[34.083314] (-) TimerEvent: {}
+[34.185924] (-) TimerEvent: {}
+[34.287950] (-) TimerEvent: {}
+[34.389856] (-) TimerEvent: {}
+[34.486296] (stsl_nav_plugins) StdoutLine: {'line': b'[100%] Built target stsl_nav_plugins\n'}
+[34.490557] (-) TimerEvent: {}
+[34.592122] (-) TimerEvent: {}
+[34.693829] (-) TimerEvent: {}
+[34.795414] (-) TimerEvent: {}
+[34.862141] (astar_path_planner) StdoutLine: {'line': b'[100%] Built target astar_path_planner\n'}
+[34.895558] (-) TimerEvent: {}
+[34.997301] (-) TimerEvent: {}
+[35.098853] (-) TimerEvent: {}
+[35.200142] (-) TimerEvent: {}
+[35.268316] (traini_description) CommandEnded: {'returncode': 0}
+[35.280316] (controllers) StdoutLine: {'line': b'[100%] Built target controllers\n'}
+[35.292311] (rj_training_bringup) CommandEnded: {'returncode': 0}
+[35.300253] (-) TimerEvent: {}
+[35.398028] (stsl_interfaces) StdoutLine: {'line': b'[ 12%] Built target stsl_interfaces__rosidl_generator_c\n'}
+[35.402129] (-) TimerEvent: {}
+[35.503665] (-) TimerEvent: {}
+[35.608051] (-) TimerEvent: {}
+[35.709747] (-) TimerEvent: {}
+[35.811879] (-) TimerEvent: {}
+[35.913850] (-) TimerEvent: {}
+[36.015302] (-) TimerEvent: {}
+[36.117134] (-) TimerEvent: {}
+[36.219050] (-) TimerEvent: {}
+[36.238780] (keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[36.244009] (keyboard) StdoutLine: {'line': b'writing ../../../../../build/keyboard/keyboard.egg-info/PKG-INFO\n'}
+[36.248815] (keyboard) StdoutLine: {'line': b'writing dependency_links to ../../../../../build/keyboard/keyboard.egg-info/dependency_links.txt\n'}
+[36.254129] (keyboard) StdoutLine: {'line': b'writing entry points to ../../../../../build/keyboard/keyboard.egg-info/entry_points.txt\n'}
+[36.259092] (keyboard) StdoutLine: {'line': b'writing requirements to ../../../../../build/keyboard/keyboard.egg-info/requires.txt\n'}
+[36.264065] (keyboard) StdoutLine: {'line': b'writing top-level names to ../../../../../build/keyboard/keyboard.egg-info/top_level.txt\n'}
+[36.271692] (keyboard) StdoutLine: {'line': b"reading manifest file '../../../../../build/keyboard/keyboard.egg-info/SOURCES.txt'\n"}
+[36.283975] (keyboard) StdoutLine: {'line': b"writing manifest file '../../../../../build/keyboard/keyboard.egg-info/SOURCES.txt'\n"}
+[36.289699] (keyboard) StdoutLine: {'line': b'running build\n'}
+[36.294390] (keyboard) StdoutLine: {'line': b'running build_py\n'}
+[36.300403] (keyboard) StdoutLine: {'line': b'running install\n'}
+[36.305932] (keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[36.310987] (keyboard) StdoutLine: {'line': b'running install_data\n'}
+[36.317256] (keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[36.321504] (-) TimerEvent: {}
+[36.322745] (keyboard) StdoutLine: {'line': b"removing '/home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages/keyboard-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[36.328308] (keyboard) StdoutLine: {'line': b'Copying ../../../../../build/keyboard/keyboard.egg-info to /home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/python3.10/site-packages/keyboard-0.0.0-py3.10.egg-info\n'}
+[36.332948] (keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[36.338382] (keyboard) StdoutLine: {'line': b'Installing keystroke_listen script to /home/ubuntu/rj_training_container/training_ws/install/keyboard/lib/keyboard\n'}
+[36.343565] (keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/rj_training_container/training_ws/build/keyboard/install.log'\n"}
+[36.348461] (stsl_gazebo_plugins) CommandEnded: {'returncode': 0}
+[36.355380] (keyboard) CommandEnded: {'returncode': 0}
+[36.421662] (-) TimerEvent: {}
+[36.523351] (-) TimerEvent: {}
+[36.625158] (-) TimerEvent: {}
+[36.727199] (-) TimerEvent: {}
+[36.828995] (-) TimerEvent: {}
+[36.930460] (-) TimerEvent: {}
+[37.032579] (-) TimerEvent: {}
+[37.134647] (-) TimerEvent: {}
+[37.236143] (-) TimerEvent: {}
+[37.337749] (-) TimerEvent: {}
+[37.439387] (-) TimerEvent: {}
+[37.533249] (joystick_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_joystick_msgs\n'}
+[37.539479] (-) TimerEvent: {}
+[37.640825] (-) TimerEvent: {}
+[37.742372] (-) TimerEvent: {}
+[37.844299] (-) TimerEvent: {}
+[37.853325] (keyboard) JobEnded: {'identifier': 'keyboard', 'rc': 0}
+[37.944462] (-) TimerEvent: {}
+[38.045906] (-) TimerEvent: {}
+[38.147614] (-) TimerEvent: {}
+[38.249388] (-) TimerEvent: {}
+[38.350779] (-) TimerEvent: {}
+[38.452069] (-) TimerEvent: {}
+[38.553403] (-) TimerEvent: {}
+[38.655716] (-) TimerEvent: {}
+[38.757096] (-) TimerEvent: {}
+[38.785546] (stsl_utils) CommandEnded: {'returncode': 0}
+[38.857236] (-) TimerEvent: {}
+[38.958141] (-) TimerEvent: {}
+[39.059538] (-) TimerEvent: {}
+[39.160592] (-) TimerEvent: {}
+[39.261630] (-) TimerEvent: {}
+[39.363261] (-) TimerEvent: {}
+[39.465526] (-) TimerEvent: {}
+[39.566545] (-) TimerEvent: {}
+[39.667856] (-) TimerEvent: {}
+[39.770075] (-) TimerEvent: {}
+[39.871615] (-) TimerEvent: {}
+[39.917918] (stsl_nav_plugins) CommandEnded: {'returncode': 0}
+[39.971775] (-) TimerEvent: {}
+[40.072937] (-) TimerEvent: {}
+[40.174263] (-) TimerEvent: {}
+[40.275783] (-) TimerEvent: {}
+[40.307286] (astar_path_planner) CommandEnded: {'returncode': 0}
+[40.375946] (-) TimerEvent: {}
+[40.477647] (-) TimerEvent: {}
+[40.579085] (-) TimerEvent: {}
+[40.680870] (-) TimerEvent: {}
+[40.782496] (-) TimerEvent: {}
+[40.884273] (-) TimerEvent: {}
+[40.986027] (-) TimerEvent: {}
+[41.038338] (controllers) CommandEnded: {'returncode': 0}
+[41.086177] (-) TimerEvent: {}
+[41.187787] (-) TimerEvent: {}
+[41.289626] (-) TimerEvent: {}
+[41.391030] (-) TimerEvent: {}
+[41.492576] (-) TimerEvent: {}
+[41.594189] (-) TimerEvent: {}
+[41.696053] (-) TimerEvent: {}
+[41.798218] (-) TimerEvent: {}
+[41.900895] (-) TimerEvent: {}
+[42.002399] (-) TimerEvent: {}
+[42.103956] (-) TimerEvent: {}
+[42.205505] (-) TimerEvent: {}
+[42.307598] (-) TimerEvent: {}
+[42.409114] (-) TimerEvent: {}
+[42.511145] (-) TimerEvent: {}
+[42.614412] (-) TimerEvent: {}
+[42.716763] (-) TimerEvent: {}
+[42.747407] (mapping) StdoutLine: {'line': b'[100%] Built target mapping_node\n'}
+[42.754214] (mapping) StdoutLine: {'line': b'[100%] Built target mapping\n'}
+[42.816941] (-) TimerEvent: {}
+[42.918466] (-) TimerEvent: {}
+[43.007357] (stsl_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_stsl_interfaces\n'}
+[43.018560] (-) TimerEvent: {}
+[43.120538] (-) TimerEvent: {}
+[43.222343] (-) TimerEvent: {}
+[43.319125] (obstacle_detector) StdoutLine: {'line': b'[ 50%] Built target obstacle_detector_node\n'}
+[43.324236] (-) TimerEvent: {}
+[43.425799] (-) TimerEvent: {}
+[43.527593] (-) TimerEvent: {}
+[43.629351] (-) TimerEvent: {}
+[43.731058] (-) TimerEvent: {}
+[43.792822] (obstacle_detector) StdoutLine: {'line': b'[100%] Built target obstacle_detector\n'}
+[43.831218] (-) TimerEvent: {}
+[43.934126] (-) TimerEvent: {}
+[44.036141] (-) TimerEvent: {}
+[44.138302] (-) TimerEvent: {}
+[44.240540] (-) TimerEvent: {}
+[44.342632] (-) TimerEvent: {}
+[44.444581] (-) TimerEvent: {}
+[44.546205] (-) TimerEvent: {}
+[44.648141] (-) TimerEvent: {}
+[44.750427] (-) TimerEvent: {}
+[44.851933] (-) TimerEvent: {}
+[44.953819] (-) TimerEvent: {}
+[45.055416] (-) TimerEvent: {}
+[45.157344] (-) TimerEvent: {}
+[45.240291] (teleop) StdoutLine: {'line': b'[ 50%] Built target teleop\n'}
+[45.257479] (-) TimerEvent: {}
+[45.352942] (teleop) StdoutLine: {'line': b'[100%] Built target key_to_twist\n'}
+[45.357596] (-) TimerEvent: {}
+[45.459087] (-) TimerEvent: {}
+[45.560944] (-) TimerEvent: {}
+[45.662705] (-) TimerEvent: {}
+[45.764259] (-) TimerEvent: {}
+[45.865952] (-) TimerEvent: {}
+[45.967429] (-) TimerEvent: {}
+[46.069009] (-) TimerEvent: {}
+[46.170567] (-) TimerEvent: {}
+[46.272203] (-) TimerEvent: {}
+[46.373757] (-) TimerEvent: {}
+[46.475438] (-) TimerEvent: {}
+[46.576921] (-) TimerEvent: {}
+[46.678249] (-) TimerEvent: {}
+[46.780498] (-) TimerEvent: {}
+[46.881989] (-) TimerEvent: {}
+[46.983803] (-) TimerEvent: {}
+[47.085468] (-) TimerEvent: {}
+[47.187251] (-) TimerEvent: {}
+[47.289094] (-) TimerEvent: {}
+[47.390594] (-) TimerEvent: {}
+[47.492429] (-) TimerEvent: {}
+[47.594061] (-) TimerEvent: {}
+[47.695642] (-) TimerEvent: {}
+[47.796839] (-) TimerEvent: {}
+[47.898376] (-) TimerEvent: {}
+[48.000478] (-) TimerEvent: {}
+[48.101935] (-) TimerEvent: {}
+[48.170804] (mapping) CommandEnded: {'returncode': 0}
+[48.202082] (-) TimerEvent: {}
+[48.303767] (-) TimerEvent: {}
+[48.405294] (-) TimerEvent: {}
+[48.508113] (-) TimerEvent: {}
+[48.609414] (-) TimerEvent: {}
+[48.710773] (-) TimerEvent: {}
+[48.718176] (joystick_msgs) StdoutLine: {'line': b'[ 22%] Built target joystick_msgs__rosidl_typesupport_fastrtps_c\n'}
+[48.810917] (-) TimerEvent: {}
+[48.912474] (-) TimerEvent: {}
+[48.939040] (joystick_msgs) StdoutLine: {'line': b'[ 32%] Built target joystick_msgs__rosidl_typesupport_cpp\n'}
+[49.012645] (-) TimerEvent: {}
+[49.113999] (-) TimerEvent: {}
+[49.152785] (obstacle_detector) CommandEnded: {'returncode': 0}
+[49.170442] (joystick_msgs) StdoutLine: {'line': b'[ 41%] Built target joystick_msgs__rosidl_typesupport_c\n'}
+[49.214148] (-) TimerEvent: {}
+[49.315845] (-) TimerEvent: {}
+[49.317118] (joystick_msgs) StdoutLine: {'line': b'[ 51%] Built target joystick_msgs__rosidl_typesupport_introspection_c\n'}
+[49.416004] (-) TimerEvent: {}
+[49.517851] (-) TimerEvent: {}
+[49.619217] (-) TimerEvent: {}
+[49.720817] (-) TimerEvent: {}
+[49.821950] (-) TimerEvent: {}
+[49.923503] (-) TimerEvent: {}
+[50.024901] (-) TimerEvent: {}
+[50.127547] (-) TimerEvent: {}
+[50.158148] (joystick_msgs) StdoutLine: {'line': b'[ 64%] Built target joystick_msgs__rosidl_typesupport_introspection_cpp\n'}
+[50.192413] (joystick_msgs) StdoutLine: {'line': b'[ 70%] Built target joystick_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[50.227678] (-) TimerEvent: {}
+[50.257267] (teleop) CommandEnded: {'returncode': 0}
+[50.327812] (-) TimerEvent: {}
+[50.429140] (-) TimerEvent: {}
+[50.530309] (-) TimerEvent: {}
+[50.631706] (-) TimerEvent: {}
+[50.732920] (-) TimerEvent: {}
+[50.834113] (-) TimerEvent: {}
+[50.935220] (-) TimerEvent: {}
+[51.036346] (-) TimerEvent: {}
+[51.137620] (-) TimerEvent: {}
+[51.164059] (stsl_interfaces) StdoutLine: {'line': b'[ 24%] Built target stsl_interfaces__rosidl_typesupport_cpp\n'}
+[51.237772] (-) TimerEvent: {}
+[51.338825] (-) TimerEvent: {}
+[51.406586] (stsl_interfaces) StdoutLine: {'line': b'[ 35%] Built target stsl_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[51.438937] (-) TimerEvent: {}
+[51.531909] (stsl_interfaces) StdoutLine: {'line': b'[ 47%] Built target stsl_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[51.539033] (-) TimerEvent: {}
+[51.640229] (-) TimerEvent: {}
+[51.741522] (-) TimerEvent: {}
+[51.842805] (-) TimerEvent: {}
+[51.943909] (-) TimerEvent: {}
+[52.045097] (-) TimerEvent: {}
+[52.146337] (-) TimerEvent: {}
+[52.248699] (-) TimerEvent: {}
+[52.350638] (-) TimerEvent: {}
+[52.451850] (-) TimerEvent: {}
+[52.552922] (-) TimerEvent: {}
+[52.654272] (-) TimerEvent: {}
+[52.755515] (-) TimerEvent: {}
+[52.856623] (-) TimerEvent: {}
+[52.957668] (-) TimerEvent: {}
+[53.045827] (stsl_interfaces) StdoutLine: {'line': b'[ 58%] Built target stsl_interfaces__rosidl_typesupport_c\n'}
+[53.057789] (-) TimerEvent: {}
+[53.158894] (-) TimerEvent: {}
+[53.244194] (stsl_interfaces) StdoutLine: {'line': b'[ 70%] Built target stsl_interfaces__rosidl_typesupport_introspection_c\n'}
+[53.259043] (-) TimerEvent: {}
+[53.360696] (-) TimerEvent: {}
+[53.461733] (-) TimerEvent: {}
+[53.562688] (-) TimerEvent: {}
+[53.663836] (-) TimerEvent: {}
+[53.764892] (-) TimerEvent: {}
+[53.865918] (-) TimerEvent: {}
+[53.917513] (stsl_interfaces) StdoutLine: {'line': b'[ 82%] Built target stsl_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[53.966041] (-) TimerEvent: {}
+[54.067203] (-) TimerEvent: {}
+[54.168462] (-) TimerEvent: {}
+[54.269458] (-) TimerEvent: {}
+[54.370847] (-) TimerEvent: {}
+[54.471925] (-) TimerEvent: {}
+[54.573125] (-) TimerEvent: {}
+[54.674250] (-) TimerEvent: {}
+[54.775457] (-) TimerEvent: {}
+[54.876950] (-) TimerEvent: {}
+[54.978142] (-) TimerEvent: {}
+[55.079436] (-) TimerEvent: {}
+[55.180801] (-) TimerEvent: {}
+[55.282170] (-) TimerEvent: {}
+[55.383841] (-) TimerEvent: {}
+[55.485121] (-) TimerEvent: {}
+[55.586190] (-) TimerEvent: {}
+[55.687334] (-) TimerEvent: {}
+[55.722714] (joystick_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[55.730639] (joystick_msgs) StdoutLine: {'line': b'writing joystick_msgs.egg-info/PKG-INFO\n'}
+[55.745768] (joystick_msgs) StdoutLine: {'line': b'writing dependency_links to joystick_msgs.egg-info/dependency_links.txt\n'}
+[55.765842] (joystick_msgs) StdoutLine: {'line': b'writing top-level names to joystick_msgs.egg-info/top_level.txt\n'}
+[55.787460] (-) TimerEvent: {}
+[55.868772] (joystick_msgs) StdoutLine: {'line': b"reading manifest file 'joystick_msgs.egg-info/SOURCES.txt'\n"}
+[55.887611] (-) TimerEvent: {}
+[55.989039] (-) TimerEvent: {}
+[55.992829] (joystick_msgs) StdoutLine: {'line': b"writing manifest file 'joystick_msgs.egg-info/SOURCES.txt'\n"}
+[56.089173] (-) TimerEvent: {}
+[56.190469] (-) TimerEvent: {}
+[56.291773] (-) TimerEvent: {}
+[56.393146] (-) TimerEvent: {}
+[56.494117] (-) TimerEvent: {}
+[56.595518] (-) TimerEvent: {}
+[56.696908] (-) TimerEvent: {}
+[56.799127] (-) TimerEvent: {}
+[56.900998] (-) TimerEvent: {}
+[57.002446] (-) TimerEvent: {}
+[57.103947] (-) TimerEvent: {}
+[57.205816] (-) TimerEvent: {}
+[57.308481] (-) TimerEvent: {}
+[57.409486] (-) TimerEvent: {}
+[57.510677] (-) TimerEvent: {}
+[57.612244] (-) TimerEvent: {}
+[57.713520] (-) TimerEvent: {}
+[57.814724] (-) TimerEvent: {}
+[57.916165] (-) TimerEvent: {}
+[58.017502] (-) TimerEvent: {}
+[58.118948] (-) TimerEvent: {}
+[58.220412] (-) TimerEvent: {}
+[58.321850] (-) TimerEvent: {}
+[58.423172] (-) TimerEvent: {}
+[58.524544] (-) TimerEvent: {}
+[58.625643] (-) TimerEvent: {}
+[58.726766] (-) TimerEvent: {}
+[58.828021] (-) TimerEvent: {}
+[58.905017] (stsl_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[58.912069] (stsl_interfaces) StdoutLine: {'line': b'writing stsl_interfaces.egg-info/PKG-INFO\n'}
+[58.925663] (stsl_interfaces) StdoutLine: {'line': b'writing dependency_links to stsl_interfaces.egg-info/dependency_links.txt\n'}
+[58.929382] (-) TimerEvent: {}
+[58.948146] (stsl_interfaces) StdoutLine: {'line': b'writing top-level names to stsl_interfaces.egg-info/top_level.txt\n'}
+[59.029532] (-) TimerEvent: {}
+[59.130985] (-) TimerEvent: {}
+[59.161315] (stsl_interfaces) StdoutLine: {'line': b"reading manifest file 'stsl_interfaces.egg-info/SOURCES.txt'\n"}
+[59.231151] (-) TimerEvent: {}
+[59.332511] (-) TimerEvent: {}
+[59.428973] (stsl_interfaces) StdoutLine: {'line': b"writing manifest file 'stsl_interfaces.egg-info/SOURCES.txt'\n"}
+[59.432875] (-) TimerEvent: {}
+[59.533986] (-) TimerEvent: {}
+[59.635569] (-) TimerEvent: {}

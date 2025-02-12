@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+    <model name='ArUco Tag 19'>
+        <link name='link'>
+            <visual name='visual'>
+                <geometry>
+                    <plane>
+                        <normal>0 0 1</normal>
+                        <size>0.1 0.1</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <script>
+                        <uri>model://aruco_tag_19/materials/scripts/</uri>
+                        <uri>model://aruco_tag_19/materials/textures/</uri>
+                        <name>ArucoTag19/Image</name>
+                    </script>
+                </material>
+            </visual>
+        </link>
+    </model>
+</sdf>

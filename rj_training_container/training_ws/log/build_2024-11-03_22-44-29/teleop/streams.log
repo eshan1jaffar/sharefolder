@@ -1,0 +1,31 @@
+[6.199s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/teleop -- -j16 -l16
+[42.127s] [ 50%] Built target teleop
+[42.362s] [100%] Built target key_to_twist
+[47.689s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/teleop -- -j16 -l16
+[77.808s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/teleop
+[80.952s] -- Install configuration: ""
+[81.093s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/lib/teleop/key_to_twist
+[81.224s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/
+[81.389s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/lib/libteleop.so
+[81.520s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/environment/library_path.sh
+[81.577s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/environment/library_path.dsv
+[81.677s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/ament_index/resource_index/package_run_dependencies/teleop
+[81.776s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/ament_index/resource_index/parent_prefix_path/teleop
+[81.818s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/environment/ament_prefix_path.sh
+[81.878s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/environment/ament_prefix_path.dsv
+[81.923s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/environment/path.sh
+[81.982s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/environment/path.dsv
+[82.031s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/local_setup.bash
+[82.073s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/local_setup.sh
+[82.116s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/local_setup.zsh
+[82.160s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/local_setup.dsv
+[82.201s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/package.dsv
+[82.393s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/ament_index/resource_index/packages/teleop
+[82.492s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/ament_index/resource_index/rclcpp_components/teleop
+[82.546s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/cmake/ament_cmake_export_include_directories-extras.cmake
+[82.603s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/cmake/ament_cmake_export_libraries-extras.cmake
+[82.653s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/cmake/ament_cmake_export_dependencies-extras.cmake
+[82.703s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/cmake/teleopConfig.cmake
+[82.744s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/cmake/teleopConfig-version.cmake
+[82.809s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/teleop/share/teleop/package.xml
+[83.812s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/teleop

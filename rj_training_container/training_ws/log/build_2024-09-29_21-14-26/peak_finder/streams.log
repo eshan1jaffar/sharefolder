@@ -1,0 +1,27 @@
+[0.644s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/peak_finder': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/peak_finder -- -j16 -l16
+[1.988s] [35m[1mConsolidate compiler generated dependencies of target peak_finder_node[0m
+[2.040s] [35m[1mConsolidate compiler generated dependencies of target peak_finder_components[0m
+[4.204s] [ 40%] Built target peak_finder_node
+[5.559s] [100%] Built target peak_finder_components
+[5.807s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/peak_finder' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/peak_finder -- -j16 -l16
+[5.932s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/peak_finder': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/peak_finder
+[6.161s] -- Install configuration: ""
+[6.323s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/lib/peak_finder/peak_finder_node
+[6.600s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/lib/libpeak_finder_components.so
+[6.767s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/share/ament_index/resource_index/package_run_dependencies/peak_finder
+[6.857s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/share/ament_index/resource_index/parent_prefix_path/peak_finder
+[6.903s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/share/peak_finder/environment/ament_prefix_path.sh
+[6.957s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/share/peak_finder/environment/ament_prefix_path.dsv
+[6.992s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/share/peak_finder/environment/path.sh
+[7.037s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/share/peak_finder/environment/path.dsv
+[7.078s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/share/peak_finder/local_setup.bash
+[7.110s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/share/peak_finder/local_setup.sh
+[7.139s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/share/peak_finder/local_setup.zsh
+[7.168s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/share/peak_finder/local_setup.dsv
+[7.195s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/share/peak_finder/package.dsv
+[7.338s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/share/ament_index/resource_index/packages/peak_finder
+[7.398s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/share/ament_index/resource_index/rclcpp_components/peak_finder
+[7.437s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/share/peak_finder/cmake/peak_finderConfig.cmake
+[7.465s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/share/peak_finder/cmake/peak_finderConfig-version.cmake
+[7.504s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/peak_finder/share/peak_finder/package.xml
+[9.135s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/peak_finder' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/peak_finder

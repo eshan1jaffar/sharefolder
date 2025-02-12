@@ -1,0 +1,38 @@
+[10.586s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/mapping -- -j16 -l16
+[22.947s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[32.377s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[33.320s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[33.327s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[33.343s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[33.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[33.916s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[34.494s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[34.773s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[55.815s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[55.898s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[55.924s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[55.953s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[55.988s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[56.112s] -- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[56.123s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[56.127s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[56.233s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[61.473s] -- Added test 'copyright' to check source files copyright and LICENSE
+[62.388s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[62.392s] -- Configured cppcheck include dirs: 
+[62.396s] -- Configured cppcheck exclude dirs and/or files: 
+[62.733s] -- Added test 'lint_cmake' to check CMake code style
+[63.724s] -- Added test 'uncrustify' to check C / C++ code style
+[63.728s] -- Configured uncrustify additional arguments: 
+[63.842s] -- Added test 'xmllint' to check XML markup files
+[64.203s] -- Configuring done
+[66.463s] -- Generating done
+[66.863s] -- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/mapping
+[84.971s] [35m[1mConsolidate compiler generated dependencies of target mapping_node[0m
+[84.975s] [35m[1mConsolidate compiler generated dependencies of target mapping[0m
+[97.364s] [ 25%] [32mBuilding CXX object CMakeFiles/mapping_node.dir/rclcpp_components/node_main_mapping_node.cpp.o[0m
+[98.934s] [ 50%] [32mBuilding CXX object CMakeFiles/mapping.dir/src/mapping_node.cpp.o[0m
+[118.494s] [ 75%] [32m[1mLinking CXX executable mapping_node[0m
+[122.776s] [100%] [32m[1mLinking CXX shared library libmapping.so[0m
+[135.473s] [100%] Built target mapping_node
+[141.700s] [100%] Built target mapping

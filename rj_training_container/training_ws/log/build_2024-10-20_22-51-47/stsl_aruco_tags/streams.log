@@ -1,0 +1,33 @@
+[0.221s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_aruco_tags': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_aruco_tags -- -j16 -l16
+[1.234s] [ 44%] Built target tag_model_generator
+[1.255s] [ 66%] Built target aruco_tag_detector
+[1.262s] [ 66%] Built target aruco_marker_visualizer
+[1.498s] [100%] Built target stsl_aruco_tags
+[1.753s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_aruco_tags' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_aruco_tags -- -j16 -l16
+[1.929s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_aruco_tags': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/stsl_aruco_tags
+[1.993s] -- Install configuration: ""
+[2.121s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib/stsl_aruco_tags/aruco_tag_detector
+[2.354s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib/stsl_aruco_tags/aruco_marker_visualizer
+[2.587s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib/libstsl_aruco_tags.so
+[2.831s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/lib/stsl_aruco_tags/tag_model_generator
+[2.963s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/ament_index/resource_index/package_run_dependencies/stsl_aruco_tags
+[3.072s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/ament_index/resource_index/parent_prefix_path/stsl_aruco_tags
+[3.125s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/environment/ament_prefix_path.sh
+[3.191s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/environment/ament_prefix_path.dsv
+[3.242s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/environment/path.sh
+[3.313s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/environment/path.dsv
+[3.376s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/local_setup.bash
+[3.440s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/local_setup.sh
+[3.501s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/local_setup.zsh
+[3.561s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/local_setup.dsv
+[3.619s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/package.dsv
+[3.865s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/ament_index/resource_index/packages/stsl_aruco_tags
+[3.981s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/ament_index/resource_index/rclcpp_components/stsl_aruco_tags
+[4.114s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/cmake/tag_model_generator_EXPORTExport.cmake
+[4.178s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/cmake/tag_model_generator_EXPORTExport-noconfig.cmake
+[4.233s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/cmake/stsl_aruco_tags-extras.cmake
+[4.274s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/cmake/ament_cmake_export_targets-extras.cmake
+[4.309s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/cmake/stsl_aruco_tagsConfig.cmake
+[4.334s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/cmake/stsl_aruco_tagsConfig-version.cmake
+[4.371s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/package.xml
+[7.120s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_aruco_tags' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/rj_training_container/training_ws/install/stsl_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/stsl_aruco_tags

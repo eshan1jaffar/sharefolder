@@ -1,0 +1,29 @@
+[4.244s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins -- -j16 -l16
+[32.109s] [100%] Built target stsl_nav_plugins
+[37.393s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins -- -j16 -l16
+[75.109s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins
+[77.881s] -- Install configuration: ""
+[77.979s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/lib/libstsl_nav_plugins.so
+[78.085s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/include/
+[78.144s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/include//stsl_nav_plugins
+[78.238s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/include//stsl_nav_plugins/pd_controller.hpp
+[78.308s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/stsl_nav_plugins_libraries.xml
+[78.400s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/ament_index/resource_index/package_run_dependencies/stsl_nav_plugins
+[78.505s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/ament_index/resource_index/parent_prefix_path/stsl_nav_plugins
+[78.552s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/environment/ament_prefix_path.sh
+[78.612s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/environment/ament_prefix_path.dsv
+[78.657s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/environment/path.sh
+[78.706s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/environment/path.dsv
+[78.758s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/local_setup.bash
+[78.803s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/local_setup.sh
+[78.852s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/local_setup.zsh
+[78.895s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/local_setup.dsv
+[78.935s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/package.dsv
+[79.103s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/ament_index/resource_index/packages/stsl_nav_plugins
+[79.181s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/ament_index/resource_index/nav2_core__pluginlib__plugin/stsl_nav_plugins
+[79.224s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[79.271s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[79.323s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/cmake/stsl_nav_pluginsConfig.cmake
+[79.367s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/cmake/stsl_nav_pluginsConfig-version.cmake
+[79.422s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/package.xml
+[81.210s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins

@@ -1,0 +1,24 @@
+[0.739s] Invoking command in '/home/ubuntu/rj_training_container/build/rj_training_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/software-training-old/rj_training_bringup -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/install/rj_training_bringup
+[9.986s] -- The C compiler identification is GNU 11.4.0
+[9.989s] -- The CXX compiler identification is GNU 11.4.0
+[9.992s] -- Detecting C compiler ABI info
+[9.994s] -- Detecting C compiler ABI info - done
+[9.997s] -- Check for working C compiler: /usr/bin/cc - skipped
+[10.000s] -- Detecting C compile features
+[10.004s] -- Detecting C compile features - done
+[10.006s] -- Detecting CXX compiler ABI info
+[10.009s] -- Detecting CXX compiler ABI info - done
+[10.013s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.015s] -- Detecting CXX compile features
+[10.018s] -- Detecting CXX compile features - done
+[10.020s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[10.024s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.027s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.029s] -- Added test 'copyright' to check source files copyright and LICENSE
+[17.703s] -- Added test 'flake8' to check Python code syntax and style conventions
+[18.473s] -- Added test 'lint_cmake' to check CMake code style
+[18.876s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[21.613s] -- Added test 'xmllint' to check XML markup files
+[21.752s] -- Configuring done
+[22.077s] -- Generating done
+[22.158s] -- Build files have been written to: /home/ubuntu/rj_training_container/build/rj_training_bringup

@@ -1,0 +1,4 @@
+source;share/stsl_aruco_tags/local_setup.bash
+source;share/stsl_aruco_tags/local_setup.dsv
+source;share/stsl_aruco_tags/local_setup.sh
+source;share/stsl_aruco_tags/local_setup.zsh

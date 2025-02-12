@@ -1,0 +1,49 @@
+[0.305s] Invoking command in '/home/ubuntu/rj_training_container/build/astar_path_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/software-training-old/astar_path_planner -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/install/astar_path_planner
+[0.887s] -- The C compiler identification is GNU 11.4.0
+[1.307s] -- The CXX compiler identification is GNU 11.4.0
+[1.509s] -- Detecting C compiler ABI info
+[3.184s] -- Detecting C compiler ABI info - done
+[3.252s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.255s] -- Detecting C compile features
+[3.259s] -- Detecting C compile features - done
+[3.445s] -- Detecting CXX compiler ABI info
+[5.113s] -- Detecting CXX compiler ABI info - done
+[5.189s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.192s] -- Detecting CXX compile features
+[5.195s] -- Detecting CXX compile features - done
+[5.349s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.606s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.988s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[6.064s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.073s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.093s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.119s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.153s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.239s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.245s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.400s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.464s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.551s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.686s] -- Looking for pthread.h
+[8.274s] -- Looking for pthread.h - found
+[8.309s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.866s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.880s] -- Found Threads: TRUE  
+[9.964s] -- Found nav2_core: 1.1.16 (/opt/ros/humble/share/nav2_core/cmake)
+[10.402s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.403s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[10.581s] -- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)
+[10.612s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.559s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.327s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.330s] -- Configured cppcheck include dirs: 
+[12.333s] -- Configured cppcheck exclude dirs and/or files: 
+[13.137s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.139s] -- Configured cpplint exclude dirs and/or files: 
+[13.438s] -- Added test 'lint_cmake' to check CMake code style
+[14.274s] -- Added test 'uncrustify' to check C / C++ code style
+[14.277s] -- Configured uncrustify additional arguments: 
+[14.367s] -- Added test 'xmllint' to check XML markup files
+[15.106s] -- Configuring done
+[16.066s] -- Generating done
+[16.246s] -- Build files have been written to: /home/ubuntu/rj_training_container/build/astar_path_planner

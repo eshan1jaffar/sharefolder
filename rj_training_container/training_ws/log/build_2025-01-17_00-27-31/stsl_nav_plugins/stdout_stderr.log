@@ -1,0 +1,34 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav2_core: 1.1.17 (/opt/ros/humble/share/nav2_core/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/ubuntu/rj_training_container/training_ws/src/stsl/stsl_nav_plugins/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins
+[35m[1mConsolidate compiler generated dependencies of target stsl_nav_plugins[0m
+gmake[2]: Warning: File 'CMakeFiles/stsl_nav_plugins.dir/compiler_depend.make' has modification time 2.8 s in the future
+[ 20%] [32mBuilding CXX object CMakeFiles/stsl_nav_plugins.dir/src/point_and_shoot_controller.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/stsl_nav_plugins.dir/src/straight_line_planner.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/stsl_nav_plugins.dir/src/no_progress_checker.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libstsl_nav_plugins.so[0m
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target stsl_nav_plugins

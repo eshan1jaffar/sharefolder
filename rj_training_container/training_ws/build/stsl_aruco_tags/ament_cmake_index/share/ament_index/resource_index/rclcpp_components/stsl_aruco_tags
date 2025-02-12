@@ -1,0 +1,2 @@
+stsl_aruco_tags::DetectorComponent;lib/libstsl_aruco_tags.so
+stsl_aruco_tags::ArucoMarkerVisualizer;lib/libstsl_aruco_tags.so

@@ -1,0 +1,12 @@
+[9.643s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/rj_training_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/rj_training_bringup -- -j16 -l16
+[53.728s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[53.733s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[53.737s] -- Added test 'copyright' to check source files copyright and LICENSE
+[56.819s] -- Added test 'flake8' to check Python code syntax and style conventions
+[58.752s] -- Added test 'lint_cmake' to check CMake code style
+[59.727s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[68.525s] -- Added test 'xmllint' to check XML markup files
+[68.866s] -- Configuring done
+[70.089s] -- Generating done
+[70.356s] -- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/rj_training_bringup
+[83.263s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/rj_training_bringup -- -j16 -l16

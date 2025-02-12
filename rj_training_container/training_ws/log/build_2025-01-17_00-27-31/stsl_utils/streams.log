@@ -1,0 +1,16 @@
+[6.105s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_utils -- -j16 -l16
+[34.085s] [35m[1mConsolidate compiler generated dependencies of target floor_mat_visualizer[0m
+[34.435s] [35m[1mConsolidate compiler generated dependencies of target stsl_utils[0m
+[34.755s] [35m[1mConsolidate compiler generated dependencies of target keyboard_teleop[0m
+[38.893s] gmake[2]: Warning: File 'CMakeFiles/floor_mat_visualizer.dir/compiler_depend.make' has modification time 3.5 s in the future
+[39.034s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[40.340s] gmake[2]: Warning: File 'CMakeFiles/keyboard_teleop.dir/compiler_depend.make' has modification time 2.7 s in the future
+[40.434s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[41.095s] gmake[2]: Warning: File 'CMakeFiles/stsl_utils.dir/compiler_depend.make' has modification time 1.8 s in the future
+[49.319s] [ 28%] Built target floor_mat_visualizer
+[49.529s] [ 57%] Built target keyboard_teleop
+[50.460s] [ 71%] [32mBuilding CXX object CMakeFiles/stsl_utils.dir/src/keyboard_teleop.cpp.o[0m
+[78.655s] [ 85%] [32m[1mLinking CXX shared library libstsl_utils.so[0m
+[99.025s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[105.228s] [100%] Built target stsl_utils
+[110.991s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_utils -- -j16 -l16

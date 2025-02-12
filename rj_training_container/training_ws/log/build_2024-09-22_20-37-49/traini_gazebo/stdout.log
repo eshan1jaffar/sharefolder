@@ -1,0 +1,437 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found stsl_aruco_tags: 0.1.0 (/home/ubuntu/rj_training_container/training_ws/install/stsl_aruco_tags/share/stsl_aruco_tags/cmake)
+-- All generated model files: /home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_0/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_0/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_0/materials/scripts/aruco_tag_0.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_0/materials/textures/ArUcoTag0.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_1/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_1/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_1/materials/scripts/aruco_tag_1.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_1/materials/textures/ArUcoTag1.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_2/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_2/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_2/materials/scripts/aruco_tag_2.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_2/materials/textures/ArUcoTag2.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_3/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_3/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_3/materials/scripts/aruco_tag_3.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_3/materials/textures/ArUcoTag3.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_4/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_4/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_4/materials/scripts/aruco_tag_4.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_4/materials/textures/ArUcoTag4.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_5/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_5/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_5/materials/scripts/aruco_tag_5.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_5/materials/textures/ArUcoTag5.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_6/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_6/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_6/materials/scripts/aruco_tag_6.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_6/materials/textures/ArUcoTag6.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_7/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_7/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_7/materials/scripts/aruco_tag_7.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_7/materials/textures/ArUcoTag7.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_8/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_8/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_8/materials/scripts/aruco_tag_8.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_8/materials/textures/ArUcoTag8.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_9/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_9/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_9/materials/scripts/aruco_tag_9.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_9/materials/textures/ArUcoTag9.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_10/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_10/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_10/materials/scripts/aruco_tag_10.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_10/materials/textures/ArUcoTag10.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_11/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_11/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_11/materials/scripts/aruco_tag_11.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_11/materials/textures/ArUcoTag11.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_12/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_12/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_12/materials/scripts/aruco_tag_12.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_12/materials/textures/ArUcoTag12.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_13/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_13/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_13/materials/scripts/aruco_tag_13.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_13/materials/textures/ArUcoTag13.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_14/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_14/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_14/materials/scripts/aruco_tag_14.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_14/materials/textures/ArUcoTag14.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_15/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_15/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_15/materials/scripts/aruco_tag_15.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_15/materials/textures/ArUcoTag15.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_16/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_16/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_16/materials/scripts/aruco_tag_16.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_16/materials/textures/ArUcoTag16.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_17/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_17/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_17/materials/scripts/aruco_tag_17.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_17/materials/textures/ArUcoTag17.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_18/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_18/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_18/materials/scripts/aruco_tag_18.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_18/materials/textures/ArUcoTag18.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_19/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_19/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_19/materials/scripts/aruco_tag_19.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_19/materials/textures/ArUcoTag19.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_20/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_20/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_20/materials/scripts/aruco_tag_20.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_20/materials/textures/ArUcoTag20.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_21/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_21/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_21/materials/scripts/aruco_tag_21.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_21/materials/textures/ArUcoTag21.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_22/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_22/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_22/materials/scripts/aruco_tag_22.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_22/materials/textures/ArUcoTag22.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_23/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_23/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_23/materials/scripts/aruco_tag_23.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_23/materials/textures/ArUcoTag23.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_24/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_24/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_24/materials/scripts/aruco_tag_24.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_24/materials/textures/ArUcoTag24.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_25/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_25/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_25/materials/scripts/aruco_tag_25.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_25/materials/textures/ArUcoTag25.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_26/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_26/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_26/materials/scripts/aruco_tag_26.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_26/materials/textures/ArUcoTag26.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_27/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_27/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_27/materials/scripts/aruco_tag_27.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_27/materials/textures/ArUcoTag27.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_28/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_28/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_28/materials/scripts/aruco_tag_28.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_28/materials/textures/ArUcoTag28.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_29/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_29/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_29/materials/scripts/aruco_tag_29.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_29/materials/textures/ArUcoTag29.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_30/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_30/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_30/materials/scripts/aruco_tag_30.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_30/materials/textures/ArUcoTag30.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_31/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_31/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_31/materials/scripts/aruco_tag_31.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_31/materials/textures/ArUcoTag31.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_32/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_32/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_32/materials/scripts/aruco_tag_32.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_32/materials/textures/ArUcoTag32.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_33/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_33/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_33/materials/scripts/aruco_tag_33.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_33/materials/textures/ArUcoTag33.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_34/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_34/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_34/materials/scripts/aruco_tag_34.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_34/materials/textures/ArUcoTag34.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_35/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_35/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_35/materials/scripts/aruco_tag_35.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_35/materials/textures/ArUcoTag35.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_36/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_36/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_36/materials/scripts/aruco_tag_36.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_36/materials/textures/ArUcoTag36.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_37/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_37/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_37/materials/scripts/aruco_tag_37.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_37/materials/textures/ArUcoTag37.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_38/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_38/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_38/materials/scripts/aruco_tag_38.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_38/materials/textures/ArUcoTag38.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_39/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_39/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_39/materials/scripts/aruco_tag_39.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_39/materials/textures/ArUcoTag39.jpg;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_40/model.config;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_40/model.sdf;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_40/materials/scripts/aruco_tag_40.material;/home/ubuntu/rj_training_container/training_ws/build/traini_gazebo/models/aruco_tag_40/materials/textures/ArUcoTag40.jpg
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/traini_gazebo
+[  2%] [34m[1mGenerating tag model ID 1[0m
+[  4%] [34m[1mGenerating tag model ID 2[0m
+[  7%] [34m[1mGenerating tag model ID 3[0m
+[  9%] [34m[1mGenerating tag model ID 0[0m
+[ 17%] [34m[1mGenerating tag model ID 8[0m
+[ 17%] [34m[1mGenerating tag model ID 5[0m
+[ 17%] [34m[1mGenerating tag model ID 4[0m
+[ 19%] [34m[1mGenerating tag model ID 6[0m
+[ 31%] [34m[1mGenerating tag model ID 10[0m
+[ 31%] [34m[1mGenerating tag model ID 9[0m
+[ 31%] [34m[1mGenerating tag model ID 7[0m
+[ 31%] [34m[1mGenerating tag model ID 12[0m
+[ 31%] [34m[1mGenerating tag model ID 11[0m
+[ 36%] [34m[1mGenerating tag model ID 13[0m
+[ 36%] [34m[1mGenerating tag model ID 15[0m
+[ 39%] [34m[1mGenerating tag model ID 14[0m
+[ 51%] [34m[1mGenerating tag model ID 18[0m
+[ 51%] [34m[1mGenerating tag model ID 16[0m
+[ 51%] [34m[1mGenerating tag model ID 17[0m
+[ 51%] [34m[1mGenerating tag model ID 19[0m
+[ 51%] [34m[1mGenerating tag model ID 20[0m
+[ 58%] [34m[1mGenerating tag model ID 21[0m
+[ 58%] [34m[1mGenerating tag model ID 22[0m
+[ 58%] [34m[1mGenerating tag model ID 23[0m
+[ 60%] [34m[1mGenerating tag model ID 24[0m
+[ 65%] [34m[1mGenerating tag model ID 25[0m
+[ 65%] [34m[1mGenerating tag model ID 26[0m
+[ 68%] [34m[1mGenerating tag model ID 27[0m
+[ 70%] [34m[1mGenerating tag model ID 28[0m
+[ 73%] [34m[1mGenerating tag model ID 29[0m
+[ 75%] [34m[1mGenerating tag model ID 30[0m
+[ 78%] [34m[1mGenerating tag model ID 31[0m
+[ 80%] [34m[1mGenerating tag model ID 32[0m
+[ 87%] [34m[1mGenerating tag model ID 33[0m
+[ 87%] [34m[1mGenerating tag model ID 34[0m
+[ 87%] [34m[1mGenerating tag model ID 35[0m
+[ 90%] [34m[1mGenerating tag model ID 36[0m
+[ 92%] [34m[1mGenerating tag model ID 37[0m
+[ 95%] [34m[1mGenerating tag model ID 38[0m
+[100%] [34m[1mGenerating tag model ID 40[0m
+[100%] [34m[1mGenerating tag model ID 39[0m
+[100%] Built target traini_gazebo_GENERATE_ARUCO_TAG_MODELS
+-- Install configuration: ""
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/lib/traini_gazebo/publish_map_boundary.py
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/lib/traini_gazebo/randomize_robot_pose.py
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/config/gazebo_params.yaml
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/launch
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/launch/gazebo.launch.py
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/launch/gzclient.launch.py
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/launch/gzserver.launch.py
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/launch/traini_gazebo.launch.py
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/floor_mat
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/floor_mat/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/floor_mat/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/floor_mat/materials/scripts/floor_mat.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/floor_mat/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/floor_mat/materials/textures/floor_mat.png
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/floor_mat/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/floor_mat/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/traini
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/traini/meshes
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/traini/meshes/Trainiii.dae
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/traini/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/traini/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/worlds
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/worlds/training_world.sdf
+-- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_0
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_0/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_0/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_0/materials/scripts/aruco_tag_0.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_0/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_0/materials/textures/ArUcoTag0.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_0/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_0/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_1
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_1/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_1/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_1/materials/scripts/aruco_tag_1.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_1/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_1/materials/textures/ArUcoTag1.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_1/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_1/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_10
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_10/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_10/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_10/materials/scripts/aruco_tag_10.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_10/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_10/materials/textures/ArUcoTag10.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_10/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_10/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_11
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_11/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_11/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_11/materials/scripts/aruco_tag_11.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_11/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_11/materials/textures/ArUcoTag11.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_11/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_11/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_12
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_12/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_12/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_12/materials/scripts/aruco_tag_12.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_12/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_12/materials/textures/ArUcoTag12.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_12/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_12/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_13
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_13/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_13/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_13/materials/scripts/aruco_tag_13.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_13/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_13/materials/textures/ArUcoTag13.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_13/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_13/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_14
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_14/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_14/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_14/materials/scripts/aruco_tag_14.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_14/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_14/materials/textures/ArUcoTag14.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_14/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_14/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_15
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_15/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_15/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_15/materials/scripts/aruco_tag_15.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_15/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_15/materials/textures/ArUcoTag15.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_15/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_15/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_16
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_16/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_16/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_16/materials/scripts/aruco_tag_16.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_16/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_16/materials/textures/ArUcoTag16.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_16/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_16/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_17
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_17/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_17/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_17/materials/scripts/aruco_tag_17.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_17/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_17/materials/textures/ArUcoTag17.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_17/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_17/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_18
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_18/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_18/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_18/materials/scripts/aruco_tag_18.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_18/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_18/materials/textures/ArUcoTag18.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_18/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_18/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_19
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_19/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_19/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_19/materials/scripts/aruco_tag_19.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_19/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_19/materials/textures/ArUcoTag19.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_19/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_19/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_2
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_2/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_2/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_2/materials/scripts/aruco_tag_2.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_2/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_2/materials/textures/ArUcoTag2.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_2/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_2/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_20
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_20/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_20/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_20/materials/scripts/aruco_tag_20.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_20/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_20/materials/textures/ArUcoTag20.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_20/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_20/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_21
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_21/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_21/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_21/materials/scripts/aruco_tag_21.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_21/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_21/materials/textures/ArUcoTag21.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_21/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_21/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_22
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_22/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_22/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_22/materials/scripts/aruco_tag_22.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_22/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_22/materials/textures/ArUcoTag22.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_22/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_22/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_23
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_23/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_23/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_23/materials/scripts/aruco_tag_23.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_23/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_23/materials/textures/ArUcoTag23.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_23/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_23/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_24
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_24/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_24/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_24/materials/scripts/aruco_tag_24.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_24/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_24/materials/textures/ArUcoTag24.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_24/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_24/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_25
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_25/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_25/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_25/materials/scripts/aruco_tag_25.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_25/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_25/materials/textures/ArUcoTag25.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_25/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_25/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_26
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_26/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_26/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_26/materials/scripts/aruco_tag_26.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_26/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_26/materials/textures/ArUcoTag26.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_26/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_26/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_27
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_27/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_27/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_27/materials/scripts/aruco_tag_27.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_27/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_27/materials/textures/ArUcoTag27.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_27/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_27/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_28
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_28/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_28/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_28/materials/scripts/aruco_tag_28.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_28/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_28/materials/textures/ArUcoTag28.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_28/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_28/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_29
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_29/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_29/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_29/materials/scripts/aruco_tag_29.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_29/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_29/materials/textures/ArUcoTag29.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_29/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_29/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_3
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_3/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_3/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_3/materials/scripts/aruco_tag_3.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_3/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_3/materials/textures/ArUcoTag3.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_3/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_3/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_30
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_30/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_30/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_30/materials/scripts/aruco_tag_30.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_30/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_30/materials/textures/ArUcoTag30.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_30/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_30/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_31
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_31/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_31/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_31/materials/scripts/aruco_tag_31.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_31/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_31/materials/textures/ArUcoTag31.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_31/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_31/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_32
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_32/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_32/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_32/materials/scripts/aruco_tag_32.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_32/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_32/materials/textures/ArUcoTag32.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_32/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_32/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_33
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_33/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_33/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_33/materials/scripts/aruco_tag_33.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_33/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_33/materials/textures/ArUcoTag33.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_33/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_33/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_34
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_34/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_34/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_34/materials/scripts/aruco_tag_34.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_34/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_34/materials/textures/ArUcoTag34.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_34/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_34/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_35
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_35/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_35/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_35/materials/scripts/aruco_tag_35.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_35/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_35/materials/textures/ArUcoTag35.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_35/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_35/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_36
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_36/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_36/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_36/materials/scripts/aruco_tag_36.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_36/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_36/materials/textures/ArUcoTag36.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_36/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_36/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_37
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_37/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_37/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_37/materials/scripts/aruco_tag_37.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_37/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_37/materials/textures/ArUcoTag37.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_37/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_37/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_38
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_38/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_38/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_38/materials/scripts/aruco_tag_38.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_38/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_38/materials/textures/ArUcoTag38.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_38/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_38/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_39
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_39/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_39/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_39/materials/scripts/aruco_tag_39.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_39/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_39/materials/textures/ArUcoTag39.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_39/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_39/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_4
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_4/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_4/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_4/materials/scripts/aruco_tag_4.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_4/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_4/materials/textures/ArUcoTag4.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_4/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_4/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_40
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_40/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_40/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_40/materials/scripts/aruco_tag_40.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_40/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_40/materials/textures/ArUcoTag40.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_40/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_40/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_5
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_5/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_5/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_5/materials/scripts/aruco_tag_5.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_5/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_5/materials/textures/ArUcoTag5.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_5/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_5/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_6
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_6/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_6/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_6/materials/scripts/aruco_tag_6.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_6/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_6/materials/textures/ArUcoTag6.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_6/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_6/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_7
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_7/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_7/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_7/materials/scripts/aruco_tag_7.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_7/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_7/materials/textures/ArUcoTag7.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_7/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_7/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_8
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_8/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_8/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_8/materials/scripts/aruco_tag_8.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_8/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_8/materials/textures/ArUcoTag8.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_8/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_8/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_9
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_9/materials
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_9/materials/scripts
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_9/materials/scripts/aruco_tag_9.material
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_9/materials/textures
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_9/materials/textures/ArUcoTag9.jpg
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_9/model.config
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/models/aruco_tag_9/model.sdf
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/ament_index/resource_index/package_run_dependencies/traini_gazebo
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/ament_index/resource_index/parent_prefix_path/traini_gazebo
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/environment/path.sh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/environment/path.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/local_setup.bash
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/local_setup.sh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/local_setup.zsh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/local_setup.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/package.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/ament_index/resource_index/packages/traini_gazebo
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/cmake/traini_gazeboConfig.cmake
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/cmake/traini_gazeboConfig-version.cmake
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/traini_gazebo/share/traini_gazebo/package.xml

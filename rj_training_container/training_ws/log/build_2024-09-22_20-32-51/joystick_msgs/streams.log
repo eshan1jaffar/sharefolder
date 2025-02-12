@@ -1,0 +1,56 @@
+[0.456s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/joystick_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/joystick_msgs -- -j16 -l16
+[1.440s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.442s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.446s] [  6%] Built target ament_cmake_python_copy_joystick_msgs
+[1.621s] running egg_info
+[1.625s] creating joystick_msgs.egg-info
+[1.634s] writing joystick_msgs.egg-info/PKG-INFO
+[1.656s] writing dependency_links to joystick_msgs.egg-info/dependency_links.txt
+[1.660s] [  6%] Built target joystick_msgs__cpp
+[1.690s] writing top-level names to joystick_msgs.egg-info/top_level.txt
+[1.714s] writing manifest file 'joystick_msgs.egg-info/SOURCES.txt'
+[1.815s] reading manifest file 'joystick_msgs.egg-info/SOURCES.txt'
+[1.833s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.837s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.861s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.903s] writing manifest file 'joystick_msgs.egg-info/SOURCES.txt'
+[2.003s] [ 19%] [32mBuilding C object CMakeFiles/joystick_msgs__rosidl_generator_c.dir/rosidl_generator_c/joystick_msgs/msg/detail/velocity_pair__functions.c.o[0m
+[2.026s] [ 19%] Built target ament_cmake_python_build_joystick_msgs_egg
+[2.861s] [ 22%] [32mBuilding CXX object CMakeFiles/joystick_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/joystick_msgs/msg/velocity_pair__type_support.cpp.o[0m
+[2.972s] [ 25%] [32m[1mLinking C shared library libjoystick_msgs__rosidl_generator_c.so[0m
+[3.047s] [ 29%] [32mBuilding CXX object CMakeFiles/joystick_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/joystick_msgs/msg/detail/velocity_pair__type_support.cpp.o[0m
+[3.062s] [ 32%] [32mBuilding CXX object CMakeFiles/joystick_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/joystick_msgs/msg/detail/dds_fastrtps/velocity_pair__type_support.cpp.o[0m
+[3.431s] [ 32%] Built target joystick_msgs__rosidl_generator_c
+[3.671s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.675s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.703s] [ 41%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.530s] [ 45%] [32m[1mLinking CXX shared library libjoystick_msgs__rosidl_typesupport_cpp.so[0m
+[4.560s] [ 48%] [32mBuilding CXX object CMakeFiles/joystick_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/joystick_msgs/msg/velocity_pair__type_support.cpp.o[0m
+[4.707s] [ 51%] [32mBuilding CXX object CMakeFiles/joystick_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/joystick_msgs/msg/detail/velocity_pair__type_support_c.cpp.o[0m
+[4.818s] [ 54%] [32mBuilding C object CMakeFiles/joystick_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/joystick_msgs/msg/detail/velocity_pair__type_support.c.o[0m
+[4.891s] [ 54%] Built target joystick_msgs__rosidl_typesupport_cpp
+[5.083s] [ 58%] [32m[1mLinking CXX shared library libjoystick_msgs__rosidl_typesupport_c.so[0m
+[5.356s] [ 61%] [32m[1mLinking CXX shared library libjoystick_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.446s] [ 61%] Built target joystick_msgs__rosidl_typesupport_c
+[5.598s] [ 64%] [32m[1mLinking C shared library libjoystick_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.732s] [ 64%] Built target joystick_msgs__rosidl_typesupport_introspection_cpp
+[5.828s] [ 67%] [32m[1mLinking CXX shared library libjoystick_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.839s] [ 67%] Built target joystick_msgs__rosidl_typesupport_introspection_c
+[6.114s] [ 67%] Built target joystick_msgs__rosidl_typesupport_fastrtps_cpp
+[6.584s] [ 70%] [32m[1mLinking CXX shared library libjoystick_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.861s] [ 70%] Built target joystick_msgs__rosidl_typesupport_fastrtps_c
+[6.970s] [ 70%] Built target joystick_msgs
+[7.087s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.957s] [ 74%] Built target joystick_msgs__py
+[8.105s] [ 77%] [32mBuilding C object CMakeFiles/joystick_msgs__rosidl_generator_py.dir/rosidl_generator_py/joystick_msgs/msg/_velocity_pair_s.c.o[0m
+[8.868s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/joystick_msgs/libjoystick_msgs__rosidl_generator_py.so[0m
+[9.168s] [ 80%] Built target joystick_msgs__rosidl_generator_py
+[9.333s] [ 87%] [32mBuilding C object CMakeFiles/joystick_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/joystick_msgs/_joystick_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.336s] [ 87%] [32mBuilding C object CMakeFiles/joystick_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/joystick_msgs/_joystick_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.370s] [ 90%] [32mBuilding C object CMakeFiles/joystick_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/joystick_msgs/_joystick_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.080s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/joystick_msgs/joystick_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.276s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/joystick_msgs/joystick_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.313s] [100%] [32m[1mLinking C shared library rosidl_generator_py/joystick_msgs/joystick_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.435s] [100%] Built target joystick_msgs__rosidl_typesupport_c__pyext
+[10.497s] [100%] Built target joystick_msgs__rosidl_typesupport_introspection_c__pyext
+[10.523s] [100%] Built target joystick_msgs__rosidl_typesupport_fastrtps_c__pyext

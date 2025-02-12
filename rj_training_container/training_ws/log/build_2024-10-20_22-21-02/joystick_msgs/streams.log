@@ -1,0 +1,16 @@
+[4.526s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/joystick_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/joystick_msgs -- -j16 -l16
+[30.325s] [  9%] Built target joystick_msgs__rosidl_generator_c
+[30.429s] [ 12%] Built target joystick_msgs__cpp
+[36.462s] [ 12%] Built target ament_cmake_python_copy_joystick_msgs
+[47.647s] [ 22%] Built target joystick_msgs__rosidl_typesupport_fastrtps_c
+[47.868s] [ 32%] Built target joystick_msgs__rosidl_typesupport_cpp
+[48.099s] [ 41%] Built target joystick_msgs__rosidl_typesupport_c
+[48.245s] [ 51%] Built target joystick_msgs__rosidl_typesupport_introspection_c
+[49.086s] [ 64%] Built target joystick_msgs__rosidl_typesupport_introspection_cpp
+[49.126s] [ 70%] Built target joystick_msgs__rosidl_typesupport_fastrtps_cpp
+[54.650s] running egg_info
+[54.658s] writing joystick_msgs.egg-info/PKG-INFO
+[54.679s] writing dependency_links to joystick_msgs.egg-info/dependency_links.txt
+[54.695s] writing top-level names to joystick_msgs.egg-info/top_level.txt
+[54.796s] reading manifest file 'joystick_msgs.egg-info/SOURCES.txt'
+[54.920s] writing manifest file 'joystick_msgs.egg-info/SOURCES.txt'

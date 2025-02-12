@@ -1,0 +1,29 @@
+[7.446s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/obstacle_detector -- -j16 -l16
+[41.892s] [ 50%] Built target obstacle_detector
+[41.985s] [100%] Built target obstacle_detector_node
+[47.197s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/obstacle_detector -- -j16 -l16
+[76.996s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/obstacle_detector
+[80.819s] -- Install configuration: ""
+[80.943s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/lib/obstacle_detector/obstacle_detector_node
+[81.171s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/lib/libobstacle_detector.so
+[81.288s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/obstacle_detector/launch
+[81.361s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/obstacle_detector/launch/obstacle_detector.launch.py
+[81.405s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/obstacle_detector/config
+[81.486s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/obstacle_detector/config/obstacle_detector_parameters.yaml
+[81.563s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/ament_index/resource_index/package_run_dependencies/obstacle_detector
+[81.645s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/ament_index/resource_index/parent_prefix_path/obstacle_detector
+[81.684s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.sh
+[81.738s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.dsv
+[81.776s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/obstacle_detector/environment/path.sh
+[81.864s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/obstacle_detector/environment/path.dsv
+[81.912s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/obstacle_detector/local_setup.bash
+[81.955s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/obstacle_detector/local_setup.sh
+[82.004s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/obstacle_detector/local_setup.zsh
+[82.057s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/obstacle_detector/local_setup.dsv
+[82.109s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/obstacle_detector/package.dsv
+[82.330s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/ament_index/resource_index/packages/obstacle_detector
+[82.433s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/ament_index/resource_index/rclcpp_components/obstacle_detector
+[82.495s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig.cmake
+[82.545s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig-version.cmake
+[82.616s] -- Up-to-date: /home/ubuntu/rj_training_container/training_ws/install/obstacle_detector/share/obstacle_detector/package.xml
+[82.855s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/rj_training_container/training_ws/install/keyboard:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/obstacle_detector

@@ -1,0 +1,14 @@
+{
+  "package_name": "stsl_interfaces",
+  "non_idl_tuples": [
+    "/home/ubuntu/rj_training_container/stsl/stsl_interfaces:msg/MineralDeposit.msg",
+    "/home/ubuntu/rj_training_container/stsl/stsl_interfaces:msg/MineralDepositArray.msg",
+    "/home/ubuntu/rj_training_container/stsl/stsl_interfaces:msg/MineralDepositSample.msg",
+    "/home/ubuntu/rj_training_container/stsl/stsl_interfaces:msg/Tag.msg",
+    "/home/ubuntu/rj_training_container/stsl/stsl_interfaces:msg/TagArray.msg",
+    "/home/ubuntu/rj_training_container/stsl/stsl_interfaces:srv/ResetMineralDepositTracking.srv",
+    "/home/ubuntu/rj_training_container/stsl/stsl_interfaces:srv/SampleElevation.srv",
+    "/home/ubuntu/rj_training_container/stsl/stsl_interfaces:action/ExecuteMission.action",
+    "/home/ubuntu/rj_training_container/stsl/stsl_interfaces:action/ParkAtPeak.action"
+  ]
+}

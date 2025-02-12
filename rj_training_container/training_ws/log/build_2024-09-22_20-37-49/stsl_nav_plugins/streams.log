@@ -1,0 +1,84 @@
+[0.438s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/stsl/stsl_nav_plugins -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins
+[1.656s] -- The C compiler identification is GNU 11.4.0
+[1.904s] -- The CXX compiler identification is GNU 11.4.0
+[2.266s] -- Detecting C compiler ABI info
+[4.744s] -- Detecting C compiler ABI info - done
+[4.852s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.860s] -- Detecting C compile features
+[4.870s] -- Detecting C compile features - done
+[5.120s] -- Detecting CXX compiler ABI info
+[7.379s] -- Detecting CXX compiler ABI info - done
+[7.478s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.483s] -- Detecting CXX compile features
+[7.487s] -- Detecting CXX compile features - done
+[7.699s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.998s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.472s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[8.575s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.585s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.603s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.625s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.657s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.729s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.737s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.891s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.969s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.071s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.259s] -- Looking for pthread.h
+[11.347s] -- Looking for pthread.h - found
+[11.400s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.279s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.295s] -- Found Threads: TRUE  
+[13.414s] -- Found nav2_core: 1.1.16 (/opt/ros/humble/share/nav2_core/cmake)
+[13.995s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[13.998s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[14.278s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.111s] -- Added test 'copyright' to check source files copyright and LICENSE
+[16.119s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.121s] -- Configured cppcheck include dirs: /home/ubuntu/rj_training_container/training_ws/src/stsl/stsl_nav_plugins/include
+[16.123s] -- Configured cppcheck exclude dirs and/or files: 
+[17.335s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[17.337s] -- Configured cpplint exclude dirs and/or files: 
+[17.604s] -- Added test 'lint_cmake' to check CMake code style
+[18.468s] -- Added test 'uncrustify' to check C / C++ code style
+[18.470s] -- Configured uncrustify additional arguments: 
+[18.569s] -- Added test 'xmllint' to check XML markup files
+[19.142s] -- Configuring done
+[20.145s] -- Generating done
+[20.327s] -- Build files have been written to: /home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins
+[20.566s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rj_training_container/training_ws/src/stsl/stsl_nav_plugins -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins
+[20.575s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins -- -j16 -l16
+[21.018s] [ 20%] [32mBuilding CXX object CMakeFiles/stsl_nav_plugins.dir/src/point_and_shoot_controller.cpp.o[0m
+[21.026s] [ 40%] [32mBuilding CXX object CMakeFiles/stsl_nav_plugins.dir/src/pd_controller.cpp.o[0m
+[21.038s] [ 60%] [32mBuilding CXX object CMakeFiles/stsl_nav_plugins.dir/src/straight_line_planner.cpp.o[0m
+[21.055s] [ 80%] [32mBuilding CXX object CMakeFiles/stsl_nav_plugins.dir/src/no_progress_checker.cpp.o[0m
+[32.896s] [100%] [32m[1mLinking CXX shared library libstsl_nav_plugins.so[0m
+[34.179s] [100%] Built target stsl_nav_plugins
+[34.246s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins -- -j16 -l16
+[34.350s] Invoking command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins
+[34.367s] -- Install configuration: ""
+[34.395s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/lib/libstsl_nav_plugins.so
+[34.610s] -- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/lib/libstsl_nav_plugins.so" to ""
+[34.630s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/include/
+[34.672s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/include//stsl_nav_plugins
+[34.736s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/include//stsl_nav_plugins/pd_controller.hpp
+[34.897s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/stsl_nav_plugins_libraries.xml
+[35.064s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/ament_index/resource_index/package_run_dependencies/stsl_nav_plugins
+[35.264s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/ament_index/resource_index/parent_prefix_path/stsl_nav_plugins
+[35.422s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/environment/ament_prefix_path.sh
+[35.520s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/environment/ament_prefix_path.dsv
+[35.631s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/environment/path.sh
+[35.733s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/environment/path.dsv
+[35.850s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/local_setup.bash
+[35.991s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/local_setup.sh
+[36.102s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/local_setup.zsh
+[36.223s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/local_setup.dsv
+[36.330s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/package.dsv
+[36.478s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/ament_index/resource_index/packages/stsl_nav_plugins
+[36.686s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/ament_index/resource_index/nav2_core__pluginlib__plugin/stsl_nav_plugins
+[36.886s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[37.017s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.137s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/cmake/stsl_nav_pluginsConfig.cmake
+[37.248s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/cmake/stsl_nav_pluginsConfig-version.cmake
+[37.375s] -- Installing: /home/ubuntu/rj_training_container/training_ws/install/stsl_nav_plugins/share/stsl_nav_plugins/package.xml
+[37.476s] Invoked command in '/home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/rj_training_container/training_ws/build/stsl_nav_plugins

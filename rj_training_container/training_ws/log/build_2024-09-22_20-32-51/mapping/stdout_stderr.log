@@ -1,0 +1,6 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/mapping_node.dir/rclcpp_components/node_main_mapping_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mapping.dir/src/mapping_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable mapping_node[0m
+[ 75%] Built target mapping_node
+[100%] [32m[1mLinking CXX shared library libmapping.so[0m
+[100%] Built target mapping

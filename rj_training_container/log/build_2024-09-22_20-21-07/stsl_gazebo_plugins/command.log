@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/rj_training_container/build/stsl_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rj_training_container/stsl/stsl_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/install/stsl_gazebo_plugins

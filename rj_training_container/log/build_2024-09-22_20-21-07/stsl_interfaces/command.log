@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/rj_training_container/build/stsl_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/rj_training_container/stsl/stsl_interfaces -DCMAKE_INSTALL_PREFIX=/home/ubuntu/rj_training_container/install/stsl_interfaces

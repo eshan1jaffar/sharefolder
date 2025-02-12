@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target controllers[0m
+[100%] Built target controllers
+-- Install configuration: ""
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/lib/libcontrollers.so
+-- Set runtime path of "/home/ubuntu/rj_training_container/training_ws/install/controllers/lib/libcontrollers.so" to ""
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/plugin_descriptions.xml
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/ament_index/resource_index/package_run_dependencies/controllers
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/ament_index/resource_index/parent_prefix_path/controllers
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/environment/path.sh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/environment/path.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/local_setup.bash
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/local_setup.sh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/local_setup.zsh
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/local_setup.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/package.dsv
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/ament_index/resource_index/packages/controllers
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/ament_index/resource_index/nav2_core__pluginlib__plugin/controllers
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/cmake/controllersConfig.cmake
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/cmake/controllersConfig-version.cmake
+-- Installing: /home/ubuntu/rj_training_container/training_ws/install/controllers/share/controllers/package.xml

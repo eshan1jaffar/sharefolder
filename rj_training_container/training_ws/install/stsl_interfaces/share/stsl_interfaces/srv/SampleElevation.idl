@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from stsl_interfaces/srv/SampleElevation.srv
+// generated code does not contain a copyright notice
+
+
+module stsl_interfaces {
+  module srv {
+    struct SampleElevation_Request {
+      double x;
+
+      double y;
+    };
+    struct SampleElevation_Response {
+      boolean success;
+
+      double elevation;
+    };
+  };
+};

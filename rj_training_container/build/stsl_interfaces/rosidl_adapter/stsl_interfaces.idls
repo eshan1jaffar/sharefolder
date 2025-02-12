@@ -1,0 +1,9 @@
+/home/ubuntu/rj_training_container/build/stsl_interfaces/rosidl_adapter/stsl_interfaces:msg/MineralDeposit.idl
+/home/ubuntu/rj_training_container/build/stsl_interfaces/rosidl_adapter/stsl_interfaces:msg/MineralDepositArray.idl
+/home/ubuntu/rj_training_container/build/stsl_interfaces/rosidl_adapter/stsl_interfaces:msg/MineralDepositSample.idl
+/home/ubuntu/rj_training_container/build/stsl_interfaces/rosidl_adapter/stsl_interfaces:msg/Tag.idl
+/home/ubuntu/rj_training_container/build/stsl_interfaces/rosidl_adapter/stsl_interfaces:msg/TagArray.idl
+/home/ubuntu/rj_training_container/build/stsl_interfaces/rosidl_adapter/stsl_interfaces:srv/ResetMineralDepositTracking.idl
+/home/ubuntu/rj_training_container/build/stsl_interfaces/rosidl_adapter/stsl_interfaces:srv/SampleElevation.idl
+/home/ubuntu/rj_training_container/build/stsl_interfaces/rosidl_adapter/stsl_interfaces:action/ExecuteMission.idl
+/home/ubuntu/rj_training_container/build/stsl_interfaces/rosidl_adapter/stsl_interfaces:action/ParkAtPeak.idl
